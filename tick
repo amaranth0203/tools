@@ -3,7 +3,7 @@
 # echo 1 > ${0%/*}/flag
 
 if [ $# -lt 1 ] ; then 
-    qyh sve msg "%username%" [+] ta-da "~"
+    qyh $PROXY_HOST msg "%username%" [+] ta-da "~"
 else
-    qyh sve msg "%username%" [+] $@
+    qyh $PROXY_HOST msg "%username%" [+] $@
 fi

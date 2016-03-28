@@ -1,18 +1,16 @@
 #!/bin/bash
 # 使用lexec explorer 代替
 
-SVR_IP=172.20.134.137
-
 pwd_=$(pwd)
 if [ $# -eq 0 ] ; then
-#    echo $pwd_ | sed -e 's/\//\\/g' | sed -e 's/\\opt\\qiyunhu/z:/' | tee "$(dirname $0)/flag"
-    target=$(echo $pwd_ | sed -e 's/\//\\/g' | sed -e 's/\\opt\\qiyunhu/z:/')
+#    echo $pwd_ | sed -e 's/\//\\/g' | sed -e 's/\\opt\\qiyunhu/Z:/' | tee "$(dirname $0)/flag"
+    target=$(echo $pwd_ | sed -e 's/\//\\/g' | sed -e 's/\\opt\\qiyunhu/Z:/')
 else
-#    readlink -f $1 | sed -e 's/\//\\/g' | sed -e 's/\\opt\\qiyunhu/z:/' | tee "$(dirname $0)/flag"
-    target=$(readlink -f $1 | sed -e 's/\//\\/g' | sed -e 's/\\opt\\qiyunhu/z:/')
+#    readlink -f $1 | sed -e 's/\//\\/g' | sed -e 's/\\opt\\qiyunhu/Z:/' | tee "$(dirname $0)/flag"
+    target=$(readlink -f $1 | sed -e 's/\//\\/g' | sed -e 's/\\opt\\qiyunhu/Z:/')
 fi
 
 
 target=$( echo $target | sed -e 's/\\/\\/g' )
 #echo $target
-qyh $SVR_IP  explorer $target
+qyh $PROXY_HOST  explorer $target

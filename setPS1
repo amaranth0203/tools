@@ -2,7 +2,7 @@
 
 BASE=/opt/qiyunhu
 rcfile=$BASE/.qyh_vim/vimrc
-PROXY_HOST=192.168.3.152
+export PROXY_HOST=172.20.134.137
 PROXY_PORT=2333
 
 main( ) {
