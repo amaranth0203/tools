@@ -18,7 +18,7 @@ main( ) {
 
 set_working_dir( ) {
     COMPILER_BASE=$BASE
-    PROJECT_NAME=~proj/PD1515BA
+    PROJECT_NAME=~/proj/PD1515BA
     LIB_LOG_FILE=compile_lib.log
     if [ -z "$1" ] ; then
         export PROJECT_NAME=$(readlink -f $PROJECT_NAME)
