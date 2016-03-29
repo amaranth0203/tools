@@ -23,7 +23,6 @@ set_working_dir( ) {
     if [ -z "$1" ] ; then
         export PROJECT_NAME=$(readlink -f $PROJECT_NAME)
     else
-        echo $1
         export PROJECT_NAME=$(readlink -f $1)
     fi
     export llf=$PROJECT_NAME/$LIB_LOG_FILE
