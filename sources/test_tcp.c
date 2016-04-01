@@ -19,7 +19,7 @@ int main( int argc , char** argv )
     memset(&client, 0, sizeof(client));  
     client.sin_family = AF_INET;  
     client.sin_addr.s_addr = inet_addr(argv[1]);  
-    client.sin_port = htons(8235);  
+    client.sin_port = htons(2334);  
 
     if (connect(sock_desc, (struct sockaddr*)&client, sizeof(client)) != 0)
     {

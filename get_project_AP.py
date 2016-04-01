@@ -2,9 +2,9 @@
 #-*- coding=utf-8 -*-
 
 proj_APs = {
-    "proj/PD1515BA" : "http://192.168.2.125:8080/smartsys/externalInfoProject.action?idx=242&project=PD1515BA&hdversion=PD1515BAMA&findtype=unifiedProject&unifiedProjectse=&allprojectinfo.unifiedProject=pd1515ba&startdate=&enddate=&apkversion=&page=1" , 
-    "proj/PD1516A" : "http://192.168.2.125:8080/smartsys/externalInfoProject.action?idx=240&project=PD1516A&hdversion=PD1516AMA&findtype=unifiedProject&unifiedProjectse=&allprojectinfo.unifiedProject=PD1516A&startdate=&enddate=&apkversion=&page=1" , 
-    "proj/PD1415D" : "http://192.168.2.125:8080/smartsys/externalInfoProject.action?idx=196&project=PD1415D&hdversion=PD1415DMA&findtype=unifiedProject&unifiedProjectse=&allprojectinfo.unifiedProject=pd1415D&startdate=&enddate=&apkversion=&page=1" , 
+    "PD1515BA" : "http://192.168.2.125:8080/smartsys/externalInfoProject.action?idx=242&project=PD1515BA&hdversion=PD1515BAMA&findtype=unifiedProject&unifiedProjectse=&allprojectinfo.unifiedProject=pd1515ba&startdate=&enddate=&apkversion=&page=1" , 
+    "PD1516A" : "http://192.168.2.125:8080/smartsys/externalInfoProject.action?idx=240&project=PD1516A&hdversion=PD1516AMA&findtype=unifiedProject&unifiedProjectse=&allprojectinfo.unifiedProject=PD1516A&startdate=&enddate=&apkversion=&page=1" , 
+    "PD1415D" : "http://192.168.2.125:8080/smartsys/externalInfoProject.action?idx=196&project=PD1415D&hdversion=PD1415DMA&findtype=unifiedProject&unifiedProjectse=&allprojectinfo.unifiedProject=pd1415D&startdate=&enddate=&apkversion=&page=1" , 
 }
 
 def test( ) :
@@ -38,7 +38,7 @@ def test( ) :
     cj = cookielib.CookieJar()
     opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj),urllib2.ProxyHandler({}))
     opener.open(url1, data)
-    resp = opener.open( proj_APs[ os.getenv( 'PROJECT_NAME' ).strip( '/' ) ] )
+    resp = opener.open( proj_APs[ os.getenv( 'PROJECT_NAME' ).split( '/' )[-1] ] )
     return resp.read().strip()
 
 def getAP( html ) :
