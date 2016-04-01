@@ -10,7 +10,7 @@ main( ) {
     set_PS1
     set_vim_
     set_proxy
-    #clean_proxy
+    clean_proxy
     set_vimrc
     set_PATH
     show_banner
