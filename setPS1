@@ -49,7 +49,7 @@ set_PS1( ) {
 }
 
 set_vim_( ) {
-    alias vim_="vim -u $rcfile"
+    alias vim_="vim -u $rcfile -S ~/qyh_session_vim.vim"
 }
 
 set_proxy( ) {
