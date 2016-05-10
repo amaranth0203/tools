@@ -50,11 +50,7 @@ set_PS1( ) {
 
 vim_( ) {
     # alias vim_="vim -u $rcfile -S ~/qyh_session_vim.vim"
-    if [ -e "$HOME/qyh_session_vim.vim" ] ; then
-        vim -u $rcfile -S "$HOME/qyh_session_vim.vim" $*
-    else
-        vim -u "$rcfile" $*
-    fi
+    vim -u "$rcfile" $*
 }
 
 set_proxy( ) {
