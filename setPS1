@@ -1,19 +1,21 @@
 #!/bin/env bash
 
-BASE=/opt/qiyunhu
-rcfile=$BASE/.qyh_vim/vimrc
+BASE=/home/Administrator
+rcfile=/cygdrive/c/Users/Administrator.AXX3DX8ZNMSGU5B/.qyh_vim/vimrc
 export PROXY_HOST=192.168.3.152
 PROXY_PORT=2333
 
 main( ) {
-    set_working_dir "$@"
+    # set_working_dir "$@"
     set_PS1
     set_proxy
     clean_proxy
-    set_vimrc
-    set_PATH
+    # set_vimrc
+    # set_PATH
     show_banner
     stty -ixon
+    export desktop=/cygdrive/c/Users/Administrator.AXX3DX8ZNMSGU5B/Desktop
+    source /etc/bash_completion.d/git
 }
 
 set_working_dir( ) {
@@ -45,12 +47,7 @@ set_working_dir( ) {
 }
 
 set_PS1( ) {
-    PS1="\n\[\e[32m\]\u@\h \[\e[33m\]\w\[\e[0m\]\n\$ "
-}
-
-vim_( ) {
-    # alias vim_="vim -u $rcfile -S ~/qyh_session_vim.vim"
-    vim -u "$rcfile" $*
+    PS1="\[\e]0;\w\a\]\n\[\e[32m\]\u@\h \[\e[33m\]\w\[\e[0m\]\n\$ "
 }
 
 set_proxy( ) {
@@ -104,6 +101,19 @@ set_PATH( ) {
 show_banner( ) {
     clear
     cat $BASE/tools/banner.txt
+}
+
+vim_( ) {
+    # alias vim_="vim -u $rcfile -S ~/qyh_session_vim.vim"
+    vim -u "$rcfile" $*
+}
+
+ls( ){
+    ls.exe -N -F --color=auto --show-control-chars $*
+}
+
+ll( ){
+    ls.exe -N -lF --color=auto --show-control-chars $*
 }
 
 main "$@"
