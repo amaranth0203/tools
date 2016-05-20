@@ -1,0 +1,10 @@
+BoldAsFont=no
+FontHeight=12
+BackgroundColour=38,38,38
+ClicksPlaceCursor=no
+RightClickAction=paste
+Locale=zh_CN
+Charset=UTF-8
+RowSpacing=-2
+Font=Consolas for Powerline FixedD
+Transparency=off
