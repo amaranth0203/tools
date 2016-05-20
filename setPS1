@@ -18,6 +18,9 @@ main( ) {
 
 set_working_dir( ) {
     export desktop=/cygdrive/c/Users/Ending/Desktop
+    export wv=/cygdrive/c/Users/Ending/.qyh_vim
+    export ws=/cygdrive/e/Source
+    export wn=/cygdrive/e/Stay/txt_and_more/notes
 }
 
 set_PS1( ) {
@@ -45,15 +48,19 @@ show_banner( ) {
 }
 
 vim_( ) {
-    vim -u "$rcfile" $*
+    vim -u "$rcfile" "$@"
 }
 
 ls( ){
-    ls.exe -N -F --color=auto --show-control-chars $*
+    ls.exe -N -F --color=auto --show-control-chars "$@"
 }
 
 ll( ){
-    ls.exe -N -lF --color=auto --show-control-chars $*
+    ls.exe -N -lF --color=auto --show-control-chars "$@"
+}
+
+git( ){
+    /usr/bin/git.exe "$@"
 }
 
 main "$@"
