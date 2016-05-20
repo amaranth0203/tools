@@ -18,6 +18,9 @@ main( ) {
 
 set_working_dir( ) {
     export desktop=/cygdrive/c/Users/Administrator.AXX3DX8ZNMSGU5B/Desktop
+    export wv=/cygdrive/c/Users/Administrator.AXX3DX8ZNMSGU5B/.qyh_vim
+    export ws=/cygdrive/e/Sources
+    export wn=/cygdrive/e/notes
 }
 
 set_PS1( ) {
