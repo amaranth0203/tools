@@ -19,7 +19,7 @@ set_PS1( ) {
 }
 
 vim_( ) {
-    vim -u "$rcfile" $*
+    vim -u "$rcfile" "$@"
 }
 
 set_proxy( ) {
