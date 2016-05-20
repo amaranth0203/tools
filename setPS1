@@ -45,7 +45,7 @@ show_banner( ) {
 }
 
 vim_( ) {
-    vim -u "$rcfile" $*
+    vim -u "$rcfile" "$@"
 }
 
 ls( ){
