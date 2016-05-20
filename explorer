@@ -4,10 +4,10 @@
 pwd_=$(pwd)
 if [ $# -eq 0 ] ; then
 #    echo $pwd_ | sed -e 's/\//\\/g' | sed -e 's/\\opt\\qiyunhu/Z:/' | tee "$(dirname $0)/flag"
-    target=$(echo $pwd_ | sed -e 's/\//\\/g' | sed -e 's/\\opt\\qiyunhu/Z:/')
+    target=$(echo $pwd_ | sed -e 's/\//\\/g' | sed -e 's/\\root/J:/')
 else
 #    readlink -f $1 | sed -e 's/\//\\/g' | sed -e 's/\\opt\\qiyunhu/Z:/' | tee "$(dirname $0)/flag"
-    target=$(readlink -f $1 | sed -e 's/\//\\/g' | sed -e 's/\\opt\\qiyunhu/Z:/')
+    target=$(readlink -f $1 | sed -e 's/\//\\/g' | sed -e 's/\\root/J:/')
 fi
 
 
