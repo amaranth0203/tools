@@ -1,8 +1,8 @@
 #!/bin/env bash
 
-BASE=/home/Administrator
-rcfile=/cygdrive/c/Users/Administrator.AXX3DX8ZNMSGU5B/.qyh_vim/vimrc
-export PROXY_HOST=192.168.3.152
+BASE=/home/Ending
+rcfile=/cygdrive/c/Users/Ending/.qyh_vim/vimrc
+export PROXY_HOST=localhost
 PROXY_PORT=2333
 
 main( ) {
@@ -17,7 +17,7 @@ main( ) {
 }
 
 set_working_dir( ) {
-    export desktop=/cygdrive/c/Users/Administrator.AXX3DX8ZNMSGU5B/Desktop
+    export desktop=/cygdrive/c/Users/Ending/Desktop
 }
 
 set_PS1( ) {
