@@ -18,6 +18,9 @@ main( ) {
 
 set_working_dir( ) {
     export desktop=/cygdrive/c/Users/Ending/Desktop
+    export wv=/cygdrive/c/Users/Ending/.qyh_vim
+    export ws=/cygdrive/e/Source
+    export wn=/cygdrive/e/Stay/txt_and_more/notes
 }
 
 set_PS1( ) {
