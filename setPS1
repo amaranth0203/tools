@@ -41,4 +41,9 @@ show_banner( ) {
     cat $BASE/tools/banner.txt
 }
 
+alias ls='ls -N -F --color=auto --show-control-chars $*'
+
+alias ll='ls -N -lF --color=auto --show-control-chars $*'
+
+
 main "$@"
