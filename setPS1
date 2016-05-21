@@ -34,6 +34,7 @@ clean_proxy( ) {
 
 set_PATH( ) {
     export PATH=$PATH:$BASE/tools
+    export PATH=$PATH:$BASE/tools/ssocks-0.0.14/src
 }
 
 show_banner( ) {
