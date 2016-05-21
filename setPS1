@@ -2,7 +2,7 @@
 
 BASE=/root
 rcfile=$BASE/.qyh_vim/vimrc
-export PROXY_HOST=192.168.3.152
+export PROXY_HOST=192.168.0.102
 PROXY_PORT=2333
 
 main( ) {
