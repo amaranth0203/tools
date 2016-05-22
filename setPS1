@@ -6,12 +6,12 @@ export PROXY_HOST=192.168.3.152
 PROXY_PORT=2333
 
 main( ) {
+    show_banner
     set_working_dir "$@"
     set_PS1
     set_proxy
     clean_proxy
     set_PATH
-    show_banner
     stty -ixon
     source /etc/bash_completion.d/git
 }
@@ -40,6 +40,21 @@ clean_proxy( ) {
 
 set_PATH( ) {
     export PATH=$PATH:$BASE/tools
+    if [ -z "$PYTHON_HOME" ] ; then
+        echo "[-] Need to set PYTHON_HOME"
+        return
+    fi
+    target=$PYTHON_HOME
+    target=$(echo $target | sed -e 's/\\/\//g' | sed -e 's/://g')
+    target='/cygdrive/'$target':'
+    target=$(echo $target | sed -e 's/\//\\\//g')
+    path_=$(echo $PATH | sed "s/$target//Ig")
+    target=$PYTHON_HOME
+    target=$(echo $target | sed -e 's/\\/\//g' | sed -e 's/://g')
+    target='/cygdrive/'$target'/scripts:'
+    target=$(echo $target | sed -e 's/\//\\\//g')
+    path_=$(echo $path_ | sed "s/$target//Ig")
+    export PATH=$path_
 }
 
 show_banner( ) {
