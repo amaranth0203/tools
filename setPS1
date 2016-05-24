@@ -2,7 +2,7 @@
 
 BASE=/root
 rcfile=$BASE/.qyh_vim/vimrc
-export PROXY_HOST=192.168.3.152
+export PROXY_HOST=192.168.0.102
 PROXY_PORT=2333
 export TIME_STYLE=+"%Y_%m_%d %H:%M:%S"
 
@@ -16,17 +16,12 @@ main( ) {
 }
 
 set_PS1( ) {
-    PS1="\n\[\e[32m\]\u@\h \[\e[33m\]\w\[\e[0m\]\n\$ "
+    # PS1="\n\[\e[32m\]\u@\h \[\e[33m\]\w\[\e[0m\]\n\$ "
+    PS1="${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ "
 }
 
-<<<<<<< HEAD
 vim_( ) {
     vim -u "$rcfile" "$@"
-=======
-set_PS1( ) {
-    # PS1="\[\e]0;\w\a\]\[\e[32m\]\u@\h \[\e[33m\]\w\[\e[0m\]\n\$ "
-    PS1="${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ "
->>>>>>> 2c325c2... modify PS1 to backtrack's
 }
 
 set_proxy( ) {
@@ -41,6 +36,7 @@ clean_proxy( ) {
 
 set_PATH( ) {
     export PATH=$PATH:$BASE/tools
+    export PATH=$PATH:$BASE/tools/ssocks-0.0.14/src
 }
 
 show_banner( ) {
