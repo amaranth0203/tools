@@ -4,6 +4,7 @@ BASE=/root
 rcfile=$BASE/.qyh_vim/vimrc
 export PROXY_HOST=192.168.3.152
 PROXY_PORT=2333
+export TIME_STYLE=+"%Y_%m_%d %H:%M:%S"
 
 main( ) {
     set_working_dir "$@"
@@ -37,7 +38,8 @@ set_working_dir( ) {
 }
 
 set_PS1( ) {
-    PS1="\[\e]0;\w\a\]\n\[\e[32m\]\u@\h \[\e[33m\]\w\[\e[0m\]\n\$ "
+    # PS1="\[\e]0;\w\a\]\[\e[32m\]\u@\h \[\e[33m\]\w\[\e[0m\]\n\$ "
+    PS1="${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ "
 }
 
 vim_( ) {
@@ -96,3 +98,7 @@ show_banner( ) {
 }
 
 main "$@"  
+
+alias ls="ls -N -h -F --color=auto --show-control-chars"
+alias ll="ls -N -h -F -l --color=auto --show-control-chars"
+alias du="du -h --time --max-depth=1"
