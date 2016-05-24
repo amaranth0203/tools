@@ -1,9 +1,0 @@
-#!/bin/bash
-
-# echo 1 > ${0%/*}/flag
-
-if [ $# -lt 1 ] ; then 
-    qyh $PROXY_HOST msg "%username%" [+] ta-da "~"
-else
-    qyh $PROXY_HOST msg "%username%" [+] $@
-fi
