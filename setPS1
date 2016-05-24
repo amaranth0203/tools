@@ -7,12 +7,19 @@ PROXY_PORT=2333
 export TIME_STYLE=+"%Y_%m_%d %H:%M:%S"
 
 main( ) {
+    set_working_dir
     set_PS1
     set_proxy
     clean_proxy
     set_PATH
     show_banner
     stty -ixon
+}
+
+set_working_dir( ) {
+    export wv=~/.qyh_vim
+    export ws=/media/Data/Source
+    export wn=/media/Data/Stay/txt_and_more/notes
 }
 
 set_PS1( ) {
