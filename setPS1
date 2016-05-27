@@ -5,6 +5,11 @@ rcfile=$BASE/.qyh_vim/vimrc
 export PROXY_HOST=192.168.0.102
 PROXY_PORT=2333
 export TIME_STYLE=+"%Y_%m_%d %H:%M:%S"
+export HISTFILESIZE=
+export HISTSIZE=
+export HISTTIMEFORMAT="[%F %T] "
+export HISTFILE=~/.bash_history_qyh
+PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
 
 main( ) {
     set_working_dir
