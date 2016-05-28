@@ -27,6 +27,8 @@ set_working_dir( ) {
     export wv=/cygdrive/c/Users/Administrator.AXX3DX8ZNMSGU5B/.qyh_vim
     export ws=/cygdrive/e/Sources
     export wn=/cygdrive/e/notes
+    export wp=/cygdrive/e/pdf
+    export wcc=/cygdrive/d/binary/cmder/config
 }
 
 set_PS1( ) {
