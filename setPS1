@@ -4,7 +4,7 @@ BASE=/home/Administrator
 rcfile=/cygdrive/c/Users/Administrator.AXX3DX8ZNMSGU5B/.qyh_vim/vimrc
 export PROXY_HOST=192.168.3.152
 PROXY_PORT=2333
-export TIME_STYLE=+"%Y_%m_%d %H:%M:%S"
+export TIME_STYLE=+"%Y.%m.%d %H:%M:%S"
 export HISTFILESIZE=
 export HISTSIZE=
 export HISTTIMEFORMAT="[%F %T] "
@@ -123,3 +123,7 @@ ll( ){
 }
 
 main "$@"
+alias ls="ls -N -h -F --color=auto --show-control-chars"
+alias ll="ls -N -h -F -l --color=auto --show-control-chars"
+alias du="du -h --time --max-depth=1"
+alias gl="git log --oneline --all --graph --decorate"
