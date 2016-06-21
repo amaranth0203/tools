@@ -40,6 +40,7 @@ set_working_dir( ) {
     export w11=$w1/mm-camera2/media-controller/modules/sensors/
     export w111=$w11/sensor/libs/imx298/
     export w2=$PROJECT_NAME/hardware/qcom/camera
+    export w3=$w/vendor/qcom/proprietary/vivo-3a/stats
     # mtk
     export wa=$w/vendor/mediatek/proprietary/platform/
     export wa1=$w/vendor/mediatek/proprietary/platform/mt6752/hardware/mtkcam/core/featureio/
