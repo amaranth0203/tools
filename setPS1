@@ -2,7 +2,8 @@
 
 BASE=/opt/qiyunhu
 rcfile=$BASE/.qyh_vim/vimrc
-export PROXY_HOST=192.168.3.152
+# export PROXY_HOST=192.168.3.152
+export PROXY_HOST=192.168.4.243
 PROXY_PORT=2333
 export TIME_STYLE=+"%Y.%m.%d %H:%M:%S"
 export HISTFILESIZE=
@@ -24,14 +25,16 @@ main( ) {
 
 set_working_dir( ) {
     COMPILER_BASE=$BASE
-    PROJECT_NAME=~/proj/PD1415D
+    PROJECT_NAME=~/proj/TD1603_slf
     LIB_LOG_FILE=compile_lib.log
+    FLASH_LOG_FILE=compile_boot.log
     if [ -z "$1" ] ; then
         export PROJECT_NAME=$(readlink -f $PROJECT_NAME)
     else
         export PROJECT_NAME=$(readlink -f $1)
     fi
     export llf=$PROJECT_NAME/$LIB_LOG_FILE
+    export flf=$PROJECT_NAME/$FLASH_LOG_FILE
     export w=$PROJECT_NAME
     export w0=$COMPILER_BASE/tools
     # qcom
