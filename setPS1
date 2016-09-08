@@ -3,7 +3,7 @@
 BASE=/opt/qiyunhu
 rcfile=$BASE/.qyh_vim/vimrc
 # export PROXY_HOST=192.168.3.152
-export PROXY_HOST=192.168.4.243
+export PROXY_HOST=172.20.134.115
 PROXY_PORT=2333
 export TIME_STYLE=+"%Y.%m.%d %H:%M:%S"
 export HISTFILESIZE=
@@ -21,11 +21,12 @@ main( ) {
     set_PATH
     show_banner
     stty -ixon
+    cd $w
 }
 
 set_working_dir( ) {
     COMPILER_BASE=$BASE
-    PROJECT_NAME=~/proj/TD1603_slf
+    PROJECT_NAME=~/proj/PD1616A
     LIB_LOG_FILE=compile_lib.log
     FLASH_LOG_FILE=compile_boot.log
     if [ -z "$1" ] ; then
@@ -126,3 +127,4 @@ alias ll="ls -N -h -F -l --color=auto --show-control-chars"
 alias du="du -h --time --max-depth=1"
 alias gl="git log --oneline --all --graph --decorate"
 alias e.="explorer ."
+alias gt="git status --short --branch"

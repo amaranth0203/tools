@@ -15,7 +15,7 @@ proj=$(pwd | awk -F '/' '{print $NF}')
 target=""
 
 # 1. check ssh identity and $w
-cat ~/.ssh/id_rsa.pub | grep $USER > nul
+cat ~/.ssh/id_rsa.pub | grep $USER > /dev/null
 if [ $? -ne 0 ]
 then
     echo '[-] switch ssh to self first'
@@ -52,6 +52,7 @@ do
     if [ -d "$(pwd)/.repo/manifests/$proj" ]
     then
         target="$(pwd)/.repo/manifests/$proj"
+        echo "[+] $target found"
         break
     fi
     echo "[-] directory $(pwd)/.repo/manifests/$proj not exists"
@@ -60,6 +61,7 @@ do
     if [ -d "$(pwd)/.repo/manifests/$proj" ]
     then
         target="$(pwd)/.repo/manifests/$proj"
+        echo "[+] $target found"
         break
     fi
     echo "[-] directory $(pwd)/.repo/manifests/$proj not exists"
