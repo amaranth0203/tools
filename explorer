@@ -11,6 +11,6 @@ else
 fi
 
 
-target=$( echo $target | sed -e 's/\\/\\\\/g' )
+#target=$( echo $target | sed -e 's/\\/\\\\/g' )
 #echo $target
 qyh $PROXY_HOST  explorer $target
