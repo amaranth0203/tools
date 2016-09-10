@@ -6,8 +6,8 @@
 # to the xml detected
 # by using command repo init xxx -m target.xml
 # 
-#             qiyunhu
-#             2016-08-21
+#               qiyunhu
+#               2016.08.21
 
 
 update_command="repo init -u ssh://$USER@smartgit:29418/VivoCode/manifest"
