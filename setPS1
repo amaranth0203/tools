@@ -20,6 +20,7 @@ main( ) {
     set_PATH
     stty -ixon
     source /etc/bash_completion.d/git
+    export LS_COLORS=`cat $BASE/tools/_LS_COLORS_`
 }
 
 set_working_dir( ) {
