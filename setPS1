@@ -19,6 +19,7 @@ main( ) {
     set_PATH
     show_banner
     stty -ixon
+    export LS_COLORS=`cat $BASE/tools/_LS_COLORS_`
 }
 
 set_working_dir( ) {
