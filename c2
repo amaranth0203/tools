@@ -33,12 +33,12 @@ generate_output( ) {
     do
         array_contains idxs $idx && 
         output=$output" "$(
-            echo $line | 
+            printf '%s' "$line" | 
             awk -F'\.\.\.' '{print $1}' | # for local branch name
             awk '{print $2}'
         )
         (( idx++ ))
-    done < <($cmd)
+    done < <($cmd 2>&1)
 }
 
 array_contains( ) {
