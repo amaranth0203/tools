@@ -1,0 +1,91 @@
+#!/usr/bin/env bash
+
+#
+# case no parameters :
+#     print index before output of git status --short --branch
+# case with index :
+#     concat second column of index of git status --short --branch
+#     separated with " "
+# FOR
+#     vim_ `c2 1 2 3`
+#     git push origin `c2 0`
+# to using it
+# 
+#               qiyunhu
+#               2016.09.10
+# 
+
+cmd='git status --short --branch'
+re='^[0-9]+$'
+idxs=()
+output=""
+
+main( ) {
+    check_git_repo
+    check_input $@
+    generate_output $@
+    echo $output
+}
+
+generate_output( ) {
+    idx=0
+    while read line
+    do
+        array_contains idxs $idx && 
+        output=$output" "$(
+            printf '%s' "$line" | 
+            awk -F'\.\.\.' '{print $1}' | # for local branch name
+            awk '{print $2}'
+        )
+        (( idx++ ))
+    done < <($cmd 2>&1)
+}
+
+array_contains( ) {
+    local array="$1[@]"
+    local seeking=$2
+    local in=1
+    for element in "${!array}"
+    do
+        if [[ $element == $seeking ]]
+        then
+            in=0
+            break
+        fi
+    done
+    return $in
+}
+
+check_input( ) {
+    if [ "$#" -eq 0 ] ; then # no file selected , print indexes
+        idx=0
+        eval $cmd | \
+        while read line
+        do
+            printf '%d %s\n' "$idx" "$line"
+            (( idx++ ))
+        done
+        exit
+    else
+        idxs=( "$@" )
+    fi
+    for idx in "${idxs[@]}"
+    do
+        if ! [[ $idx =~ $re ]]
+        then 
+            echo "[-] $idx not a number" >&2 ; exit 1
+        fi
+    done
+}
+
+check_git_repo( ) {
+    eval $cmd > /dev/null 2>&1
+    if [ $? -ne 0 ]
+    then
+        echo '[-] not a git repository'
+        exit
+    fi
+}
+
+main $@
+
