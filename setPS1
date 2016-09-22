@@ -2,7 +2,8 @@
 
 BASE=/root
 rcfile=$BASE/.qyh_vim/vimrc
-export PROXY_HOST=192.168.3.152
+#export PROXY_HOST=192.168.3.152
+export PROXY_HOST=172.20.134.115
 PROXY_PORT=2333
 export TIME_STYLE=+"%Y.%m.%d %H:%M:%S"
 export HISTFILESIZE=
@@ -41,6 +42,8 @@ set_working_dir( ) {
     export w111=$w11/sensor/libs/imx298/
     export w2=$PROJECT_NAME/hardware/qcom/camera
     export w3=$w1/../test/stats
+    export ws=/mnt/hgfs/E/Sources
+    export wn=/mnt/hgfs/E/notes
 }
 
 set_PS1( ) {
