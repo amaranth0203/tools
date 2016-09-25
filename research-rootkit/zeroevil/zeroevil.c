@@ -1,4 +1,4 @@
- // Copyright 2016 Gu Zhengxiong <rectigu@gmail.com>
+// Copyright 2016 Gu Zhengxiong <rectigu@gmail.com>
 //
 // This file is part of LibZeroEvil.
 //
