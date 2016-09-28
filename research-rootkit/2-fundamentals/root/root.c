@@ -65,7 +65,8 @@ init_module(void)
 void
 cleanup_module(void)
 {
-    proc_remove(entry);
+  //    proc_remove(entry);
+  remove_proc_entry(NAME,NULL);
 
     fm_alert("%s\n", "Farewell the World!");
     return;

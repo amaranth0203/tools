@@ -62,11 +62,11 @@ disable_wp(void)
 {
     unsigned long cr0;
 
-    preempt_disable();
+    //    preempt_disable();
     cr0 = read_cr0();
-    clear_bit(X86_CR0_WP_BIT, &cr0);
+    clear_bit(16, &cr0);
     write_cr0(cr0);
-    preempt_enable();
+    //    preempt_enable();
 
     return;
 }
@@ -78,11 +78,11 @@ enable_wp(void)
 {
     unsigned long cr0;
 
-    preempt_disable();
+    //    preempt_disable();
     cr0 = read_cr0();
-    set_bit(X86_CR0_WP_BIT, &cr0);
+    set_bit(16, &cr0);
     write_cr0(cr0);
-    preempt_enable();
+    //    preempt_enable();
 
     return;
 }
@@ -311,7 +311,7 @@ set_lstar_sct(u32 address)
     }
 }
 
-
+#if 0
 // INFO: See also phys_to_virt.
 extern unsigned long phys_base;
 
@@ -320,7 +320,7 @@ phys_to_virt_kern(phys_addr_t address)
 {
     return (void *)(address - phys_base + __START_KERNEL_map);
 }
-
+#endif
 # endif // defined(__x86_64__)
 
 
