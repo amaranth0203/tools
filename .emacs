@@ -106,7 +106,7 @@ occurence of CHAR."
     ("a800120841da457aa2f86b98fb9fd8df8ba682cebde033d7dbf8077c1b7d677a" default)))
  '(package-selected-packages
    (quote
-    (ggtags auto-complete smartrep xcscope sr-speedbar git-gutter hide-lines monokai-theme smex window-numbering tabbar buffer-flip neotree slime)))
+    (ggtags auto-complete smartrep sr-speedbar git-gutter hide-lines monokai-theme smex window-numbering tabbar buffer-flip neotree slime)))
  '(tabbar-separator (quote (0.5))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -143,10 +143,6 @@ occurence of CHAR."
 
 ;; monokai
 ( load-theme 'monokai t )
-
-;; cscope
-( require 'xcscope )
-( cscope-setup )
 
 ;; auto-complete
 ( global-auto-complete-mode 1 )
