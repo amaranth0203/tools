@@ -1,1 +1,1 @@
-tmux-2.2/tmux
+tmux-1.8/tmux
