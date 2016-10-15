@@ -1,4 +1,9 @@
 
+;; (set-default-font "-outline-微软雅黑-normal-normal-normal-sans-16-*-*-*-p-*-iso8859-1")
+;; (tool-bar-mode 0)
+;; (menu-bar-mode 0)
+;; (scroll-bar-mode 0)
+
 ;; ---------- basic config -----------
 
 (setq-default indent-tabs-mode nil)
@@ -74,6 +79,11 @@ occurence of CHAR."
     ( recenter-top-bottom ) )
   ( setq unread-command-events ( list last-input-event ) ) )
 
+( defun qyh-neotree-change-to-env-dir ( )
+  ( interactive )
+  ( let ( ( env-name ( read-string "" ) ) )
+  ( neotree-dir (getenv env-name))))
+
 ;; ---------- functions ends ---------
 
 ;; ---------- keybind ----------------
@@ -85,6 +95,8 @@ occurence of CHAR."
 ( define-key global-map ( kbd "C-c =" ) 'er/expand-region )
 ( define-key global-map ( kbd "C-c j" ) 'qyh-next-line )
 ( define-key global-map ( kbd "C-c k" ) 'qyh-previous-line )
+( define-key global-map ( kbd "M-n" ) 'move-text-down )
+( define-key global-map ( kbd "M-p" ) 'move-text-up )
 
 ;; ---------- keybind ends -----------
 
@@ -106,7 +118,7 @@ occurence of CHAR."
     ("a800120841da457aa2f86b98fb9fd8df8ba682cebde033d7dbf8077c1b7d677a" default)))
  '(package-selected-packages
    (quote
-    (ggtags auto-complete smartrep sr-speedbar git-gutter hide-lines monokai-theme smex window-numbering tabbar buffer-flip neotree slime)))
+    (ace-jump-mode move-text yasnippet expand-region ggtags auto-complete smartrep sr-speedbar git-gutter hide-lines monokai-theme smex window-numbering tabbar buffer-flip neotree slime)))
  '(tabbar-separator (quote (0.5))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -149,3 +161,6 @@ occurence of CHAR."
 
 ;; ggtags
 ( ggtags-mode 1 )
+
+;; YASnippet
+( yas-global-mode 1 )
