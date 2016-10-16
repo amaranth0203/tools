@@ -20,6 +20,7 @@ main( ) {
     set_PATH
     stty -ixon
     source /etc/bash_completion.d/git
+    export LS_COLORS=`cat $BASE/tools/_LS_COLORS_`
 }
 
 set_working_dir( ) {
@@ -85,3 +86,5 @@ alias ls="ls -N -h -F --color=auto --show-control-chars"
 alias ll="ls -N -h -F -l --color=auto --show-control-chars"
 alias du="du -h --time --max-depth=1"
 alias gl="git log --oneline --all --graph --decorate"
+alias e.="explorer ."
+alias gt="git status --short --branch"
