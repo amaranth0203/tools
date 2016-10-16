@@ -13,6 +13,8 @@
 ( setq blink-cursor-interval .1 )
 ;; ido
 ( ido-mode 1 )
+;;(setq url-proxy-services '(("http" . "localhost:2333")
+;;                                      ("http" . "localhost:2333")))
 
 ;; ---------- basic config ends ------
 
