@@ -36,6 +36,8 @@
 ( setq org-todo-keywords
        '((sequence "TODO(t@/!)" "|" "DONE(d@/!)")))
 
+;;(setq url-proxy-services '(("http" . "localhost:2333")
+;;                                      ("http" . "localhost:2333")))
 
 ;; ---------- basic config ends ------
 
