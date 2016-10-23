@@ -38,7 +38,7 @@
 
 ;; proxy
 ;; ( setq url-proxy-services '(("http" . "localhost:2333")
-;;            
+;;                                       ("http" . "localhost:2333")))
 ( setq backup-directory-alist
       `((".*" . ,temporary-file-directory)))
 ( setq auto-save-file-name-transforms
