@@ -45,6 +45,7 @@
       `((".*" . ,temporary-file-directory)))
 ( setq auto-save-file-name-transforms
       `((".*" ,temporary-file-directory t)))
+( prefer-coding-system 'utf-8 ) 
 
 ;; ---------- basic config ends ------
 
