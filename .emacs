@@ -201,6 +201,10 @@ occurence of CHAR."
 ( ggtags-mode 1 )
 
 ;; YASnippet
+( require 'yasnippet )
+( add-to-list
+  'yas-snippet-dirs
+  ( concat ( getenv "wn" ) "/yasnippet_template" ) )
 ( yas-global-mode 1 )
 
 ;;;; unknown
@@ -208,3 +212,11 @@ occurence of CHAR."
 ;;
 ;;;; chinese-fonts-setup
 ;;( require 'chinese-fonts-setup )
+
+;;
+;; for debugging
+;;
+;; ( message "wassup" )
+;; ( message ( getenv "ws" ) )
+;; ( message ( getenv "wn" ) )
+;; ( message "wassup ends" )
