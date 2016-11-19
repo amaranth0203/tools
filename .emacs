@@ -46,6 +46,8 @@
 ( setq auto-save-file-name-transforms
       `((".*" ,temporary-file-directory t)))
 ( prefer-coding-system 'utf-8 ) 
+( setq c-default-style "linux"
+       c-basic-offset 2 )
 
 ;; ---------- basic config ends ------
 
@@ -131,6 +133,7 @@ occurence of CHAR."
 ( define-key global-map ( kbd "M-n" ) 'move-text-down )
 ( define-key global-map ( kbd "M-p" ) 'move-text-up )
 ( define-key global-map ( kbd "C-c a" ) 'org-agenda )
+( define-key global-map ( kbd "C-x C-a" ) 'ace-jump-mode )
 
 
 ;; ---------- keybind ends -----------
