@@ -158,7 +158,7 @@ occurence of CHAR."
     ("a800120841da457aa2f86b98fb9fd8df8ba682cebde033d7dbf8077c1b7d677a" default)))
  '(package-selected-packages
    (quote
-    (chinese-fonts-setup ace-jump-mode move-text yasnippet expand-region ggtags auto-complete smartrep sr-speedbar git-gutter hide-lines monokai-theme smex window-numbering tabbar buffer-flip neotree slime)))
+    (auctex-latexmk google-c-style chinese-fonts-setup ace-jump-mode move-text yasnippet expand-region ggtags auto-complete smartrep sr-speedbar git-gutter hide-lines monokai-theme smex window-numbering tabbar buffer-flip neotree slime)))
  '(tabbar-separator (quote (0.5))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
