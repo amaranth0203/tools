@@ -202,6 +202,7 @@ occurence of CHAR."
 
 ;; ggtags
 ( ggtags-mode 1 )
+( setq ggtags-oversize-limit t )
 
 ;; YASnippet
 ( require 'yasnippet )
