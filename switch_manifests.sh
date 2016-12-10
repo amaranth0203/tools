@@ -11,7 +11,7 @@
 
 
 update_command="repo init -u ssh://$USER@smartgit:29418/VivoCode/manifest"
-proj=$(pwd | awk -F '/' '{print $NF}')
+# proj=$(pwd | awk -F '/' '{print $NF}')
 target=""
 
 # 1. check ssh identity and $w
@@ -48,6 +48,7 @@ done
 # 3. check for proj folder in .repo/manifests/
 while true
 do
+    read -p "[+] proj name in manifests ? " proj
 
     if [ -d "$(pwd)/.repo/manifests/$proj" ]
     then
@@ -66,7 +67,6 @@ do
     fi
     echo "[-] directory $(pwd)/.repo/manifests/$proj not exists"
 
-    read -p "[+] proj name in manifests ? " proj
 done
 # 3. check for proj folder in .repo/manifests/ ends
 

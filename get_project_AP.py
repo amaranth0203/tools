@@ -17,6 +17,8 @@ proj_APs = {
     "TD1604"    : "http://192.168.2.125:8080/smartsys/externalInfoProject.action?idx=336&project=TD1604&hdversion=TD1604MA&findtype=unifiedProject&unifiedProjectse=&allprojectinfo.unifiedProject=td1604&startdate=&enddate=&apkversion=&page=1" , 
     "PD1617A"   : "http://192.168.2.125:8080/smartsys/externalInfoProject.action?idx=337&project=PD1617A&hdversion=PD1617MA&findtype=unifiedProject&unifiedProjectse=&allprojectinfo.unifiedProject=+PD1617A&startdate=&enddate=&apkversion=&page=1" ,
     "PD1619A"   : "http://192.168.2.125:8080/smartsys/externalInfoProject.action?idx=346&project=PD1619A&hdversion=PD1619MA&findtype=unifiedProject&unifiedProjectse=&allprojectinfo.unifiedProject=+PD1619A&startdate=&enddate=&apkversion=&page=1" ,
+    "PD1621A"   : "http://192.168.2.125:8080/smartsys/externalInfoProject.action?idx=342&project=PD1621A&hdversion=PD1621MA&findtype=unifiedProject&unifiedProjectse=&allprojectinfo.unifiedProject=+PD1621A&startdate=&enddate=&apkversion=&page=1" ,
+    "PD1619F_EX": "http://192.168.2.125:8080/smartsys/externalInfoProject.action?idx=352&project=PD1619F_EX&hdversion=PD1619F_EXMA&findtype=unifiedProject&unifiedProjectse=&allprojectinfo.unifiedProject=+PD1619F_EX&startdate=&enddate=&apkversion=&page=1" ,
 }
 
 def test( ) :

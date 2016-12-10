@@ -14,7 +14,7 @@ declare -a work_dir=(
     "$w1"
     "$w1sdk"
     "$w2"
-    "$1/../prebuilt_HY11/"
+    "$w1/../prebuilt_HY11/"
 )
 
 usage( ) {
