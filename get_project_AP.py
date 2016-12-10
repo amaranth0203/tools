@@ -2,10 +2,23 @@
 #-*- coding=utf-8 -*-
 
 proj_APs = {
-    "PD1515BA" : "http://192.168.2.125:8080/smartsys/externalInfoProject.action?idx=242&project=PD1515BA&hdversion=PD1515BAMA&findtype=unifiedProject&unifiedProjectse=&allprojectinfo.unifiedProject=pd1515ba&startdate=&enddate=&apkversion=&page=1" , 
-    "PD1516A" : "http://192.168.2.125:8080/smartsys/externalInfoProject.action?idx=240&project=PD1516A&hdversion=PD1516AMA&findtype=unifiedProject&unifiedProjectse=&allprojectinfo.unifiedProject=PD1516A&startdate=&enddate=&apkversion=&page=1" , 
-    "PD1415D" : "http://192.168.2.125:8080/smartsys/externalInfoProject.action?idx=196&project=PD1415D&hdversion=PD1415DMA&findtype=unifiedProject&unifiedProjectse=&allprojectinfo.unifiedProject=pd1415D&startdate=&enddate=&apkversion=&page=1" , 
-    "PD1602A" : "http://192.168.2.125:8080/smartsys/externalInfoProject.action?idx=284&project=PD1602A&hdversion=PD1602MA&findtype=unifiedProject&unifiedProjectse=&allprojectinfo.unifiedProject=+PD1602a&startdate=&enddate=&apkversion=&page=1" ,
+    "PD1515BA"  : "http://192.168.2.125:8080/smartsys/externalInfoProject.action?idx=242&project=PD1515BA&hdversion=PD1515BAMA&findtype=unifiedProject&unifiedProjectse=&allprojectinfo.unifiedProject=pd1515ba&startdate=&enddate=&apkversion=&page=1" , 
+    "PD1516A"   : "http://192.168.2.125:8080/smartsys/externalInfoProject.action?idx=240&project=PD1516A&hdversion=PD1516AMA&findtype=unifiedProject&unifiedProjectse=&allprojectinfo.unifiedProject=PD1516A&startdate=&enddate=&apkversion=&page=1" , 
+    "PD1415D"   : "http://192.168.2.125:8080/smartsys/externalInfoProject.action?idx=196&project=PD1415D&hdversion=PD1415DMA&findtype=unifiedProject&unifiedProjectse=&allprojectinfo.unifiedProject=pd1415D&startdate=&enddate=&apkversion=&page=1" , 
+    "PD1602A"   : "http://192.168.2.125:8080/smartsys/externalInfoProject.action?idx=284&project=PD1602A&hdversion=PD1602MA&findtype=unifiedProject&unifiedProjectse=&allprojectinfo.unifiedProject=+PD1602a&startdate=&enddate=&apkversion=&page=1" ,
+    "PD1415BA"  : "http://192.168.2.125:8080/smartsys/externalInfoProject.action?idx=266&project=PD1415BA&hdversion=PD1415BAMA&findtype=unifiedProject&unifiedProjectse=&allprojectinfo.unifiedProject=pd1415ba&startdate=&enddate=&apkversion=&page=1" , 
+    "PD1501D"   : "http://192.168.2.125:8080/smartsys/externalInfoProject.action?idx=204&project=PD1501D&hdversion=PD1501DMA&findtype=unifiedProject&unifiedProjectse=&allprojectinfo.unifiedProject=pd1501d&startdate=&enddate=&apkversion=&page=1" ,
+    "TD1603"    : "http://192.168.2.125:8080/smartsys/externalInfoProject.action?idx=311&project=TD1603&hdversion=TD1603MA&findtype=chip&chipse=&allprojectinfo.chip=MSM8953&startdate=&enddate=&apkversion=&page=1" ,
+    "PD1616A"   : "http://192.168.2.125:8080/smartsys/externalInfoProject.action?idx=334&project=PD1616A&hdversion=PD1616MA&findtype=unifiedProject&unifiedProjectse=&allprojectinfo.unifiedProject=pd1616a&startdate=&enddate=&apkversion=&page=1" ,
+    "PD1616_slf": "http://192.168.2.125:8080/smartsys/externalInfoProject.action?idx=334&project=PD1616A&hdversion=PD1616MA&findtype=unifiedProject&unifiedProjectse=&allprojectinfo.unifiedProject=pd1616a&startdate=&enddate=&apkversion=&page=1" ,
+    "PD1610"    : "http://192.168.2.125:8080/smartsys/externalInfoProject.action?idx=318&project=PD1610&hdversion=PD1610MA&findtype=unifiedProject&unifiedProjectse=&allprojectinfo.unifiedProject=pd1610&startdate=&enddate=&apkversion=&page=1" ,
+    "PD1603A"   : "http://192.168.2.125:8080/smartsys/externalInfoProject.action?idx=289&project=PD1603A&hdversion=PD1603MA&findtype=unifiedProject&unifiedProjectse=&allprojectinfo.unifiedProject=+PD1603A&startdate=&enddate=&apkversion=&page=1" ,
+    "TD1603_slf": "http://192.168.2.125:8080/smartsys/externalInfoProject.action?idx=311&project=TD1603&hdversion=TD1603MA&findtype=chip&chipse=&allprojectinfo.chip=MSM8953&startdate=&enddate=&apkversion=&page=1" ,
+    "TD1604"    : "http://192.168.2.125:8080/smartsys/externalInfoProject.action?idx=336&project=TD1604&hdversion=TD1604MA&findtype=unifiedProject&unifiedProjectse=&allprojectinfo.unifiedProject=td1604&startdate=&enddate=&apkversion=&page=1" , 
+    "PD1617A"   : "http://192.168.2.125:8080/smartsys/externalInfoProject.action?idx=337&project=PD1617A&hdversion=PD1617MA&findtype=unifiedProject&unifiedProjectse=&allprojectinfo.unifiedProject=+PD1617A&startdate=&enddate=&apkversion=&page=1" ,
+    "PD1619A"   : "http://192.168.2.125:8080/smartsys/externalInfoProject.action?idx=346&project=PD1619A&hdversion=PD1619MA&findtype=unifiedProject&unifiedProjectse=&allprojectinfo.unifiedProject=+PD1619A&startdate=&enddate=&apkversion=&page=1" ,
+    "PD1621A"   : "http://192.168.2.125:8080/smartsys/externalInfoProject.action?idx=342&project=PD1621A&hdversion=PD1621MA&findtype=unifiedProject&unifiedProjectse=&allprojectinfo.unifiedProject=+PD1621A&startdate=&enddate=&apkversion=&page=1" ,
+    "PD1619F_EX": "http://192.168.2.125:8080/smartsys/externalInfoProject.action?idx=352&project=PD1619F_EX&hdversion=PD1619F_EXMA&findtype=unifiedProject&unifiedProjectse=&allprojectinfo.unifiedProject=+PD1619F_EX&startdate=&enddate=&apkversion=&page=1" ,
 }
 
 def test( ) :
