@@ -34,7 +34,7 @@ generate_output( ) {
         array_contains idxs $idx && 
         output=$output" "$(
             printf '%s' "$line" | 
-            awk -F'\.\.\.' '{print $1}' | # for local branch name
+            awk -F'\\.\\.\\.' '{print $1}' | # for local branch name
             awk '{print $2}'
         )
         (( idx++ ))
