@@ -9,7 +9,7 @@ export TIME_STYLE=+"%Y.%m.%d %H:%M:%S"
 export HISTFILESIZE=
 export HISTSIZE=
 export HISTTIMEFORMAT="[%F %T] "
-export HISTFILE=~/.bash_history_qyh
+# export HISTFILE=~/.bash_history_qyh
 PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
 
 main( ) {
@@ -27,7 +27,7 @@ main( ) {
 
 set_working_dir( ) {
     COMPILER_BASE=$BASE
-    PROJECT_NAME=~/proj/PD1616A
+    PROJECT_NAME=~/AcuteLogic/PD1616
     LIB_LOG_FILE=compile_lib.log
     FLASH_LOG_FILE=compile_boot.log
     if [ -z "$1" ] ; then
@@ -58,7 +58,12 @@ set_working_dir( ) {
 
 set_PS1( ) {
     # PS1="\n\[\e[32m\]\u@\h \[\e[33m\]\w\[\e[0m\]\n\$ "
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+    # PS1='${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+if [ "$color_prompt" = yes ]; then
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+else
+    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+fi
 }
 
 vim_( ) {
