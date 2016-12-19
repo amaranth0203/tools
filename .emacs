@@ -1,5 +1,5 @@
 
-;; (set-default-font "-outline-微软雅黑-normal-normal-normal-sans-16-*-*-*-p-*-iso8859-1")
+;; (set-default-font "-outline-΢���ź�-normal-normal-normal-sans-16-*-*-*-p-*-iso8859-1")
 ;; (tool-bar-mode 0)
 ;; (menu-bar-mode 0)
 ;; (scroll-bar-mode 0)
@@ -17,7 +17,7 @@
 ;;   (set-fontset-font
 ;;    (frame-parameter nil 'font)
 ;;    charset
-;;    (font-spec :name "-outline-Î¢ÈíÑÅºÚ-normal-normal-normal-sans-*-*-*-*-p-*-iso10646-1"
+;;    (font-spec :name "-outline-΢���ź�-normal-normal-normal-sans-*-*-*-*-p-*-iso10646-1"
 ;;               :weight 'normal
 ;;               :slant 'normal
 ;;               :size 12.0)))
@@ -132,8 +132,8 @@ occurence of CHAR."
 ( define-key global-map ( kbd "C-c k" ) 'qyh-previous-line )
 ( define-key global-map ( kbd "M-n" ) 'move-text-down )
 ( define-key global-map ( kbd "M-p" ) 'move-text-up )
-( define-key global-map ( kbd "C-c a" ) 'org-agenda )
-( define-key global-map ( kbd "C-x C-a" ) 'ace-jump-mode )
+( define-key global-map ( kbd "C-x C-a" ) 'org-agenda )
+( define-key global-map ( kbd "C-c a" ) 'ace-jump-mode )
 
 
 ;; ---------- keybind ends -----------
