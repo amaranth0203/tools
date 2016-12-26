@@ -18,7 +18,7 @@ main( ) {
     generate_output
 }
 generate_output( ) {
-    idx=0
+    idx=1
     while read "$@" line
     do
         array_contains idxs $idx && echo $line
@@ -41,7 +41,7 @@ array_contains( ) {
 }
 check_input( ) {
     if [ "$#" -eq 0 ] ; then # no input , print indexes
-        idx=0
+        idx=1
         while read $@ line
         do
             printf '%d %s\n' "$idx" "$line"
