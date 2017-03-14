@@ -30,7 +30,7 @@
 ;; cursor blinking speed
 ( setq blink-cursor-interval .1 )
 ;; ido
-( ido-mode 1 )
+;; ( ido-mode 1 )
 ;; org-mode
 ( setq org-tag-column 77 )
 ( setq org-log-done 'time )
@@ -158,7 +158,7 @@ occurence of CHAR."
     ("a800120841da457aa2f86b98fb9fd8df8ba682cebde033d7dbf8077c1b7d677a" default)))
  '(package-selected-packages
    (quote
-    (helm-swoop helm jedi python-mode chinese-fonts-setup ace-jump-mode move-text yasnippet expand-region ggtags auto-complete smartrep sr-speedbar git-gutter hide-lines monokai-theme smex window-numbering tabbar buffer-flip neotree slime)))
+    (ac-php php-mode helm-swoop helm jedi python-mode chinese-fonts-setup ace-jump-mode move-text yasnippet expand-region ggtags auto-complete smartrep sr-speedbar git-gutter hide-lines monokai-theme smex window-numbering tabbar buffer-flip neotree slime)))
  '(tabbar-separator (quote (0.5))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -236,11 +236,22 @@ occurence of CHAR."
 (add-hook 'org-mode-hook
    '(lambda () (set (make-local-variable 'yas-indent-line) 'fixed)))
 
-;;;; unknown
-;;(put 'set-goal-column 'disabled nil)
-;;
-;;;; chinese-fonts-setup
-;;( require 'chinese-fonts-setup )
+;; helm 
+( helm-mode 1 )
+( require 'recentf )
+( recentf-mode 1 )
+( setq-default recent-save-file "~/.emacs.d/recentf" )
+( setq recentf-auto-cleanup 'never )
+( setq bookmark-save-flag 1 )
+( global-set-key (kbd "M-x") #'helm-M-x )
+( global-set-key (kbd "C-x r b") #'helm-filtered-bookmarks )
+( global-set-key (kbd "C-x C-f") #'helm-find-files )
+
+;; unknown
+(put 'set-goal-column 'disabled nil)
+
+;; chinese-fonts-setup
+( require 'chinese-fonts-setup )
 
 ;;
 ;; for debugging
