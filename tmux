@@ -1,1 +1,1 @@
-tmux-1.8/tmux
+/usr/local/tools_and_more/tmux/bin/tmux
