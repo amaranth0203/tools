@@ -157,7 +157,7 @@
 (put 'set-goal-column 'disabled nil)
 
 ;; chinese-fonts-setup
-( require 'chinese-fonts-setup )
+;; ( require 'chinese-fonts-setup )
 
 ;;
 ;; for debugging
