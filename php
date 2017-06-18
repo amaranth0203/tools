@@ -1,0 +1,1 @@
+/usr/local/tools_and_more/php/bin/php
