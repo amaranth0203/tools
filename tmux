@@ -1,1 +1,0 @@
-/usr/local/tools_and_more/tmux/bin/tmux

@@ -1,1 +1,0 @@
-/usr/local/tools_and_more/emacs/bin/emacs

@@ -1,8 +1,8 @@
 #!/bin/env bash
 
 BASE=/root
-export PROXY_HOST=192.168.44.1
-PROXY_PORT=2333
+#export PROXY_HOST=192.168.44.1
+#PROXY_PORT=2333
 export TIME_STYLE=+"%Y.%m.%d %H:%M:%S"
 export HISTFILESIZE=
 export HISTSIZE=
@@ -12,10 +12,10 @@ PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
 
 main( ) {
     show_banner
-    set_working_dir "$@"
+#    set_working_dir "$@"
     set_PS1
-    set_proxy
-    clean_proxy
+#    set_proxy
+#    clean_proxy
     set_PATH
     stty -ixon
     export LS_COLORS=`cat $BASE/tools/_LS_COLORS_`
