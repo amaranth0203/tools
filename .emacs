@@ -56,7 +56,7 @@
 ( define-key global-map ( kbd "M-n" ) 'move-text-down )
 ( define-key global-map ( kbd "M-p" ) 'move-text-up )
 ( define-key global-map ( kbd "C-x C-a" ) 'org-agenda )
-( define-key global-map ( kbd "C-c a" ) 'ace-jump-mode )
+( define-key global-map ( kbd "M-j" ) 'ace-jump-mode )
 ;; ---------- keybind ends -----------
 
 (require 'package) ;; You might already have this line
