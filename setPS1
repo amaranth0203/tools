@@ -1,6 +1,6 @@
 #!/bin/env bash
 
-BASE=/root
+BASE=~ubuntu
 #export PROXY_HOST=192.168.44.1
 #PROXY_PORT=2333
 export TIME_STYLE=+"%Y.%m.%d %H:%M:%S"
