@@ -29,6 +29,14 @@
 (setq indent-line-function 'insert-tab)
 ;; cursor blinking speed
 ( setq blink-cursor-interval .1 )
+;; color
+;; (add-to-list 'default-frame-alist '(foreground-color . "#E0DFDB"))
+;; (add-to-list 'default-frame-alist '(background-color . "#102372"))
+;; (add-to-list 'default-frame-alist '(foreground-color . "#C81010"))
+;; (add-to-list 'default-frame-alist '(background-color . "#400000"))
+(add-to-list 'default-frame-alist '(foreground-color . "#F8F8F2"))
+(add-to-list 'default-frame-alist '(background-color . "#272822"))
+
 ;; ido
 ;; ( ido-mode 1 )
 ;; org-mode
@@ -158,6 +166,24 @@
 
 ;; chinese-fonts-setup
 ;; ( require 'chinese-fonts-setup )
+
+;; web-mode
+(require 'web-mode)
+(add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.tpl\\.php\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.[agj]sp\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.as[cp]x\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode));;;;;;;; plain html
+(setq web-mode-engines-alist
+      '(("php"    . "\\.html\\'")
+        ("blade"  . "\\.blade\\."))
+)
+(setq web-mode-markup-indent-offset 2)
+(setq web-mode-css-indent-offset 2)
+(setq web-mode-code-indent-offset 2)
 
 ;;
 ;; for debugging
