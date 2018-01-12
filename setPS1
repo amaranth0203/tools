@@ -1,7 +1,7 @@
 #!/bin/env bash
 
 BASE=/home/Ending
-rcfile=/cygdrive/c/Users/Ending/.qyh_vim/vimrc
+
 export PROXY_HOST=localhost
 PROXY_PORT=2333
 export TIME_STYLE=+"%Y.%m.%d %H:%M:%S"
@@ -23,12 +23,12 @@ main( ) {
 }
 
 set_working_dir( ) {
-    export desktop=/cygdrive/c/Users/Ending/Desktop
-    export wv=/cygdrive/c/Users/Ending/.qyh_vim
-    export ws=/cygdrive/e/Source
-    export wn=/cygdrive/e/Stay/txt_and_more/notes
-    export wp=/cygdrive/e/pdf
-    export wcc=/cygdrive/d/binary/cmder/config
+    export desktop=/mnt/c/Users/Ending/Desktop
+    export wv=/mnt/c/Users/Ending/.qyh_vim
+    export ws=/mnt/e/Source
+    export wn=/mnt/e/Stay/txt_and_more/notes
+    export wp=/mnt/e/pdf
+    export wcc=/mnt/d/binary/cmder/config
 }
 
 set_PS1( ) {
@@ -49,34 +49,11 @@ clean_proxy( ) {
 
 set_PATH( ) {
     export PATH=$PATH:$BASE/tools
-    if [ -z "$PYTHON_HOME" ] ; then
-        echo "[-] Need to set PYTHON_HOME"
-        return
-    fi
-    target=$PYTHON_HOME
-    target=$(echo $target | sed -e 's/\\/\//g' | sed -e 's/://g')
-    target='/cygdrive/'$target':'
-    target=$(echo $target | sed -e 's/\//\\\//g')
-    path_=$(echo $PATH | sed "s/$target//Ig")
-    target=$PYTHON_HOME
-    target=$(echo $target | sed -e 's/\\/\//g' | sed -e 's/://g')
-    target='/cygdrive/'$target'/scripts:'
-    target=$(echo $target | sed -e 's/\//\\\//g')
-    path_=$(echo $path_ | sed "s/$target//Ig")
-    export PATH=$path_
 }
 
 show_banner( ) {
     clear
     cat $BASE/tools/banner.txt
-}
-
-vim_( ) {
-    vim -u "$rcfile" "$@"
-}
-
-git( ){
-    /usr/bin/git.exe "$@"
 }
 
 main "$@"
@@ -85,5 +62,4 @@ alias ls="ls -N -h -F --color=auto --show-control-chars"
 alias ll="ls -N -h -F -l --color=auto --show-control-chars"
 alias du="du -h --time --max-depth=1"
 alias gl="git log --oneline --all --graph --decorate"
-alias e.="explorer ."
 alias gt="git status --short --branch"
