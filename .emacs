@@ -34,8 +34,8 @@
 ;; (add-to-list 'default-frame-alist '(background-color . "#102372"))
 ;; (add-to-list 'default-frame-alist '(foreground-color . "#C81010"))
 ;; (add-to-list 'default-frame-alist '(background-color . "#400000"))
-(add-to-list 'default-frame-alist '(foreground-color . "#F8F8F2"))
-(add-to-list 'default-frame-alist '(background-color . "#272822"))
+;; n(add-to-list 'default-frame-alist '(foreground-color . "#F8F8F2"))
+;; (add-to-list 'default-frame-alist '(background-color . "#272822"))
 
 ;; ido
 ;; ( ido-mode 1 )
@@ -99,8 +99,8 @@
 
 ;; slime
 ;; Set your lisp system and, optionally, some contribs
-(setq inferior-lisp-program "/usr/bin/sbcl")
-(setq slime-contribs '(slime-fancy))
+;; (setq inferior-lisp-program "/usr/bin/sbcl")
+;; (setq slime-contribs '(slime-fancy))
 
 ;; window-numbering
 ( window-numbering-mode 1 )

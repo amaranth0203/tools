@@ -1,6 +1,6 @@
 #!/bin/env bash
 
-BASE=/home/Ending
+BASE=/Users/qiyunhu/Shadow/
 
 export PROXY_HOST=localhost
 PROXY_PORT=2333
@@ -11,7 +11,7 @@ export HISTTIMEFORMAT="[%F %T] "
 export HISTFILE=~/.bash_history_qyh
 PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
 
-main( ) {
+function main {
     show_banner
     set_working_dir "$@"
     set_PS1
@@ -22,44 +22,44 @@ main( ) {
     export LS_COLORS=`cat $BASE/tools/_LS_COLORS_`
 }
 
-set_working_dir( ) {
-    export desktop=/mnt/c/Users/Ending/Desktop
-    export wv=/mnt/c/Users/Ending/.qyh_vim
-    export ws=/mnt/e/Source
-    export wn=/mnt/e/Stay/txt_and_more/notes
-    export wp=/mnt/e/pdf
-    export wcc=/mnt/d/binary/cmder/config
+function set_working_dir {
+    export desktop=/Users/qiyunhu/Desktop
+    # export wv=/mnt/c/Users/Ending/.qyh_vim
+    export ws=/Users/qiyunhu/Shadow/Sources
+    export wn=/Users/qiyunhu/Shadow/notes
+    # export wp=/mnt/e/pdf
+    # export wcc=/mnt/d/binary/cmder/config
 }
 
-set_PS1( ) {
+function set_PS1 {
     # PS1="\[\e]0;\w\a\]\[\e[32m\]\u@\h \[\e[33m\]\w\[\e[0m\]\n\$ "
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+    # PS1='${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 }
 
-set_proxy( ) {
+function set_proxy {
     export http_proxy=$PROXY_HOST:$PROXY_PORT
     export https_proxy=$PROXY_HOST:$PROXY_PORT
 }
 
-clean_proxy( ) {
+function clean_proxy {
     export http_proxy=
     export https_proxy=
 }
 
 
-set_PATH( ) {
+function set_PATH {
     export PATH=$PATH:$BASE/tools
 }
 
-show_banner( ) {
+function show_banner {
     clear
     cat $BASE/tools/banner.txt
 }
 
 main "$@"
 
-alias ls="ls -N -h -F --color=auto --show-control-chars"
-alias ll="ls -N -h -F -l --color=auto --show-control-chars"
-alias du="du -h --time --max-depth=1"
-alias gl="git log --oneline --all --graph --decorate"
-alias gt="git status --short --branch"
+# alias ls="ls -h -F --color=auto --show-control-chars"
+# alias ll="ls -h -F -l --color=auto --show-control-chars"
+# alias du="du -h --time --max-depth=1"
+# alias gl="git log --oneline --all --graph --decorate"
+# alias gt="git status --short --branch"
