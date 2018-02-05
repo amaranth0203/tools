@@ -5,10 +5,10 @@ BASE=/Users/qiyunhu/Shadow/
 export PROXY_HOST=localhost
 PROXY_PORT=2333
 export TIME_STYLE=+"%Y.%m.%d %H:%M:%S"
-export HISTFILESIZE=
-export HISTSIZE=
+export HISTFILESIZE=99999999
+export HISTSIZE=99999999
 export HISTTIMEFORMAT="[%F %T] "
-export HISTFILE=~/.bash_history_qyh
+export HISTFILE=~/.zsh_history_qyh
 PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
 
 function main {
