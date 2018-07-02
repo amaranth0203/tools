@@ -19,6 +19,7 @@ function main {
     clean_proxy
     set_PATH
     stty -ixon
+    jdk_home
     export LS_COLORS=`cat $BASE/tools/_LS_COLORS_`
 }
 
@@ -48,7 +49,7 @@ function clean_proxy {
 
 
 function set_PATH {
-    export PATH=$PATH:$BASE/tools
+    export PATH=$PATH:$BASE/tools:/opt/metasploit-framework/bin
 }
 
 function show_banner {
@@ -56,7 +57,25 @@ function show_banner {
     cat $BASE/tools/banner.txt
 }
 
+function jdk_home {
+    
+    export JAVA_6_HOME=`/usr/libexec/java_home -v "1.6*"`
+    export JAVA_8_HOME=`/usr/libexec/java_home -v "1.8*"`
+    export JAVA_9_HOME=`/usr/libexec/java_home -v "9*"`
+    
+    export JAVA_HOME=$JAVA_8_HOME
+    
+    alias jdk6="export JAVA_HOME=$JAVA_6_HOME"
+    alias jdk8="export JAVA_HOME=$JAVA_8_HOME"
+    alias jdk9="export JAVA_HOME=$JAVA_9_HOME"
+
+}
+
 main "$@"
+
+
+
+
 
 # alias ls="ls -h -F --color=auto --show-control-chars"
 # alias ll="ls -h -F -l --color=auto --show-control-chars"
