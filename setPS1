@@ -72,11 +72,7 @@ function jdk_home {
 }
 
 main "$@"
-
-
-
-
-
+alias hist="history -t'$HISTTIMEFORMAT'"
 # alias ls="ls -h -F --color=auto --show-control-chars"
 # alias ll="ls -h -F -l --color=auto --show-control-chars"
 # alias du="du -h --time --max-depth=1"
