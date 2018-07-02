@@ -1,9 +1,9 @@
 #!/bin/env bash
 
-BASE=/Users/qiyunhu/Shadow/
+BASE=/root/Shadow/
 
-export PROXY_HOST=localhost
-PROXY_PORT=2333
+export PROXY_HOST=10.211.55.2
+PROXY_PORT=2334
 export TIME_STYLE=+"%Y.%m.%d %H:%M:%S"
 export HISTFILESIZE=99999999
 export HISTSIZE=99999999
@@ -25,8 +25,9 @@ function main {
 function set_working_dir {
     export desktop=/Users/qiyunhu/Desktop
     # export wv=/mnt/c/Users/Ending/.qyh_vim
-    export ws=/Users/qiyunhu/Shadow/Sources
-    export wn=/Users/qiyunhu/Shadow/notes
+    export ws=/media/psf/Home/Shadow/Sources
+    export wn=/media/psf/Home/Shadow/notes
+    export ds=/media/psf/Home/Desktop
     # export wp=/mnt/e/pdf
     # export wcc=/mnt/d/binary/cmder/config
 }
