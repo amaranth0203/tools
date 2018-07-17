@@ -208,6 +208,9 @@
 ;; ( define-key global-map ( kbd "C-i" ) 'omnisharp-auto-complete )
 ;; -- omnisharp ends --
 
+;; something written by myself
+(load ( concat ( getenv "wn" ) "/.emacs.selfused.lisp" ))
+
 ;;
 ;; for debugging
 ;;
