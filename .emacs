@@ -73,8 +73,8 @@
 ;; ---------- keybind ends -----------
 
 (require 'package) ;; You might already have this line
-(setq package-archives '(("gnu"   . "http://elpa.emacs-china.org/gnu/")
-                         ("melpa" . "http://elpa.emacs-china.org/melpa/")))
+;;(setq package-archives '(("gnu"   . "http://elpa.emacs-china.org/gnu/")
+;;                         ("melpa" . "http://elpa.emacs-china.org/melpa/")))
 ;; (add-to-list 'package-archives
 ;;              '("melpa" . "https://melpa.org/packages/"))
 (when (< emacs-major-version 24)
@@ -95,7 +95,7 @@
     ("~/Shadow/notes/org/slf.org" "~/Shadow/notes/org/vivo.org")))
  '(package-selected-packages
    (quote
-    (omnisharp ac-php php-mode helm-swoop helm jedi python-mode chinese-fonts-setup ace-jump-mode move-text yasnippet expand-region ggtags auto-complete sr-speedbar git-gutter hide-lines window-numbering slime))))
+    (ac-php php-mode helm-swoop helm jedi python-mode chinese-fonts-setup ace-jump-mode move-text yasnippet expand-region ggtags auto-complete sr-speedbar git-gutter hide-lines window-numbering slime))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -193,20 +193,20 @@
 ;; (setq web-mode-css-indent-offset 2)
 ;; (setq web-mode-code-indent-offset 2)
 
-;; for dotnet
-(require 'csharp-mode)
-(setq auto-mode-alist
-      (append '(("\\.cs$" . csharp-mode)) auto-mode-alist))
-;; -- omnisharp start --
-(add-hook 'csharp-mode-hook 'omnisharp-mode)
-(add-hook 'csharp-mode-hook
-          (lambda()
-            (progn (local-set-key (kbd "C-M-g") #'omnisharp-go-to-definition)
-                   (local-set-key (kbd "C-i") #'omnisharp-auto-complete)
-                   )))
-(setq omnisharp-server-executable-path "/usr/local/bin/omnisharp")
-;; ( define-key global-map ( kbd "C-i" ) 'omnisharp-auto-complete )
-;; -- omnisharp ends --
+;;;; for dotnet
+;;(require 'csharp-mode)
+;;(setq auto-mode-alist
+;;      (append '(("\\.cs$" . csharp-mode)) auto-mode-alist))
+;;;; -- omnisharp start --
+;;(add-hook 'csharp-mode-hook 'omnisharp-mode)
+;;(add-hook 'csharp-mode-hook
+;;          (lambda()
+;;            (progn (local-set-key (kbd "C-M-g") #'omnisharp-go-to-definition)
+;;                   (local-set-key (kbd "C-i") #'omnisharp-auto-complete)
+;;                   )))
+;;(setq omnisharp-server-executable-path "/usr/local/bin/omnisharp")
+;;;; ( define-key global-map ( kbd "C-i" ) 'omnisharp-auto-complete )
+;;;; -- omnisharp ends --
 
 ;; something written by myself
 (load ( concat ( getenv "wn" ) "/.emacs.selfused.lisp" ))
