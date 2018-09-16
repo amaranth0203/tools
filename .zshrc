@@ -11,7 +11,7 @@ export ZSH=/Users/qiyunhu/.oh-my-zsh
 #ZSH_THEME="agnoster"
 
 ZSH_THEME="powerlevel9k/powerlevel9k"
-source ~/Shadow/dotfiles/dot.zshrc
+source /media/psf/Home/Shadow/dotfiles/dot.zshrc
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
