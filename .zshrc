@@ -75,6 +75,8 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=red'
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
