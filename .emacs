@@ -160,7 +160,7 @@
 (global-set-key "\ep"      'pager-row-up)
 
 ;; theme
-(load-theme 'moe-dark t)
+(load-theme 'zenburn t)
 
 ;; slime
 ;; Set your lisp system and, optionally, some contribs
