@@ -65,16 +65,16 @@
 
 ;; ---------- keybind ----------------
 ( define-key global-map ( kbd "C-c =" ) 'er/expand-region )
-( define-key global-map ( kbd "M-n" ) 'move-text-down )
-( define-key global-map ( kbd "M-p" ) 'move-text-up )
+;; ( define-key global-map ( kbd "M-n" ) 'move-text-down )
+;; ( define-key global-map ( kbd "M-p" ) 'move-text-up )
 ( define-key global-map ( kbd "C-x C-a" ) 'org-agenda )
 ( define-key global-map ( kbd "M-j" ) 'ace-jump-mode )
 ( define-key global-map ( kbd "C-c M-p" ) 'pop-tag-mark )
 ;; ---------- keybind ends -----------
 
 (require 'package) ;; You might already have this line
-;;(setq package-archives '(("gnu"   . "http://elpa.emacs-china.org/gnu/")
-;;                         ("melpa" . "http://elpa.emacs-china.org/melpa/")))
+(setq package-archives '(("gnu"   . "http://elpa.emacs-china.org/gnu/")
+                         ("melpa" . "http://elpa.emacs-china.org/melpa/")))
 ;; (add-to-list 'package-archives
 ;;              '("melpa" . "https://melpa.org/packages/"))
 (when (< emacs-major-version 24)
@@ -87,21 +87,82 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(ansi-color-faces-vector
+   [default bold shadow italic underline bold bold-italic bold])
+ '(ansi-color-names-vector
+   ["#5f5f5f" "#ff4b4b" "#a1db00" "#fce94f" "#5fafd7" "#d18aff" "#afd7ff" "#ffffff"])
+ '(beacon-color "#f2777a")
+ '(company-quickhelp-color-background "#4F4F4F")
+ '(company-quickhelp-color-foreground "#DCDCCC")
+ '(custom-enabled-themes (quote (sanityinc-tomorrow-eighties)))
  '(custom-safe-themes
    (quote
-    ("a800120841da457aa2f86b98fb9fd8df8ba682cebde033d7dbf8077c1b7d677a" default)))
+    ("26d49386a2036df7ccbe802a06a759031e4455f07bda559dcf221f53e8850e69" "13d20048c12826c7ea636fbe513d6f24c0d43709a761052adbca052708798ce3" "0c32e4f0789f567a560be625f239ee9ec651e524e46a4708eb4aba3b9cdc89c5" "628278136f88aa1a151bb2d6c8a86bf2b7631fbea5f0f76cba2a0079cd910f7d" "1b8d67b43ff1723960eb5e0cba512a2c7a2ad544ddb2533a90101fd1852b426e" "06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "82d2cac368ccdec2fcc7573f24c3f79654b78bf133096f9b40c20d97ec1d8016" "a800120841da457aa2f86b98fb9fd8df8ba682cebde033d7dbf8077c1b7d677a" default)))
+ '(fci-rule-color "#383838")
+ '(flycheck-color-mode-line-face-to-color (quote mode-line-buffer-id))
+ '(frame-background-mode (quote dark))
+ '(nrepl-message-colors
+   (quote
+    ("#CC9393" "#DFAF8F" "#F0DFAF" "#7F9F7F" "#BFEBBF" "#93E0E3" "#94BFF3" "#DC8CC3")))
  '(org-agenda-files
    (quote
     ("~/Shadow/notes/org/slf.org" "~/Shadow/notes/org/vivo.org")))
  '(package-selected-packages
    (quote
-    (ac-php php-mode helm-swoop helm jedi python-mode chinese-fonts-setup ace-jump-mode move-text yasnippet expand-region ggtags auto-complete sr-speedbar git-gutter hide-lines window-numbering slime))))
+    (color-theme-sanityinc-tomorrow moe-theme pager smooth-scrolling zenburn-theme ac-php php-mode helm-swoop helm jedi python-mode chinese-fonts-setup ace-jump-mode move-text yasnippet expand-region ggtags auto-complete sr-speedbar git-gutter hide-lines window-numbering slime)))
+ '(pdf-view-midnight-colors (quote ("#DCDCCC" . "#383838")))
+ '(smooth-scrolling-mode t)
+ '(vc-annotate-background "#2B2B2B")
+ '(vc-annotate-color-map
+   (quote
+    ((20 . "#BC8383")
+     (40 . "#CC9393")
+     (60 . "#DFAF8F")
+     (80 . "#D0BF8F")
+     (100 . "#E0CF9F")
+     (120 . "#F0DFAF")
+     (140 . "#5F7F5F")
+     (160 . "#7F9F7F")
+     (180 . "#8FB28F")
+     (200 . "#9FC59F")
+     (220 . "#AFD8AF")
+     (240 . "#BFEBBF")
+     (260 . "#93E0E3")
+     (280 . "#6CA0A3")
+     (300 . "#7CB8BB")
+     (320 . "#8CD0D3")
+     (340 . "#94BFF3")
+     (360 . "#DC8CC3"))))
+ '(vc-annotate-very-old-color "#DC8CC3"))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+;; mac gui load env variable first
+(when (memq window-system '(mac ns x ))
+  (exec-path-from-shell-initialize))
+(exec-path-from-shell-copy-env "wn")
+
+;; smooth scroll
+( smooth-scrolling-mode 1 )
+
+;; pager
+(global-set-key "\C-v"	   'pager-page-down)
+(global-set-key [next] 	   'pager-page-down)
+(global-set-key "\ev"	   'pager-page-up)
+(global-set-key [prior]	   'pager-page-up)
+(global-set-key '[M-up]    'pager-row-up)
+(global-set-key '[M-kp-8]  'pager-row-up)
+(global-set-key '[M-down]  'pager-row-down)
+(global-set-key '[M-kp-2]  'pager-row-down)
+(global-set-key "\en"      'pager-row-down)
+(global-set-key "\ep"      'pager-row-up)
+
+;; theme
+(load-theme 'zenburn t)
 
 ;; slime
 ;; Set your lisp system and, optionally, some contribs
