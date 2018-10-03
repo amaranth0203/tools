@@ -70,6 +70,8 @@
 ( define-key global-map ( kbd "C-x C-a" ) 'org-agenda )
 ( define-key global-map ( kbd "M-j" ) 'ace-jump-mode )
 ( define-key global-map ( kbd "C-c M-p" ) 'pop-tag-mark )
+( with-eval-after-load "sh-script"
+  ( define-key sh-mode-map ( kbd "C-c ;" ) 'check_to_switch_inline_shell_comment_status ) )
 ;; ---------- keybind ends -----------
 
 (require 'package) ;; You might already have this line
