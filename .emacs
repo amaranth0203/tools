@@ -272,6 +272,40 @@
 ;; something written by myself
 (load ( concat ( getenv "wn" ) "/.emacs.selfused.lisp" ))
 
+    
+;; encrypt
+(require 'epa-file)
+;;(setq epg-gpg-program "gpg2")
+(epa-file-enable)
+;(set epa-file-select-keys 0)
+
+;; org encrypt entry config    
+(require 'org-crypt)
+(org-crypt-use-before-save-magic)
+(setq org-crypt-tag-matcher "secret")
+(setq org-tags-exclude-from-inheritance (quote("secret")))
+;(setq org-crypt-key nil)
+(setq auto-save-default nil)
+
+;; org execute command
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((sh         . t)
+   (js         . t)
+   (emacs-lisp . t)
+   (perl       . t)
+   (scala      . t)
+   (clojure    . t)
+   (python     . t)
+   (ruby       . t)
+   (dot        . t)
+   (css        . t)
+   (plantuml   . t)))
+
+;; org pretty show
+(require 'org-bullets)
+(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+
 ;;
 ;; for debugging
 ;;
