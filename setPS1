@@ -1,3 +1,4 @@
+
 #!/bin/env bash
 
 BASE=/Users/qiyunhu/Shadow/
@@ -20,6 +21,7 @@ function main {
     set_PATH
     stty -ixon
     jdk_home
+    self_alias
     export LS_COLORS=`cat $BASE/tools/_LS_COLORS_`
 }
 
@@ -71,10 +73,13 @@ function jdk_home {
 
 }
 
+function self_alias {
+    alias hist="fc -il 1"
+    # alias ls="ls -h -F --color=auto --show-control-chars"
+    # alias ll="ls -h -F -l --color=auto --show-control-chars"
+    # alias du="du -h --time --max-depth=1"
+    # alias gl="git log --oneline --all --graph --decorate"
+    # alias gt="git status --short --branch"
+}
+
 main "$@"
-alias hist="fc -il 1"
-# alias ls="ls -h -F --color=auto --show-control-chars"
-# alias ll="ls -h -F -l --color=auto --show-control-chars"
-# alias du="du -h --time --max-depth=1"
-# alias gl="git log --oneline --all --graph --decorate"
-# alias gt="git status --short --branch"
