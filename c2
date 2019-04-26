@@ -35,7 +35,7 @@ generate_output( ) {
         output=$output" "$(
             printf '%s' "$line" | 
             awk -F'\\.\\.\\.' '{print $1}' | # for local branch name
-            awk '{print $2}'
+            cut -d' ' -f2- # 名字有空格的地方使用 cut 比 awb 方便 2019年04月26日
         )
         (( idx++ ))
     done < <($cmd 2>&1)
@@ -59,7 +59,13 @@ array_contains( ) {
 check_input( ) {
     if [ "$#" -eq 0 ] ; then # no file selected , print indexes
         idx=0
-        eval $cmd | \
+        # 这样有颜色 2019年04月26日
+        input=$(cat <<EOF
+$(script -q /dev/null $cmd)
+EOF
+             )
+        # 双引号输出多行 2019年04月26日
+        echo "$input" | \
         while read line
         do
             printf '%d %s\n' "$idx" "$line"
