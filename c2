@@ -60,6 +60,7 @@ check_input( ) {
     if [ "$#" -eq 0 ] ; then # no file selected , print indexes
         idx=0
         # 这样有颜色 2019年04月26日
+        # 当使用 linux 时,修改成 script -q /dev/null -c "$cmd" 即可
         input=$(cat <<EOF
 $(script -q /dev/null $cmd)
 EOF
